@@ -35,13 +35,13 @@
 #include <exotica/TaskMap.h>
 #include <task_map/Point2LineInitializer.h>
 
-namespace exotica  {
-class Point2Line : public TaskMap, public Instantiable<Point2LineInitializer> {
+namespace exotica
+{
+class Point2Line : public TaskMap, public Instantiable<Point2LineInitializer>
+{
 public:
-    Point2Line() { }
-
-    virtual ~Point2Line() { }
-
+    Point2Line() {}
+    virtual ~Point2Line() {}
     virtual void Instantiate(Point2LineInitializer& init);
 
     virtual void update(Eigen::VectorXdRefConst x, Eigen::VectorXdRef phi);
@@ -51,18 +51,18 @@ public:
     virtual int taskSpaceDim();
 
 private:
-    Eigen::Vector3d line_start; //<! start point of line in base frame
-    Eigen::Vector3d line_end;   //<! end point of line in base frame
-    Eigen::Vector3d line;       //<! vector from start to end point of line
-    bool infinite;              //<! true: vector from start to end defines the direction of and infinite line
-                                //<! false: start and end define a line segment
+    Eigen::Vector3d line_start;  //<! start point of line in base frame
+    Eigen::Vector3d line_end;    //<! end point of line in base frame
+    Eigen::Vector3d line;        //<! vector from start to end point of line
+    bool infinite;               //<! true: vector from start to end defines the direction of and infinite line
+                                 //<! false: start and end define a line segment
 
     /**
      * @brief direction computes the vector from a point to its projection on a line
      * @param point point in base frame
      * @return 3D vector from #point to its projection on #line
      */
-    Eigen::Vector3d direction(const Eigen::Vector3d &point);
+    Eigen::Vector3d direction(const Eigen::Vector3d& point);
 
     std::string link_name;  //<! frame of defined point
     std::string base_name;  //<! frame of defined line
@@ -75,4 +75,4 @@ private:
 
 typedef std::shared_ptr<Point2Line> Point2Line_Ptr;
 
-} // namespace exotica
+}  // namespace exotica
