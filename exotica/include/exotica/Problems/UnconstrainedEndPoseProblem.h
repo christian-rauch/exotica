@@ -51,6 +51,8 @@ public:
     virtual void Instantiate(UnconstrainedEndPoseProblemInitializer& init);
     void Update(Eigen::VectorXdRefConst x);
 
+    Eigen::VectorXd getState(const size_t i);
+
     void setGoal(const std::string& task_name, Eigen::VectorXdRefConst goal);
     void setRho(const std::string& task_name, const double rho);
     Eigen::VectorXd getGoal(const std::string& task_name);

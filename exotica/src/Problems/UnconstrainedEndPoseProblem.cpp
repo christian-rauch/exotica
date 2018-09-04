@@ -155,6 +155,10 @@ void UnconstrainedEndPoseProblem::Update(Eigen::VectorXdRefConst x)
     numberOfProblemUpdates++;
 }
 
+Eigen::VectorXd UnconstrainedEndPoseProblem::getState(const size_t i) {
+    return Tasks[i]->getState();
+}
+
 void UnconstrainedEndPoseProblem::setGoal(const std::string& task_name, Eigen::VectorXdRefConst goal)
 {
     for (int i = 0; i < Cost.Indexing.size(); i++)

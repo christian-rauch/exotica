@@ -68,6 +68,8 @@ public:
     virtual void update(Eigen::VectorXdRefConst x, Eigen::VectorXdRef phi, Eigen::MatrixXdRef J, HessianRef H);
     virtual int taskSpaceDim() = 0;
 
+    virtual Eigen::VectorXd getState() { return Eigen::VectorXd(); }
+
     virtual int taskSpaceJacobianDim() { return taskSpaceDim(); }
     virtual void preupdate() {}
     virtual std::vector<TaskVectorEntry> getLieGroupIndices() { return std::vector<TaskVectorEntry>(); }

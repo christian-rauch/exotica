@@ -149,6 +149,12 @@ void IKsolver::Solve(Eigen::MatrixXd& solution)
         prob_->Update(q);
         Eigen::VectorXd yd = prob_->Cost.S * prob_->Cost.ydiff;
 
+        // dirty hack for changing the state within a taskmap
+        const Eigen::VectorXd q_task = prob_->getState(0);
+        if(q_task.size()>0) {
+            q = q_task;
+        }
+
         error = prob_->getScalarCost();
 
         prob_->setCostEvolution(i, error);
