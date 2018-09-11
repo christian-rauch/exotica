@@ -52,6 +52,11 @@ namespace exotica
 {
 class PlanningProblem;
 
+class NotImplemented : public std::logic_error {
+public:
+    NotImplemented() : std::logic_error("Function not yet implemented") { };
+};
+
 class TaskMap : public Object, Uncopyable, public virtual InstantiableBase
 {
 public:
@@ -65,6 +70,7 @@ public:
     virtual void assignScene(Scene_ptr scene) {}
     virtual void update(Eigen::VectorXdRefConst x, Eigen::VectorXdRef phi) = 0;
     virtual void update(Eigen::VectorXdRefConst x, Eigen::VectorXdRef phi, Eigen::MatrixXdRef J) { throw_named("Not implemented"); }
+    virtual void updateFull(Eigen::VectorXdRefConst x, Eigen::VectorXd & phi, Eigen::MatrixXd & J) { throw NotImplemented(); }
     virtual void update(Eigen::VectorXdRefConst x, Eigen::VectorXdRef phi, Eigen::MatrixXdRef J, HessianRef H);
     virtual int taskSpaceDim() = 0;
 

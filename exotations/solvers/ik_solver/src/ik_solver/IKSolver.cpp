@@ -147,7 +147,9 @@ void IKsolver::Solve(Eigen::MatrixXd& solution)
     for (i = 0; i < getNumberOfMaxIterations(); i++)
     {
         prob_->Update(q);
+        std::cout << "ydiff: " << "(" << prob_->Cost.ydiff.rows() << ")" << std::endl << (prob_->Cost.ydiff).transpose() << std::endl;
         Eigen::VectorXd yd = prob_->Cost.S * prob_->Cost.ydiff;
+        std::cout << "yd: " << std::endl << yd.transpose() << std::endl;
 
         // dirty hack for changing the state within a taskmap
         const Eigen::VectorXd q_task = prob_->getState(0);
@@ -166,7 +168,9 @@ void IKsolver::Solve(Eigen::MatrixXd& solution)
         }
 
         Eigen::MatrixXd Jinv = PseudoInverse(prob_->Cost.S * prob_->Cost.J);
+        std::cout << "Jinv: " << std::endl << Jinv << std::endl;
         Eigen::VectorXd qd = Jinv * yd;
+        std::cout << "qd: " << std::endl << qd.transpose() << std::endl;
         if (UseNullspace) qd += (Eigen::MatrixXd::Identity(prob_->N, prob_->N) - Jinv * prob_->Cost.S * prob_->J) * (q - prob_->qNominal);
 
         ScaleToStepSize(qd);
