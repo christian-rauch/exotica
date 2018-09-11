@@ -133,13 +133,13 @@ void UnconstrainedEndPoseProblem::Update(Eigen::VectorXdRefConst x)
             else if (Flags & KIN_J)
             {
                 try {
-                    Tasks[i]->updateFull(x, Cost.ydiff, J);
-//                    Cost.S = Eigen::MatrixXd::Identity(Cost.ydiff.rows(),Cost.ydiff.rows());
+                    Tasks[i]->updateFull(x, Cost.ydiff, Cost.J);
+                    Cost.S = Eigen::MatrixXd::Identity(Cost.ydiff.rows(),Cost.ydiff.rows());
                 } catch (NotImplemented &) {
                     Tasks[i]->update(x, Phi.data.segment(Tasks[i]->Start, Tasks[i]->Length), J.middleRows(Tasks[i]->StartJ, Tasks[i]->LengthJ));
                 }
-//                std::cout << "end J dim: " << J.rows() << ", " << J.cols() << std::endl;
-//                std::cout << "end phi dim: " << Phi.data.rows() << ", " << Phi.data.cols() << std::endl;
+//                std::cout << "end prob J dim: " << J.rows() << ", " << J.cols() << std::endl;
+//                std::cout << "end prob phi dim: " << Phi.data.rows() << ", " << Phi.data.cols() << std::endl;
             }
             else
             {

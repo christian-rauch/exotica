@@ -67,10 +67,12 @@ struct CwiseClampOp
 
 Eigen::MatrixXd inverseSymPosDef(const Eigen::Ref<const Eigen::MatrixXd>& A_)
 {
+//    std::cout << "A dim: " << A_.rows() << ", " << A_.cols() << std::endl;
     Eigen::MatrixXd Ainv_ = A_;
     double* AA = Ainv_.data();
     integer info;
     integer nn = A_.rows();
+//    std::cout << "nn: " << nn << std::endl;
     // Compute Cholesky
     dpotrf_((char*)"L", &nn, AA, &nn, &info);
     if (info != 0)
@@ -86,6 +88,7 @@ Eigen::MatrixXd inverseSymPosDef(const Eigen::Ref<const Eigen::MatrixXd>& A_)
                                              << A_);
     }
     Ainv_.triangularView<Eigen::Upper>() = Ainv_.transpose();
+//    std::cout << "Ain dim: " << Ainv_.rows() << ", " << Ainv_.cols() << std::endl;
     return Ainv_;
 }
 
@@ -147,9 +150,9 @@ void IKsolver::Solve(Eigen::MatrixXd& solution)
     for (i = 0; i < getNumberOfMaxIterations(); i++)
     {
         prob_->Update(q);
-        std::cout << "ydiff: " << "(" << prob_->Cost.ydiff.rows() << ")" << std::endl << (prob_->Cost.ydiff).transpose() << std::endl;
+//        std::cout << "ydiff: " << "(" << prob_->Cost.ydiff.rows() << ")" << std::endl << (prob_->Cost.ydiff).transpose() << std::endl;
         Eigen::VectorXd yd = prob_->Cost.S * prob_->Cost.ydiff;
-        std::cout << "yd: " << std::endl << yd.transpose() << std::endl;
+//        std::cout << "yd: " << std::endl << yd.transpose() << std::endl;
 
         // dirty hack for changing the state within a taskmap
         const Eigen::VectorXd q_task = prob_->getState(0);
@@ -167,10 +170,14 @@ void IKsolver::Solve(Eigen::MatrixXd& solution)
             break;
         }
 
+        C = Eigen::MatrixXd::Identity(prob_->Cost.J.rows(), prob_->Cost.J.rows()) * parameters_.C;
+        Cinv = C.inverse();
+//        std::cout << "J dim: " << prob_->Cost.J.rows() << ", " << prob_->Cost.J.cols() << std::endl;
         Eigen::MatrixXd Jinv = PseudoInverse(prob_->Cost.S * prob_->Cost.J);
-        std::cout << "Jinv: " << std::endl << Jinv << std::endl;
+//        Eigen::MatrixXd Jinv = PseudoInverse(prob_->Cost.J);
+//        std::cout << "Jinv: " << std::endl << Jinv << std::endl;
         Eigen::VectorXd qd = Jinv * yd;
-        std::cout << "qd: " << std::endl << qd.transpose() << std::endl;
+//        std::cout << "qd: " << std::endl << qd.transpose() << std::endl;
         if (UseNullspace) qd += (Eigen::MatrixXd::Identity(prob_->N, prob_->N) - Jinv * prob_->Cost.S * prob_->J) * (q - prob_->qNominal);
 
         ScaleToStepSize(qd);
@@ -207,6 +214,7 @@ Eigen::MatrixXd IKsolver::PseudoInverse(Eigen::MatrixXdRefConst J)
         if (parameters_.C != 0)
         {
             Jpinv = inverseSymPosDef(J.transpose() * Cinv * J + W) * J.transpose() * Cinv;
+//            std::cout << "Jpinv dim: " << Jpinv.rows() << ", " << Jpinv.cols() << std::endl;
         }
         else
         {
