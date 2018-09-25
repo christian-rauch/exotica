@@ -213,9 +213,9 @@ void Point2Line::Instantiate(Point2LineInitializer &init)
     line_end = init.EndPoint;
 
     line = line_end - line_start;
-    infinite = init.infinite;
+    infinite = init.Infinite;
 
-    visualise = init.visualise;
+    visualise = init.Visualise;
 
     if (visualise && Server::isRos())
     {
