@@ -1,0 +1,57 @@
+#!/usr/bin/env python
+from __future__ import print_function
+import pyexotica as exo
+
+
+if __name__ == '__main__':
+    # solver
+    solver_conf = \
+        ('exotica/RRTConnectSolver', {
+            'Name': 'MySolver',
+            'MaxIterations': str(1)
+        })
+
+    # scene
+    scene_conf = \
+        [('exotica/Scene', {
+            'URDF': "{exotica_examples}/resources/robots/lwr_simplified.urdf",
+            'SRDF': "{exotica_examples}/resources/robots/lwr_simplified.srdf",
+            'JointGroup': "arm"
+        })]
+
+    # frames
+    end_effector = \
+        ('exotica/Frame', {
+            'Link': "lwr_arm_7_link",
+            'LinkOffset': "0.5 0 0.5",
+            'Base': "base",
+            'BaseOffset': "0.5 0.5 0"
+        })
+
+    # task
+    p2l_name = "p2l"
+    p2l_map = \
+        ('exotica/PointToLine', {
+            'Name': p2l_name,
+            'EndEffector': [end_effector],
+            # 'EndPoint': "0.5 0.5 0",  # this is a 'Required' parameter
+        })
+
+    p2l_cost = \
+        ('exotica/Task', {
+            'Task': p2l_name,
+            'Rho': str(1)
+        })
+
+    # problem
+    prob_conf = \
+        ('exotica/SamplingProblem', {
+            'Name': 'MyProblem',
+            'PlanningScene': scene_conf,
+            'Maps': [p2l_map],
+            'Cost': [p2l_cost]
+        })
+
+    solver = exo.Setup.create_solver(solver_conf)
+    problem = exo.Setup.create_problem(prob_conf)
+    solver.specify_problem(problem)
