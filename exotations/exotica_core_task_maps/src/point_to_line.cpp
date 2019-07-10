@@ -96,6 +96,11 @@ void PointToLine::Update(Eigen::VectorXdRefConst x, Eigen::VectorXdRef phi, Eige
     if (phi.rows() != kinematics[0].Phi.rows() * 3) ThrowNamed("Wrong size of phi!");
     if (jacobian.rows() != kinematics[0].jacobian.rows() * 3 || jacobian.cols() != kinematics[0].jacobian(0).data.cols()) ThrowNamed("Wrong size of jacobian! " << kinematics[0].jacobian(0).data.cols());
 
+    std::cout << "P2L J0:" << std::endl << scene_->GetKinematicTree().Jacobian("endeff", KDL::Frame(KDL::Vector(0,0,0)), "base", KDL::Frame(KDL::Vector(0,0,0))) << std::endl;
+    std::cout << "P2L J1:" << std::endl << scene_->GetKinematicTree().Jacobian("endeff", KDL::Frame(KDL::Vector(0,0,0)), "base", KDL::Frame(KDL::Vector(0.5,0.5,0.5))) << std::endl;
+    std::cout << "P2L J2:" << std::endl << scene_->GetKinematicTree().Jacobian("endeff", KDL::Frame(KDL::Vector(0,0,0)), "base", KDL::Frame(KDL::Vector(1,1,1))) << std::endl;
+    std::cout << "P2L J3:" << std::endl << scene_->GetKinematicTree().Jacobian("endeff", KDL::Frame(KDL::Vector(0.4,0.5,0.6)), "base", KDL::Frame(KDL::Vector(0,0,0))) << std::endl;
+
     for (int i = 0; i < kinematics[0].Phi.rows(); ++i)
     {
         // point in base frame
