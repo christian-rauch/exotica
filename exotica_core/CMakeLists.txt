@@ -18,12 +18,11 @@ find_package(visualization_msgs REQUIRED)
 find_package(octomap_msgs REQUIRED)
 find_package(shape_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(orocos_kdl_vendor REQUIRED)
+find_package(orocos_kdl REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(ZMQ REQUIRED libzmq)
 find_path(MSGPACK_INCLUDE_DIR msgpack.hpp REQUIRED)
-find_package(tinyxml2_vendor REQUIRED)
 find_package(TinyXML2 REQUIRED)
 find_package(geometric_shapes REQUIRED)
 
@@ -161,7 +160,7 @@ ament_export_dependencies(
   rclcpp ament_index_cpp moveit_core moveit_ros_planning moveit_msgs
   tf2_ros tf2_eigen_kdl tf2_kdl kdl_parser pluginlib
   geometry_msgs std_msgs visualization_msgs octomap_msgs
-  shape_msgs sensor_msgs orocos_kdl_vendor geometric_shapes
+  shape_msgs sensor_msgs orocos_kdl geometric_shapes
 )
 
 # Export cmake extras so downstream packages get AddInitializer / GenInitializers
