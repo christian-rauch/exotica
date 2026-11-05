@@ -20,26 +20,32 @@ jobs:
             | xargs clang-format-22 --style=file --dry-run --Werror
 
   build-test:
-    name: Humble / ${{ matrix.cmake_build_type }}
-    runs-on: ubuntu-22.04
+    name: "${{ matrix.distribution }} (${{ matrix.ros }})"
+
+    runs-on: ubuntu-latest
+
     strategy:
       matrix:
-        cmake_build_type: [Release]
-        # Uncomment to add Debug builds:
-        # cmake_build_type: [Release, Debug]
+        include:
+          - {distribution: ubuntu,    version: 22.04, ros: humble}
+          - {distribution: ubuntu,    version: 24.04, ros: jazzy}
+          - {distribution: ubuntu,    version: 26.04, ros: lyrical}
+
+    container:
+      image: ${{ matrix.distribution }}:${{ matrix.version }}
+
     env:
       CCACHE_DIR: /github/home/.ccache
+
     steps:
       - uses: actions/checkout@v7
       - uses: actions/cache@v6
         with:
           path: ${{ env.CCACHE_DIR }}
-          key: ccache-humble-${{ matrix.cmake_build_type }}-${{ github.sha }}
+          key: ccache-${{ matrix.ros }}-Release-${{ github.sha }}
           restore-keys: |
-            ccache-humble-${{ matrix.cmake_build_type }}-
+            ccache-${{ matrix.ros }}-Release-
       - uses: ros-tooling/setup-ros@v0.7
-        with:
-          required-ros-distributions: humble
       - uses: ros-tooling/action-ros-ci@v0.4
         with:
           package-name: |
@@ -64,7 +70,7 @@ jobs:
             exotica_double_integrator_dynamics_solver
             exotica_quadrotor_dynamics_solver
             exotica_pinocchio_dynamics_solver
-          ros-distro: humble
-          extra-cmake-args: -DCMAKE_BUILD_TYPE=${{ matrix.cmake_build_type }}
+          target-ros2-distro: ${{ matrix.ros }}
+          extra-cmake-args: -DCMAKE_BUILD_TYPE=Release
           colcon-mixin-name: release
           colcon-mixin-repository: https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml
