@@ -7,17 +7,17 @@ on: [push, pull_request]
 
 jobs:
   format-check:
-    name: Format check (clang-format-14)
-    runs-on: ubuntu-22.04
+    name: Format check (clang-format-22)
+    runs-on: ubuntu-26.04
     steps:
-      - uses: actions/checkout@v4
-      - name: Install clang-format-14
-        run: sudo apt-get install -y clang-format-14
+      - uses: actions/checkout@v7
+      - name: Install clang-format
+        run: sudo apt install -y clang-format-22
       - name: Check C++ formatting
         run: |
           find . \( -name '*.cpp' -o -name '*.h' -o -name '*.hpp' \) \
             ! -path './build/*' ! -path './install/*' ! -path './log/*' \
-            | xargs clang-format-14 --style=file --dry-run --Werror
+            | xargs clang-format-22 --style=file --dry-run --Werror
 
   build-test:
     name: Humble / ${{ matrix.cmake_build_type }}
