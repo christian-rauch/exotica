@@ -76,27 +76,25 @@ target_include_directories(${PROJECT_NAME}
     ${ZMQ_INCLUDE_DIRS}
 )
 
-ament_target_dependencies(${PROJECT_NAME}
-  rclcpp
-  ament_index_cpp
-  moveit_core
-  moveit_ros_planning
-  moveit_msgs
-  tf2_ros
-  tf2_eigen_kdl
-  tf2_kdl
-  kdl_parser
-  pluginlib
-  geometry_msgs
-  std_msgs
-  visualization_msgs
-  octomap_msgs
-  shape_msgs
-  sensor_msgs
-  orocos_kdl_vendor
-  geometric_shapes
-)
 target_link_libraries(${PROJECT_NAME}
+  rclcpp::rclcpp
+  ament_index_cpp::ament_index_cpp
+  moveit_core::moveit_robot_model
+  moveit_ros_planning::moveit_robot_model_loader
+  ${moveit_msgs_TARGETS}
+  tf2_ros::tf2_ros
+  tf2_eigen_kdl::tf2_eigen_kdl
+  tf2_kdl::tf2_kdl
+  kdl_parser::kdl_parser
+  pluginlib::pluginlib
+  ${geometry_msgs_TARGETS}
+  ${std_msgs_TARGETS}
+  ${visualization_msgs_TARGETS}
+  ${octomap_msgs_TARGETS}
+  ${shape_msgs_TARGETS}
+  ${sensor_msgs_TARGETS}
+  orocos-kdl
+  geometric_shapes::geometric_shapes
   ${ZMQ_LIBRARIES}
   tinyxml2::tinyxml2
 )
