@@ -30,8 +30,8 @@ jobs:
     env:
       CCACHE_DIR: /github/home/.ccache
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/cache@v4
+      - uses: actions/checkout@v7
+      - uses: actions/cache@v6
         with:
           path: ${{ env.CCACHE_DIR }}
           key: ccache-humble-${{ matrix.cmake_build_type }}-${{ github.sha }}
@@ -40,7 +40,7 @@ jobs:
       - uses: ros-tooling/setup-ros@v0.7
         with:
           required-ros-distributions: humble
-      - uses: ros-tooling/action-ros-ci@v0.3
+      - uses: ros-tooling/action-ros-ci@v0.4
         with:
           package-name: |
             exotica
