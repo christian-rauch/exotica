@@ -31,8 +31,8 @@
   <depend>geometric_shapes</depend>
   <depend>eigen</depend>
   <depend>libzmq3-dev</depend>
-  <depend>msgpack</depend>
-  <!-- System deps: libzmq3-dev, libeigen3-dev, libmsgpack-dev -->
+  <depend condition="$ROS_DISTRO == 'humble'">msgpack</depend>
+  <depend condition="$ROS_DISTRO != 'humble'">libmsgpack-cxx-dev</depend>
 
   <test_depend>ament_cmake_gtest</test_depend>
 
