@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-python
+Binary: ros-humble-exotica-python
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.24
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-python - Python bindings for EXOTica
+Changes:
+ ros-humble-exotica-python (6.2.0-164-g570243f-2026.11.19.14.24) jammy; urgency=high
+ .
+   * Trajectory from array in python (#743 <https://github.com/ipab-slmc/exotica/issues/743>)
+   * Add EndPoseTask::GetTaskJacobian
+   * Fix build issues with Eigen 3.3.9 (#740 <https://github.com/ipab-slmc/exotica/issues/740>)
+   * Performance improvements (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * Remove temporary workaround, formatting
+   * Contributors: Vladimir Ivan, Wolfgang Merkt
+Checksums-Sha1:
+ 5b76eec49b2959ffd0d9d8c6075410a96f9c2bb2 27031 ros-humble-exotica-python_6.2.0-164-g570243f-2026.11.19.14.24_amd64.buildinfo
+ d398a9c28c52613d82e2f2f811b50c53a521e689 527972 ros-humble-exotica-python_6.2.0-164-g570243f-2026.11.19.14.24_amd64.deb
+Checksums-Sha256:
+ 570dc38febcafa0be3417cba1d4da2fc1ed47993e7cc9339b96a6438f1d856fe 27031 ros-humble-exotica-python_6.2.0-164-g570243f-2026.11.19.14.24_amd64.buildinfo
+ f1e34e096d848030b85bc8962328e2bb5e6e02433f2e05c8abcf0dba9d847cdf 527972 ros-humble-exotica-python_6.2.0-164-g570243f-2026.11.19.14.24_amd64.deb
+Files:
+ 18a9b87eeecd58929235f07ec94a771c 27031 misc optional ros-humble-exotica-python_6.2.0-164-g570243f-2026.11.19.14.24_amd64.buildinfo
+ 2628c0e54cbee6f1948cf514f792aadc 527972 misc optional ros-humble-exotica-python_6.2.0-164-g570243f-2026.11.19.14.24_amd64.deb

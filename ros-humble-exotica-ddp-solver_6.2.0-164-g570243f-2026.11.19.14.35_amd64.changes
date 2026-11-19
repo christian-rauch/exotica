@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-ddp-solver
+Binary: ros-humble-exotica-ddp-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.35
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-ddp-solver - DDP Solvers for EXOTica (Analytic, Control-Limited, Feasibility-D
+Changes:
+ ros-humble-exotica-ddp-solver (6.2.0-164-g570243f-2026.11.19.14.35) jammy; urgency=high
+ .
+   * Performance improvements (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * FDDP: Fix allocation
+   * Use in-place StateDelta
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ f70738c003f473bebc741420c86c93edf8b3c4cf 14711658 ros-humble-exotica-ddp-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.35_amd64.ddeb
+ 29824579116f9c7ce993280206340f395e528a2b 29596 ros-humble-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.35_amd64.buildinfo
+ 5e552103c5aa8cbc135de2cea95f083b5a4fcfb3 219226 ros-humble-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.35_amd64.deb
+Checksums-Sha256:
+ 50c886fdb7617aff7338cb0aef27cb64405ab5cc45c56e50062328bb8d4ee44d 14711658 ros-humble-exotica-ddp-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.35_amd64.ddeb
+ 8e9c365ea87c7da18afae333a566154b0fe3443853e1a7f4d1b1b986bf364eab 29596 ros-humble-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.35_amd64.buildinfo
+ 576f8a0177dd54c16df8ee9c92278e5212177188a0606c922cb2996fcc2072c1 219226 ros-humble-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.35_amd64.deb
+Files:
+ 947929c1c3f3b0f3f3022f4b84357a51 14711658 debug optional ros-humble-exotica-ddp-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.35_amd64.ddeb
+ aa67c9563198992d17c30b61a8ba3c35 29596 misc optional ros-humble-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.35_amd64.buildinfo
+ 397eb7aaf638c22de55c690842cba2d5 219226 misc optional ros-humble-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.35_amd64.deb

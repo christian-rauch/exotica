@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-pinocchio-dynamics-solver
+Binary: ros-humble-exotica-pinocchio-dynamics-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.20
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-pinocchio-dynamics-solver - Dynamics solver plug-in using Pinocchio for Exotica
+Changes:
+ ros-humble-exotica-pinocchio-dynamics-solver (6.2.0-164-g570243f-2026.11.19.14.20) jammy; urgency=high
+ .
+   * Use clang for Pinocchio dynamics solver (#746 <https://github.com/ipab-slmc/exotica/issues/746>)
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 3d0c8bd4bd008b9aa9ab357b13ae8dcf01c367d5 37257016 ros-humble-exotica-pinocchio-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.20_amd64.ddeb
+ 8dc9fd01a2198d08862254c2c3a824ecfd0e804e 28240 ros-humble-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.20_amd64.buildinfo
+ 6f8a8766a53215036ea85afcfc3adcd2bde73360 241748 ros-humble-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.20_amd64.deb
+Checksums-Sha256:
+ be0a91f6f602328a94edf54bfb7c59296f7cacffca184123360a35fbb61c72ba 37257016 ros-humble-exotica-pinocchio-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.20_amd64.ddeb
+ 0a356aceaddbb2d52fb0912e626bf1e1a415a3f7356b2b32c735e493f7e26717 28240 ros-humble-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.20_amd64.buildinfo
+ ddaf2573ce3214835b44d1bbc95b4d1676fe506c953024fcb128223cc8eff09e 241748 ros-humble-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.20_amd64.deb
+Files:
+ 1420229fbb7f3b0c1d7f926dc82cc1d8 37257016 debug optional ros-humble-exotica-pinocchio-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.20_amd64.ddeb
+ ad498e69ba8db2203d228e5f8c2fd2d1 28240 misc optional ros-humble-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.20_amd64.buildinfo
+ 3c5869f0c06f035fff763701034e9fbb 241748 misc optional ros-humble-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.20_amd64.deb

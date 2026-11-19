@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-scipy-solver
+Binary: ros-humble-exotica-scipy-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.28
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-scipy-solver - SciPy-based Python solvers for Exotica
+Changes:
+ ros-humble-exotica-scipy-solver (6.2.0-164-g570243f-2026.11.19.14.28) jammy; urgency=high
+ .
+   * Code improvements
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 291d6506389d7d54e690e53039cb47ca19d91b67 9422 ros-humble-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.buildinfo
+ 500c57ec99b399e85089091495f541490d469eda 7608 ros-humble-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.deb
+Checksums-Sha256:
+ 07d23af1dff00f7905537e0dd5a16c66388910277eb39d11fc8b8eb80b5c6a6c 9422 ros-humble-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.buildinfo
+ e6c1dbd66325aa9e666fc5f07deb2d78b55ae3f8c88818d03656d98cef25c02d 7608 ros-humble-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.deb
+Files:
+ 8c77640d09d65181e44003e67e0009d8 9422 misc optional ros-humble-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.buildinfo
+ 4c2907569d59f795ffde60ed94d71b0d 7608 misc optional ros-humble-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.deb

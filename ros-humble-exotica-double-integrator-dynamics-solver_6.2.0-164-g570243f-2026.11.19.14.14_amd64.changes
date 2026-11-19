@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-double-integrator-dynamics-solver
+Binary: ros-humble-exotica-double-integrator-dynamics-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.14
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-double-integrator-dynamics-solver - Double integrator dynamics solver plug-in for Exotica
+Changes:
+ ros-humble-exotica-double-integrator-dynamics-solver (6.2.0-164-g570243f-2026.11.19.14.14) jammy; urgency=high
+Checksums-Sha1:
+ e404207ccfe9b6a5eea47bc3c4851a2a584b1c00 1588030 ros-humble-exotica-double-integrator-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.14_amd64.ddeb
+ 0ea3865563c6e6d58106554082c7bdafca2626e5 27683 ros-humble-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.14_amd64.buildinfo
+ 1305e2d31a3560144f824a21160fb919965b982a 40830 ros-humble-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.14_amd64.deb
+Checksums-Sha256:
+ 6626e4c975de5523c2e346734299edc1f96edbcfc080cddc0084ff266109669d 1588030 ros-humble-exotica-double-integrator-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.14_amd64.ddeb
+ d66964f3150b5caba34ee88d6f16b706fc684a625d92e574ab1eb74695213e09 27683 ros-humble-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.14_amd64.buildinfo
+ 26b95d818ae13fad560c39e69c28dce3693636f3a6de23d4a16541dc361a71d3 40830 ros-humble-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.14_amd64.deb
+Files:
+ e14b5cd2b578e06f24fbb63189e836a4 1588030 debug optional ros-humble-exotica-double-integrator-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.14_amd64.ddeb
+ ed2c6be7c61b97e9cbdd45c476d450b0 27683 misc optional ros-humble-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.14_amd64.buildinfo
+ 392739746f2a6a4e34bf745419f9933d 40830 misc optional ros-humble-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.14_amd64.deb

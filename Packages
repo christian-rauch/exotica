@@ -1,0 +1,735 @@
+Package: ros-humble-exotica-aico-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.09
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-aico-solver
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 6459
+Depends: ros-humble-exotica-aico-solver (= 6.2.0-164-g570243f-2026.11.19.14.09)
+Filename: ./ros-humble-exotica-aico-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.09_amd64.ddeb
+Size: 6468884
+MD5sum: 66ac72da9e2f0796ee72b310f65c3017
+SHA1: 7294ab4e807e69f8c4b354e438abcbd4ef9f3125
+SHA256: 67ebe526c3e0a089b01983276382b1f827f1e5831c34b0f585ffa46c4fc634ea
+SHA512: 45b1a3267e3dd3f763f8fec4d4910ec9b84e3bd4c506bb0dc76b95503a727348583058e99833eccb4b0b140310ce5449423e96a47414309553962bcd0b76cd26
+Description: debug symbols for ros-humble-exotica-aico-solver
+Build-Ids: 2efd3c57583a0e2832bc2b075edf8a3c335070e8
+
+Package: ros-humble-exotica-aico-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.09
+Priority: optional
+Section: misc
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 359
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-exotica-core
+Filename: ./ros-humble-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.09_amd64.deb
+Size: 107346
+MD5sum: d67d4bf27ab45c0be15d6ffa61168138
+SHA1: 703cd4a85fda9e2b76440bba8703bacd2b9e4f43
+SHA256: d6b5cfb48b75cc312e6c43f745d4c0ea5a657a32e1eaeb9e24094713027758e3
+SHA512: bf33ecb50a6c4979166a18540f5f45e7678c30793506a57e5f70d887f6132da30c6c9104658175af9faa22be6647179c796d6a78cb444db2d96f1524616a6d03
+Homepage: https://index.ros.org/p/exotica_aico_solver/#humble
+Description: Approximate Inference Control (AICO) solver for EXOTica
+
+Package: ros-humble-exotica-cartpole-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.11
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-cartpole-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1489
+Depends: ros-humble-exotica-cartpole-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.14.11)
+Filename: ./ros-humble-exotica-cartpole-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.11_amd64.ddeb
+Size: 1470130
+MD5sum: f5eb72eae0078f77cd54db7164d3cd59
+SHA1: 448f14648a20c456f68565e295c234d7b1e6dd0f
+SHA256: 688ede9ffb41746e5dfddd492081f7cd0a574e0d237a6a2793cadf20dca2b181
+SHA512: 5144d75163679524f6af814d365f823aced46f3354d1cbb2d3f1b86005f708f43ac04ed6ff6bed3c2a9f150e159a8e26f9e06bbdc2fa9f5223228a3405df78ca
+Description: debug symbols for ros-humble-exotica-cartpole-dynamics-solver
+Build-Ids: e3308b6b91272e91fc281b079dd3e1be830e04eb
+
+Package: ros-humble-exotica-cartpole-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.11
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 167
+Depends: libc6 (>= 2.29), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 9), ros-humble-exotica-core, ros-humble-pluginlib
+Filename: ./ros-humble-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.deb
+Size: 42766
+MD5sum: 7b1ae8d6e86489d83c2c687b7d69cf89
+SHA1: f5130ec6ff375357b1dcadb4ab0f90152f6acda4
+SHA256: f2dde832f731030e5502ff35b6ca40bdd8bfe7fd246e9da21b01aea28da6ee9a
+SHA512: a77def8d69cf1cf83f7ccc70eb3574b8648c619f4095e712bbdb00f0928e17cdb92532e51b3f648a99ebf9dd153422dd3ac3b242962cfbaf4cbc9dfd5e79c7c2
+Homepage: https://index.ros.org/p/exotica_cartpole_dynamics_solver/#humble
+Description: Cartpole dynamics solver plug-in for Exotica
+
+Package: ros-humble-exotica-collision-scene-fcl-latest-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.12
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-collision-scene-fcl-latest
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 2918
+Depends: ros-humble-exotica-collision-scene-fcl-latest (= 6.2.0-164-g570243f-2026.11.19.14.12)
+Filename: ./ros-humble-exotica-collision-scene-fcl-latest-dbgsym_6.2.0-164-g570243f-2026.11.19.14.12_amd64.ddeb
+Size: 2894484
+MD5sum: 39e1357891cea6efe287dd8320959e7e
+SHA1: 7c162c3e6c3d667267ad85bae2e71b8e28730ade
+SHA256: 68f00fee006797b936c0e339186ecf1d6ee9edd138b730493de734c77fc181c6
+SHA512: 99a7013add2913aea51d2d5d0db72421fe56f77759387169275df70df2d3207760e41e3bf803911bdc21e289ab74169008889d83381fab3d97be84a6e7dcc97b
+Description: debug symbols for ros-humble-exotica-collision-scene-fcl-latest
+Build-Ids: e1da6e88a2d0e5b063b3254743e57bc8c9dc59b6
+
+Package: ros-humble-exotica-collision-scene-fcl-latest
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.12
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 254
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), ros-humble-geometric-shapes, ros-humble-moveit-core, libfcl-dev, ros-humble-exotica-core
+Filename: ./ros-humble-exotica-collision-scene-fcl-latest_6.2.0-164-g570243f-2026.11.19.14.12_amd64.deb
+Size: 73614
+MD5sum: 7297da56c1419c40ee1ed03d67eaf0e5
+SHA1: e0332c5bcb5764aee6f743f5907192d701d4d30f
+SHA256: 535830c8aca6e2d2b5dd632527eece3bb667e1725e92bc05753d4fab9a989f65
+SHA512: 5a95d62ab45003722cf76b7ef350b00cd58d1661b74a0729e8fa948abdf8dcecf5924bd0a8f610caa70a06043c82f04539f21331fa935b4220e7eb0fb0690934
+Homepage: https://index.ros.org/p/exotica_collision_scene_fcl_latest/#humble
+Description: Collision checking and distance computation using the FCL library.
+
+Package: ros-humble-exotica-core-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.05
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-core
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 36647
+Depends: ros-humble-exotica-core (= 6.2.0-164-g570243f-2026.11.19.14.05)
+Filename: ./ros-humble-exotica-core-dbgsym_6.2.0-164-g570243f-2026.11.19.14.05_amd64.ddeb
+Size: 36173284
+MD5sum: 20e83a901f3faddf9603a76051cd995f
+SHA1: 34b4c52169e6c6ea0b60d80ef7ee6672b7267af5
+SHA256: 5f12464a36bf462c1987ce43d50518c20f30e81f2840cbabf4d995bc0d6f0c3a
+SHA512: 1a6001301b5c872ead0c138b26fa9e72d9ff82c45f2023cc25149320a64ddf17d88949191024d1703e933441a89d5cf71252c9fe600b2986f65abd9aaa8e7f97
+Description: debug symbols for ros-humble-exotica-core
+Build-Ids: b4457a05c16ecace0c0f2a678622209ff43de0df
+
+Package: ros-humble-exotica-core-task-maps-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.30
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-core-task-maps
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 41186
+Depends: ros-humble-exotica-core-task-maps (= 6.2.0-164-g570243f-2026.11.19.14.30)
+Filename: ./ros-humble-exotica-core-task-maps-dbgsym_6.2.0-164-g570243f-2026.11.19.14.30_amd64.ddeb
+Size: 40562384
+MD5sum: ca3868d7b775d73234ec2dbd0183d05c
+SHA1: 7521cd8ad2167630228468353afd5cb2bfbed9bf
+SHA256: 122b2c4441429fa969ab45689f955f948f09928651ce7a3906a5cd76dc72d20b
+SHA512: ef42c1547e43c5a736383e31c057d5ee93257a5bd1206600897df862c0052574b87f2d21f43d33ff9919ecbd167790ecc1e4fe9dc4ec38cc757f2787dbcbf603
+Description: debug symbols for ros-humble-exotica-core-task-maps
+Build-Ids: 0107a35d945ce1cedce2c8aa563e14578b512b78
+
+Package: ros-humble-exotica-core-task-maps
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.30
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1686
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-exotica-core, ros-humble-exotica-python, ros-humble-geometry-msgs, ros-humble-tf2-eigen, ros-humble-tf2-kdl, ros-humble-visualization-msgs
+Filename: ./ros-humble-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.30_amd64.deb
+Size: 417770
+MD5sum: cd6d6eba85683ae051a4bf6833cf2e16
+SHA1: 843b1f054596be1fe5089bf70c8e30f8ae9cd61e
+SHA256: 70bd88b85e5f389f75b06b3c96dc423f4cfca10edb71767f2c4ad9e342f3c3a8
+SHA512: 271f507a058a4a726bfbac8caeb2e23fac17c28642fc909e89e34c5c5dc1eff489403eadd12ed2da3118a9b8c90453a6735c0dc806eb4b4e91e959880dca89e9
+Homepage: https://index.ros.org/p/exotica_core_task_maps/#humble
+Description: Core task maps for EXOTica
+
+Package: ros-humble-exotica-core
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.05
+Priority: optional
+Section: misc
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 2583
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-geometric-shapes, ros-humble-moveit-core, ros-humble-moveit-ros-planning, ros-humble-octomap, libeigen3-dev, libmsgpack-dev, liborocos-kdl-dev, libzmq3-dev, ros-humble-ament-index-cpp, ros-humble-geometry-msgs, ros-humble-kdl-parser, ros-humble-moveit-msgs, ros-humble-octomap-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-sensor-msgs, ros-humble-shape-msgs, ros-humble-std-msgs, ros-humble-tf2, ros-humble-tf2-eigen, ros-humble-tf2-eigen-kdl, ros-humble-tf2-kdl, ros-humble-tf2-ros, ros-humble-visualization-msgs
+Filename: ./ros-humble-exotica-core_6.2.0-164-g570243f-2026.11.19.14.05_amd64.deb
+Size: 688526
+MD5sum: 8ae4145f8466f9de8d34e2ae5caa3345
+SHA1: 9612a53480e2788573546ef757f80ae08c4952b0
+SHA256: db41a232258d695dbf37ebd79d007280b41bc5e4094b7ba74a6218d6b8938410
+SHA512: a7aff6a74589007c0852bf70647e2688c319650dd7853869ad0817c62b84861918fee0db7d7a7a39600a8236143f4e9c1c85e494a34dcd23f0a7b9b97c5ad8dd
+Homepage: https://index.ros.org/p/exotica_core/#humble
+Description: EXOTica core library
+
+Package: ros-humble-exotica-ddp-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.35
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-ddp-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 14696
+Depends: ros-humble-exotica-ddp-solver (= 6.2.0-164-g570243f-2026.11.19.14.35)
+Filename: ./ros-humble-exotica-ddp-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.35_amd64.ddeb
+Size: 14711658
+MD5sum: 947929c1c3f3b0f3f3022f4b84357a51
+SHA1: f70738c003f473bebc741420c86c93edf8b3c4cf
+SHA256: 50c886fdb7617aff7338cb0aef27cb64405ab5cc45c56e50062328bb8d4ee44d
+SHA512: 6f6fdd554c111596f8cee81c1bbfc49a7bb497cf0198ef9de33dbf84d63eef32cafbd00225df5e3cbec009bb8d8dcdfcebae56b282eb100fc2251bc8493b409e
+Description: debug symbols for ros-humble-exotica-ddp-solver
+Build-Ids: 53f5e6fcfee8c810f926fde2f71bb52f6d4841d4 79f6198fcbb59492158df269a69898c018a2545f
+
+Package: ros-humble-exotica-ddp-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.35
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 728
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-exotica-core, ros-humble-exotica-python
+Filename: ./ros-humble-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.35_amd64.deb
+Size: 219226
+MD5sum: 397eb7aaf638c22de55c690842cba2d5
+SHA1: 5e552103c5aa8cbc135de2cea95f083b5a4fcfb3
+SHA256: 576f8a0177dd54c16df8ee9c92278e5212177188a0606c922cb2996fcc2072c1
+SHA512: 5a8994259eb439ae50956428d9da8bc1079fc8e76cd8cc0ad7d7e163629c309de8de7c68619cdec4e68a068675c75939cb783b6c2e82cd59448acc163e53b828
+Homepage: https://index.ros.org/p/exotica_ddp_solver/#humble
+Description: DDP Solvers for EXOTica (Analytic, Control-Limited, Feasibility-Driven variants)
+
+Package: ros-humble-exotica-double-integrator-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.14
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-double-integrator-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1604
+Depends: ros-humble-exotica-double-integrator-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.14.14)
+Filename: ./ros-humble-exotica-double-integrator-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.14_amd64.ddeb
+Size: 1588030
+MD5sum: e14b5cd2b578e06f24fbb63189e836a4
+SHA1: e404207ccfe9b6a5eea47bc3c4851a2a584b1c00
+SHA256: 6626e4c975de5523c2e346734299edc1f96edbcfc080cddc0084ff266109669d
+SHA512: 4508dbc924dcf31bca7745741f2db6f402a4780d15946fdbc4a2faab2734ff7f8062a8bbd51d1d3b6660f3f734897d356a9582720472a791423374985e642e8d
+Description: debug symbols for ros-humble-exotica-double-integrator-dynamics-solver
+Build-Ids: cf245dee9c550b0fab6bdf40558cd5a77c2df86e
+
+Package: ros-humble-exotica-double-integrator-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.14
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 161
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 9), ros-humble-exotica-core, ros-humble-pluginlib
+Filename: ./ros-humble-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.14_amd64.deb
+Size: 40830
+MD5sum: 392739746f2a6a4e34bf745419f9933d
+SHA1: 1305e2d31a3560144f824a21160fb919965b982a
+SHA256: 26b95d818ae13fad560c39e69c28dce3693636f3a6de23d4a16541dc361a71d3
+SHA512: 3c98cc92a0db2992db974dca68c9cacec466067361d81c35114e23e8a86ac4c0e7361c5d6179cf7702cb69234ad707484ef01703e9982ab7d95252cbbdbc6e14
+Homepage: https://index.ros.org/p/exotica_double_integrator_dynamics_solver/#humble
+Description: Double integrator dynamics solver plug-in for Exotica
+
+Package: ros-humble-exotica-dynamics-solvers
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.38
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 41
+Depends: ros-humble-exotica-cartpole-dynamics-solver, ros-humble-exotica-double-integrator-dynamics-solver, ros-humble-exotica-pendulum-dynamics-solver, ros-humble-exotica-pinocchio-dynamics-solver, ros-humble-exotica-quadrotor-dynamics-solver
+Filename: ./ros-humble-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.38_amd64.deb
+Size: 5224
+MD5sum: 93eab86333e0f59fabf9f6bf2797a811
+SHA1: b9954faa3188cb68a6d4b9a7467e8ec4c27f1bfb
+SHA256: 6dba9b1c02198c8ac71378fb2bc1636467b8215fefb9621418d4ceac52026e3f
+SHA512: 69283f46f261c3b3f37ad1f3b24da6f93614a2169e47eaba4661b7845b577a8e969ab070ea0847eb7fdf0f4a09570e36682ae776f342c2ffc6c0df141940e495
+Homepage: https://index.ros.org/p/exotica_dynamics_solvers/#humble
+Description: Metapackage for all dynamics solvers bundled with core EXOTica.
+
+Package: ros-humble-exotica-examples-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.45
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-examples
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 17911
+Depends: ros-humble-exotica-examples (= 6.2.0-164-g570243f-2026.11.19.14.45)
+Filename: ./ros-humble-exotica-examples-dbgsym_6.2.0-164-g570243f-2026.11.19.14.45_amd64.ddeb
+Size: 17335748
+MD5sum: 6f19af54e738f8fa20ed8f8a56396117
+SHA1: f64babd17b35740f133ff1f741a9bbac78fe5d1d
+SHA256: 284e6cb4586e5eec15f473805476af5ea03631736c81a3f60444650114500b4e
+SHA512: 039739e96b957d3c0f52a0873b3ed914919ae933657aa5ae86d789f147ae6d121b89ca5948289585fae56a3b085394cc0493caf187af2f9c46aa79c31193eff4
+Description: debug symbols for ros-humble-exotica-examples
+Build-Ids: 231144d203766b7457eb9fd85a4fc36b7462bc74 3485e89cf461e899bf34841e65c25778a723ce8f 847a9aa627597c00632554f0d0e0e272b8f45ece b5ec7bea4d910a310ac507524d7a03b046a8b894 cd54d0d5d1c64b2f0bf12deb900485105999d0d2 e376b577bf2cee1de1d7fc3b39b4d4913d7b2d97
+
+Package: ros-humble-exotica-examples
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.45
+Priority: optional
+Section: misc
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 3298
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-moveit-core, python3-pykdl, ros-humble-exotica-aico-solver, ros-humble-exotica-cartpole-dynamics-solver, ros-humble-exotica-collision-scene-fcl-latest, ros-humble-exotica-core, ros-humble-exotica-core-task-maps, ros-humble-exotica-ddp-solver, ros-humble-exotica-double-integrator-dynamics-solver, ros-humble-exotica-ik-solver, ros-humble-exotica-ilqg-solver, ros-humble-exotica-ilqr-solver, ros-humble-exotica-levenberg-marquardt-solver, ros-humble-exotica-ompl-control-solver, ros-humble-exotica-ompl-solver, ros-humble-exotica-pendulum-dynamics-solver, ros-humble-exotica-pinocchio-dynamics-solver, ros-humble-exotica-python, ros-humble-exotica-quadrotor-dynamics-solver, ros-humble-exotica-scipy-solver, ros-humble-exotica-time-indexed-rrt-connect-solver, ros-humble-geometry-msgs, ros-humble-interactive-markers, ros-humble-rclcpp, ros-humble-robot-state-publisher, ros-humble-rviz2, ros-humble-visualization-msgs
+Filename: ./ros-humble-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.45_amd64.deb
+Size: 415300
+MD5sum: 4f8c6ca0f0485de883e6b981bef87020
+SHA1: f407c5a8bbd1ed6ea16b79cf1de7d96d24215bb8
+SHA256: 143a90e913d75e89fc20295a69756393674fd456b373ce1c4a30a4c344a2391c
+SHA512: 1bcda1d2923240df31b995da780123ef74426cb384491cb432258415ba5d072081b495c66a12f7ca66812e3150b50571f0f5123f9682ab4133e6b14d976e0b49
+Homepage: https://github.com/ipab-slmc/exotica
+Description: Package containing examples and system tests for EXOTica.
+
+Package: ros-humble-exotica-ik-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.15
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-ik-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 3493
+Depends: ros-humble-exotica-ik-solver (= 6.2.0-164-g570243f-2026.11.19.14.15)
+Filename: ./ros-humble-exotica-ik-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.15_amd64.ddeb
+Size: 3500084
+MD5sum: 486fde24e7dd3875263f1aafb6a4eaa2
+SHA1: 71a2923c578655385869c609474d467ed4f5eb30
+SHA256: f06a92e5951411fabc733b4bd3efd1d105312038f954d83434e682780131abfe
+SHA512: f0d5386a840b421ce93d90c0221dac74cc93e1e7fc4e1e7c19f1d506fef17d451c3f5b0517fd10aba06c6456b764789238c4c4cb78df1426dc46e15bb2ffa65b
+Description: debug symbols for ros-humble-exotica-ik-solver
+Build-Ids: 13d6c9c6ee8e10f50b57857bd830f423ae13ffa6
+
+Package: ros-humble-exotica-ik-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.15
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 232
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 9), ros-humble-moveit-core, ros-humble-exotica-core
+Filename: ./ros-humble-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.15_amd64.deb
+Size: 75128
+MD5sum: fc200546c62679ba02d3aae3da171d6b
+SHA1: 0666fd44136f98ae300f797150196c644348a264
+SHA256: bd2130a9e47632e5fc6f47db973e4c1a1a1415740388d34623b3a0834c66f043
+SHA512: c5b214dd0ea64654cf7afd23b351b8046e2bb5fc7966f1b98a089dd2cef0cc1dc5ce34fcfb2c795768210b4521470dbafd83711c0670842c22443d8fc19f722e
+Homepage: https://index.ros.org/p/exotica_ik_solver/#humble
+Description: IK Solver for EXOTica
+
+Package: ros-humble-exotica-ilqg-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.38
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-ilqg-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 9349
+Depends: ros-humble-exotica-ilqg-solver (= 6.2.0-164-g570243f-2026.11.19.14.38)
+Filename: ./ros-humble-exotica-ilqg-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.38_amd64.ddeb
+Size: 9398990
+MD5sum: b8ba7ede4de62c2e7227cb839e8104d1
+SHA1: 0ec0bfc2017f20c517bf9dd2d143d135820f4994
+SHA256: 8063e02f99f99ca09b0b42c48f2ee3143d930e51617f9d6280b78405bd765ff4
+SHA512: 754d6d688d71e4d5c73930d7ce496ea71cd031c25f07752ffcbefbabf1a3df382706cb567bc9c059ebfb03181e5f21f1278873a11d124507ad3e4d306cade7f7
+Description: debug symbols for ros-humble-exotica-ilqg-solver
+Build-Ids: 806353c16b7adfb2ab777bdb658f86dbd389134d 916a48e7958508698c76c3a5705b5cb2c8dd1711
+
+Package: ros-humble-exotica-ilqg-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.38
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 445
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 4.0), liborocos-kdl1.5 (>= 1.5.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-exotica-core, ros-humble-exotica-python
+Filename: ./ros-humble-exotica-ilqg-solver_6.2.0-164-g570243f-2026.11.19.14.38_amd64.deb
+Size: 154352
+MD5sum: b653f8891a1d7d0983c881c4501c92a3
+SHA1: 5f9cb13768a03bafff9eb375dd06222e2aa9c9e9
+SHA256: faccf3193366d5bad6058d7e817b31cd4bbfb46dac975ff15584b3349554c2a9
+SHA512: a9e8822ec5208d0543d004b2a27276c584c610f95ca23bed7bdf7fbcc6ede1c647a78d1619af46e45be14cb74f2fea42545f90d7abbf6efdb3eed592875411ef
+Homepage: https://index.ros.org/p/exotica_ilqg_solver/#humble
+Description: ILQG Solver for EXOTica (Todorov and Li, 2004)
+
+Package: ros-humble-exotica-ilqr-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.40
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-ilqr-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 7200
+Depends: ros-humble-exotica-ilqr-solver (= 6.2.0-164-g570243f-2026.11.19.14.40)
+Filename: ./ros-humble-exotica-ilqr-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.40_amd64.ddeb
+Size: 7226060
+MD5sum: 43deb8c760aff2ca8ce2d40cf2e7fc33
+SHA1: 41b640b74aba0aa6e6ec2b40b1cf000ac0af43ea
+SHA256: 0404765e8861386008d8f987c4c2d715870f3dd4cc3e635a38ef400d69b28d60
+SHA512: 1fbde58dd98f8cb9fc00a459c1327342d34ac0eea965ca5c6f13d8151bd60604d493416aa2987a934cebf31ea801b0a1268e3910d258be6e0a783528c52c4fcc
+Description: debug symbols for ros-humble-exotica-ilqr-solver
+Build-Ids: 1d1d858940e70e1b1277663f7c7a7b112c615379 dfc4322df0f6cf92aa7789bd2255175698429ff4
+
+Package: ros-humble-exotica-ilqr-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.40
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 385
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-exotica-core, ros-humble-exotica-python
+Filename: ./ros-humble-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.40_amd64.deb
+Size: 129900
+MD5sum: 77b32e05cbcff46c701c98d6dda1b3cb
+SHA1: c73899d8722f0aa754a60011006129a35cc64dd5
+SHA256: b3666f0bfacb4c28735d765778d166ae44efa27b91fbc34a26ff6654bc8dd8b8
+SHA512: 6980a9828dfb8a4c3e70cfdd9434335f89355b93dd5d766eca058992886714d1405314b27148c8e0d9aa111171779191992c1d9a3ea50c009102bdc0d614559f
+Homepage: https://index.ros.org/p/exotica_ilqr_solver/#humble
+Description: ILQR Solver for EXOTica (Li and Todorov, 2004)
+
+Package: ros-humble-exotica-levenberg-marquardt-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.16
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-levenberg-marquardt-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 2926
+Depends: ros-humble-exotica-levenberg-marquardt-solver (= 6.2.0-164-g570243f-2026.11.19.14.16)
+Filename: ./ros-humble-exotica-levenberg-marquardt-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.16_amd64.ddeb
+Size: 2925492
+MD5sum: a64b540255597296ab0cf9addb6fa94a
+SHA1: e949204db3aab34d6f38af71495b5f829ddcc830
+SHA256: d63ebecc597b4cdfbc0f482197096be278c17e8de8bb4536659ce1635cc17f67
+SHA512: 4ae02de9858fe2cb3acdf09c9e297c901c897c11616f7334df6bbcd58394b102324f3739fbb673c9ab91b050f35a3da43b299167b4cc2f48d1030a85931cf099
+Description: debug symbols for ros-humble-exotica-levenberg-marquardt-solver
+Build-Ids: 0b311f8903ccdf170fda6984743e7a1e74dbe80d
+
+Package: ros-humble-exotica-levenberg-marquardt-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.16
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 210
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 9), ros-humble-moveit-core, ros-humble-exotica-core
+Filename: ./ros-humble-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.14.16_amd64.deb
+Size: 63158
+MD5sum: f4d5c52fced58ffd84dae5ef79486f7b
+SHA1: fb70e4068685a37ca3ea239098437e49f35ce47e
+SHA256: 6b81e21abb300ee3777a51930c5cf629a9e2ea12b88db5c8a6ecee1286b8fed2
+SHA512: 0c465ab9a7149c6b4c0ae1200a17439fe0d0d76ab7a1170127a952faac929af11f1a6ad09a072585076e9529fd31768f2e66c393b01dbec808009d7d74cc1ffe
+Homepage: https://index.ros.org/p/exotica_levenberg_marquardt_solver/#humble
+Description: Levenberg-Marquardt Solver for EXOTica
+
+Package: ros-humble-exotica-ompl-control-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.18
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-ompl-control-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 3046
+Depends: ros-humble-exotica-ompl-control-solver (= 6.2.0-164-g570243f-2026.11.19.14.18)
+Filename: ./ros-humble-exotica-ompl-control-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.18_amd64.ddeb
+Size: 3023308
+MD5sum: f3122113479da51d570997f09c556caf
+SHA1: e0fb106453e7d251502d965bac119e76e6c9eba9
+SHA256: 1d5944118487cc4536edcfde0e863dbe749183c70d881daa2c43359cc1a8c026
+SHA512: 5b4f3c5d0af54c999587d636a68cf7fbafa88d17d9fff04a30b3dc124c84f8a19bfe73a10f33e259ce0f3e2ca9d9d9353cce7d1cb38552acb7b8937edeaf021f
+Description: debug symbols for ros-humble-exotica-ompl-control-solver
+Build-Ids: 3d3fc072f814fe57b6c7e7e2c1d94240226067bb
+
+Package: ros-humble-exotica-ompl-control-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.18
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 235
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-ompl, ros-humble-exotica-core
+Filename: ./ros-humble-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.18_amd64.deb
+Size: 56490
+MD5sum: 7c1a96eeed1f4bcf6e0012a5d8bb9330
+SHA1: 963590146a0cdd280c09eee1bb62a962c9a4331b
+SHA256: ae8ea7a38369a3cc1b4e9317dc08e57640667b6a4a14ed13e78b046c6b0ab37d
+SHA512: e37e9c81fbbbcf5627603e84d33dcf1d07ae1059a60fa900bb569be8a75f6a2d2f7c9802089184ad248793aa948cd5e7a34d168184315dcf53186d05687c54eb
+Homepage: https://index.ros.org/p/exotica_ompl_control_solver/#humble
+Description: OMPL Control Solver for EXOTica
+
+Package: ros-humble-exotica-ompl-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.43
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-ompl-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 7381
+Depends: ros-humble-exotica-ompl-solver (= 6.2.0-164-g570243f-2026.11.19.14.43)
+Filename: ./ros-humble-exotica-ompl-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.43_amd64.ddeb
+Size: 7224340
+MD5sum: 87446393d5230b70954ed81c90961ff6
+SHA1: a36b0749112a7ee70e81fb6407883122d4d89f48
+SHA256: 0f8694e79156ac764e939f131b2094c8d1b8d62f728882f836d58a316e38c1fd
+SHA512: 0890a2001e782e54d05482591f5f619ec840b5b3c200ee893a65743f483bf684c33ec564690a6651185317617a513a717eab8e41c64e741c74e79814598b209f
+Description: debug symbols for ros-humble-exotica-ompl-solver
+Build-Ids: 18ee2f41d5a3188195233b34e9bfe52a3157cf94 33b2390119039e56fa4a6b5256020e796c57ac49
+
+Package: ros-humble-exotica-ompl-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.43
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 897
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-ompl, ros-humble-exotica-core, ros-humble-exotica-python
+Filename: ./ros-humble-exotica-ompl-solver_6.2.0-164-g570243f-2026.11.19.14.43_amd64.deb
+Size: 191718
+MD5sum: 3954e7184d7044b34ae5a26883a1d996
+SHA1: 14e097a21050c0b21b82acb1ed21252998e18a09
+SHA256: 505f7d7c4aa3621b90a2aa992d62fdb120f45de0a36c68ff7acb8c46a4d88ce2
+SHA512: 70fc15f5b000125fde8ab0265f25259f73f7c5f13c3cdb8ffc171ac3b9d3533bd50818c1048d5bb3b75ab7d52eba050a92e97206c5f60047c08df6ea0f3e88ae
+Homepage: https://index.ros.org/p/exotica_ompl_solver/#humble
+Description: OMPL Solver for EXOTica
+
+Package: ros-humble-exotica-pendulum-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.19
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-pendulum-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1498
+Depends: ros-humble-exotica-pendulum-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.14.19)
+Filename: ./ros-humble-exotica-pendulum-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.19_amd64.ddeb
+Size: 1479866
+MD5sum: 516957e001109631234470186415d62c
+SHA1: 598b904903de20b2cf00fff78ca9c137861acbc0
+SHA256: 29e5753b7bf89a4f5e3e673aa3aa6281204b7a22fa76ee9d8fe5e904a16910d1
+SHA512: de89808c4c31d0fceebadfa631290ca0e5da9b3d4454dd928d3b502c2ad33a514579641fe2ed1f8bfe04a5b550a9da6d6e140370d27ff4c99270e59d592b6ae1
+Description: debug symbols for ros-humble-exotica-pendulum-dynamics-solver
+Build-Ids: 8d4c816361292e00583b438bdfab66251afdcbc8
+
+Package: ros-humble-exotica-pendulum-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.19
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 162
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 9), ros-humble-exotica-core, ros-humble-pluginlib
+Filename: ./ros-humble-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.deb
+Size: 40550
+MD5sum: e7b684f1f60cd6775456af59fe935630
+SHA1: 29357c0e64c037f94ffd6be119855825856af264
+SHA256: 5fd33940fbeb9edfc0737075fd914ee1f5647d2228f53b36a20df45e381b70d2
+SHA512: f2308050236d3403fb039c211ff517497502e019cd69de4a039ec7b34afc4a2b457d85b5d3959d7ff0690e75906e9dc10cc0511abdb3dfafed418ad1c300b917
+Homepage: https://index.ros.org/p/exotica_pendulum_dynamics_solver/#humble
+Description: Pendulum dynamics solver plug-in for Exotica
+
+Package: ros-humble-exotica-pinocchio-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.20
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-pinocchio-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 37390
+Depends: ros-humble-exotica-pinocchio-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.14.20)
+Filename: ./ros-humble-exotica-pinocchio-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.20_amd64.ddeb
+Size: 37257016
+MD5sum: 1420229fbb7f3b0c1d7f926dc82cc1d8
+SHA1: 3d0c8bd4bd008b9aa9ab357b13ae8dcf01c367d5
+SHA256: be0a91f6f602328a94edf54bfb7c59296f7cacffca184123360a35fbb61c72ba
+SHA512: cea3fa51422db1126585e1f6c4169516cecd62192bb711501ef2c67ae2029c1840cb9d3382cba156c52813783c042bfa2c824957381d6cf981c40055b24bda7c
+Description: debug symbols for ros-humble-exotica-pinocchio-dynamics-solver
+Build-Ids: aba40be446b756065ae34702fd902fabb8011ab9
+
+Package: ros-humble-exotica-pinocchio-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.20
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 890
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-pinocchio, ros-humble-urdfdom, ros-humble-exotica-core, ros-humble-pluginlib
+Filename: ./ros-humble-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.20_amd64.deb
+Size: 241748
+MD5sum: 3c5869f0c06f035fff763701034e9fbb
+SHA1: 6f8a8766a53215036ea85afcfc3adcd2bde73360
+SHA256: ddaf2573ce3214835b44d1bbc95b4d1676fe506c953024fcb128223cc8eff09e
+SHA512: 29737c61ed9a4e3d20368ad93cd6e6b0577679b19c104ac18ba90803ea7ffe304a9f673b2b2cf94b173bf6fdf6e2a7b276d52f402103074e73a7e5890ba9c5b1
+Homepage: https://index.ros.org/p/exotica_pinocchio_dynamics_solver/#humble
+Description: Dynamics solver plug-in using Pinocchio for Exotica
+
+Package: ros-humble-exotica-python
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.24
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1890
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-humble-geometric-shapes, ros-humble-moveit-core, python3-matplotlib, python3-pyassimp, python3-tk, ros-humble-ament-index-cpp, ros-humble-exotica-core, ros-humble-geometry-msgs, ros-humble-moveit-msgs, ros-humble-rclcpp, ros-humble-shape-msgs
+Filename: ./ros-humble-exotica-python_6.2.0-164-g570243f-2026.11.19.14.24_amd64.deb
+Size: 527972
+MD5sum: 2628c0e54cbee6f1948cf514f792aadc
+SHA1: d398a9c28c52613d82e2f2f811b50c53a521e689
+SHA256: f1e34e096d848030b85bc8962328e2bb5e6e02433f2e05c8abcf0dba9d847cdf
+SHA512: feeb14424bec090febd6f2c8fa3f09d3a330f533a2d7704bf8913f3ef9495d0ced0e70587782d3df30504715aa48c3abd17dcab446241617bb6e387a7402e6c4
+Homepage: https://index.ros.org/p/exotica_python/#humble
+Description: Python bindings for EXOTica
+
+Package: ros-humble-exotica-quadrotor-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.26
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-quadrotor-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 2123
+Depends: ros-humble-exotica-quadrotor-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.14.26)
+Filename: ./ros-humble-exotica-quadrotor-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.26_amd64.ddeb
+Size: 2111534
+MD5sum: 20f7a2451bbba79577e0238b33bae12e
+SHA1: ba1fc6bf0e3f9231fa29030e035a4a64ba42745f
+SHA256: d24fb23e0a9718019f64c2ddab44bf931901199ff7e6691a97b5165a5d4c940f
+SHA512: 6fe176b5b2132915fa9a9d2bc2c2bfc133c6ae2cbff7b589c07d71b7fc46ffaa8b7437ba874287a7423da858bcb72f85fefdec18d210306676f4146baafce088
+Description: debug symbols for ros-humble-exotica-quadrotor-dynamics-solver
+Build-Ids: 391d926c2e992ee577df7f53edcbe404cda70c61
+
+Package: ros-humble-exotica-quadrotor-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.26
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 194
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 9), ros-humble-exotica-core, ros-humble-pluginlib
+Filename: ./ros-humble-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.26_amd64.deb
+Size: 53342
+MD5sum: 5ff7a5c898b49a6e94de05f11b3a3082
+SHA1: bc07fc5a9687fbd2bb874e7b40dee7928ec8280a
+SHA256: 2bcfa4c1692ad9dafe4042c7ccbc4d97698ce1fafc33927eb6ce96f06ede2010
+SHA512: 6d213111750007a47e5fc6cf9ee8fbf0a149e5765bb5c336f04a339e9cdbd70ed38c15a7ababfa63e0a9f49c0e344282d2e3fbd493bc00574eb1c38d5dea97a8
+Homepage: https://index.ros.org/p/exotica_quadrotor_dynamics_solver/#humble
+Description: Quadrotor dynamics solver plug-in for Exotica
+
+Package: ros-humble-exotica-scipy-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.28
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 65
+Depends: python3-numpy, python3-scipy, ros-humble-exotica-core
+Filename: ./ros-humble-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.deb
+Size: 7608
+MD5sum: 4c2907569d59f795ffde60ed94d71b0d
+SHA1: 500c57ec99b399e85089091495f541490d469eda
+SHA256: e6c1dbd66325aa9e666fc5f07deb2d78b55ae3f8c88818d03656d98cef25c02d
+SHA512: 21bc3629831ba42f20e2f20b1be78c27d0d970acba9a41bbfc40d03bcf0ce7221122812ec02b4c6b4ad7b6766c8596f90f985bc0d1b4aa19265d0eadfe0a0deb
+Homepage: https://index.ros.org/p/exotica_scipy_solver/#humble
+Description: SciPy-based Python solvers for Exotica
+
+Package: ros-humble-exotica-time-indexed-rrt-connect-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.28
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-exotica-time-indexed-rrt-connect-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 2652
+Depends: ros-humble-exotica-time-indexed-rrt-connect-solver (= 6.2.0-164-g570243f-2026.11.19.14.28)
+Filename: ./ros-humble-exotica-time-indexed-rrt-connect-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.28_amd64.ddeb
+Size: 2596720
+MD5sum: f140fd6561897e41041357dbec548288
+SHA1: 01038e3f0a7cc5c105d93b271e46c658093750d2
+SHA256: 8e9313724177a7f39e90561e0b400ab48601cccefecf4601d47315aee9604b6c
+SHA512: a5dc05e3fefa24bf77af7ee112b7b8e0a03ba631b904b8dfa882661e0118a801ed93fd54e11919a5217a2814f28e4378436b96964808e49bd30b82a6f7774d7f
+Description: debug symbols for ros-humble-exotica-time-indexed-rrt-connect-solver
+Build-Ids: ac07a9c434f11eeaea7fe7b216fb5c13eb23b675
+
+Package: ros-humble-exotica-time-indexed-rrt-connect-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.28
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 293
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-moveit-core, ros-humble-ompl, ros-humble-exotica-core
+Filename: ./ros-humble-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.deb
+Size: 85830
+MD5sum: b38c509cde7e7587870b9ed2be423717
+SHA1: d544a5ef130412e51bac4c20c8d8baaf5ca4f8ec
+SHA256: 1757c35322a57398dd622664a2cbc545fd3a23494179c5c8a6007b7ed278f6e3
+SHA512: 6c1d3533b0c7c81efd211050345f9e8d11488c5edbdfec79b931cf39eb8397234795bccbbb7a259826007b14296488dc6a986ffd483249c0d4bbb6a38ace45e5
+Homepage: https://index.ros.org/p/exotica_time_indexed_rrt_connect_solver/#humble
+Description: Time-Indexed RRT-Connect Solver for EXOTica
+
+Package: ros-humble-exotica
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.45
+Priority: optional
+Section: misc
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 42
+Depends: ros-humble-exotica-aico-solver, ros-humble-exotica-collision-scene-fcl-latest, ros-humble-exotica-core, ros-humble-exotica-core-task-maps, ros-humble-exotica-ik-solver, ros-humble-exotica-levenberg-marquardt-solver, ros-humble-exotica-ompl-solver, ros-humble-exotica-python, ros-humble-exotica-time-indexed-rrt-connect-solver
+Filename: ./ros-humble-exotica_6.2.0-164-g570243f-2026.11.19.14.45_amd64.deb
+Size: 6114
+MD5sum: 65e2624ca6da13f935d94885cdbe9314
+SHA1: 5982560f79ab677b4ca9ef371eea7b50899aaa24
+SHA256: 1c074bd61770856f1e3e85896807f91452df42fd00c0ee1fdbec8069d8f4a775
+SHA512: 345b33366691f2955b09e95280fb92550e3d8cf8857589ea2ade69b5ffa0fa7655edb80dee207b4e1df25947bfd72334438d80f62140394cf4fd8073df674177
+Homepage: https://github.com/ipab-slmc/exotica
+Description: The Extensible Optimization Toolset (EXOTica) is a library for defining problems for robot motion planning.
+ This metapackage depends on all core EXOTica packages.
+

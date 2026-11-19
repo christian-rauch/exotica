@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-ompl-control-solver
+Binary: ros-humble-exotica-ompl-control-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.18
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-ompl-control-solver - OMPL Control Solver for EXOTica
+Changes:
+ ros-humble-exotica-ompl-control-solver (6.2.0-164-g570243f-2026.11.19.14.18) jammy; urgency=high
+Checksums-Sha1:
+ e0fb106453e7d251502d965bac119e76e6c9eba9 3023308 ros-humble-exotica-ompl-control-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.18_amd64.ddeb
+ 627c10939548135e5d8545c252b085eb499314cd 28364 ros-humble-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.18_amd64.buildinfo
+ 963590146a0cdd280c09eee1bb62a962c9a4331b 56490 ros-humble-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.18_amd64.deb
+Checksums-Sha256:
+ 1d5944118487cc4536edcfde0e863dbe749183c70d881daa2c43359cc1a8c026 3023308 ros-humble-exotica-ompl-control-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.18_amd64.ddeb
+ 31f1cc94dbdf88ff1bd8b5d02b5c791297c896b851eba80d69efef648513ef7f 28364 ros-humble-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.18_amd64.buildinfo
+ ae8ea7a38369a3cc1b4e9317dc08e57640667b6a4a14ed13e78b046c6b0ab37d 56490 ros-humble-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.18_amd64.deb
+Files:
+ f3122113479da51d570997f09c556caf 3023308 debug optional ros-humble-exotica-ompl-control-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.18_amd64.ddeb
+ 7a8ff08e1a1eb86206953f2668f87d97 28364 misc optional ros-humble-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.18_amd64.buildinfo
+ 7c1a96eeed1f4bcf6e0012a5d8bb9330 56490 misc optional ros-humble-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.18_amd64.deb

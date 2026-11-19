@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-aico-solver
+Binary: ros-humble-exotica-aico-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.09
+Distribution: jammy
+Urgency: high
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Changed-By: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Description:
+ ros-humble-exotica-aico-solver - Approximate Inference Control (AICO) solver for EXOTica
+Changes:
+ ros-humble-exotica-aico-solver (6.2.0-164-g570243f-2026.11.19.14.09) jammy; urgency=high
+Checksums-Sha1:
+ 7294ab4e807e69f8c4b354e438abcbd4ef9f3125 6468884 ros-humble-exotica-aico-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.09_amd64.ddeb
+ d7dc2fef7efab7586ff68a0ca2a9a579fccddd71 27488 ros-humble-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.09_amd64.buildinfo
+ 703cd4a85fda9e2b76440bba8703bacd2b9e4f43 107346 ros-humble-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.09_amd64.deb
+Checksums-Sha256:
+ 67ebe526c3e0a089b01983276382b1f827f1e5831c34b0f585ffa46c4fc634ea 6468884 ros-humble-exotica-aico-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.09_amd64.ddeb
+ 06234b5b4f10266dc4261d5b8c7c8e355e607dd3b1767b76e3c91d5ed7a03909 27488 ros-humble-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.09_amd64.buildinfo
+ d6b5cfb48b75cc312e6c43f745d4c0ea5a657a32e1eaeb9e24094713027758e3 107346 ros-humble-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.09_amd64.deb
+Files:
+ 66ac72da9e2f0796ee72b310f65c3017 6468884 debug optional ros-humble-exotica-aico-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.09_amd64.ddeb
+ 31d80cc1fd200f18bce3a7849490a65c 27488 misc optional ros-humble-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.09_amd64.buildinfo
+ d67d4bf27ab45c0be15d6ffa61168138 107346 misc optional ros-humble-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.09_amd64.deb

@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-core-task-maps
+Binary: ros-humble-exotica-core-task-maps
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.30
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-core-task-maps - Core task maps for EXOTica
+Changes:
+ ros-humble-exotica-core-task-maps (6.2.0-164-g570243f-2026.11.19.14.30) jammy; urgency=high
+ .
+   * PointToPlane: Add PositiveOnly mode for use as inequality term (#744 <https://github.com/ipab-slmc/exotica/issues/744>)
+   * CoM: Change debug markers
+   * test_maps: Turn off JointVelocityLimit test
+   * SphereCollision: Remove unnecessary allocations (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 7521cd8ad2167630228468353afd5cb2bfbed9bf 40562384 ros-humble-exotica-core-task-maps-dbgsym_6.2.0-164-g570243f-2026.11.19.14.30_amd64.ddeb
+ 98ba957c247fa14ac4f663b8295fb275fe626537 29632 ros-humble-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.30_amd64.buildinfo
+ 843b1f054596be1fe5089bf70c8e30f8ae9cd61e 417770 ros-humble-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.30_amd64.deb
+Checksums-Sha256:
+ 122b2c4441429fa969ab45689f955f948f09928651ce7a3906a5cd76dc72d20b 40562384 ros-humble-exotica-core-task-maps-dbgsym_6.2.0-164-g570243f-2026.11.19.14.30_amd64.ddeb
+ eb9b77ee372a2cbb4a216f8d9435f6a214eecff91a2049e469572a8ffd5df185 29632 ros-humble-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.30_amd64.buildinfo
+ 70bd88b85e5f389f75b06b3c96dc423f4cfca10edb71767f2c4ad9e342f3c3a8 417770 ros-humble-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.30_amd64.deb
+Files:
+ ca3868d7b775d73234ec2dbd0183d05c 40562384 debug optional ros-humble-exotica-core-task-maps-dbgsym_6.2.0-164-g570243f-2026.11.19.14.30_amd64.ddeb
+ 0b8fae03b0b5fa25e0e21c5cf0e4b769 29632 misc optional ros-humble-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.30_amd64.buildinfo
+ cd6d6eba85683ae051a4bf6833cf2e16 417770 misc optional ros-humble-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.30_amd64.deb

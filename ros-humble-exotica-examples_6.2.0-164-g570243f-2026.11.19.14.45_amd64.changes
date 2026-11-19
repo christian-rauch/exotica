@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-examples
+Binary: ros-humble-exotica-examples
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.45
+Distribution: jammy
+Urgency: high
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Changed-By: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Description:
+ ros-humble-exotica-examples - Package containing examples and system tests for EXOTica.
+Changes:
+ ros-humble-exotica-examples (6.2.0-164-g570243f-2026.11.19.14.45) jammy; urgency=high
+ .
+   * Fix example_shapes
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ f64babd17b35740f133ff1f741a9bbac78fe5d1d 17335748 ros-humble-exotica-examples-dbgsym_6.2.0-164-g570243f-2026.11.19.14.45_amd64.ddeb
+ 1543fba41ff2050e772ecd622aaf0a6fb3e3c2e8 29798 ros-humble-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.45_amd64.buildinfo
+ f407c5a8bbd1ed6ea16b79cf1de7d96d24215bb8 415300 ros-humble-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.45_amd64.deb
+Checksums-Sha256:
+ 284e6cb4586e5eec15f473805476af5ea03631736c81a3f60444650114500b4e 17335748 ros-humble-exotica-examples-dbgsym_6.2.0-164-g570243f-2026.11.19.14.45_amd64.ddeb
+ 488cc19125099e4079e2662c3232f7ca5f0941c5b9baa5bcb278f937307fc4e4 29798 ros-humble-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.45_amd64.buildinfo
+ 143a90e913d75e89fc20295a69756393674fd456b373ce1c4a30a4c344a2391c 415300 ros-humble-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.45_amd64.deb
+Files:
+ 6f19af54e738f8fa20ed8f8a56396117 17335748 debug optional ros-humble-exotica-examples-dbgsym_6.2.0-164-g570243f-2026.11.19.14.45_amd64.ddeb
+ 59c616c7dac53704d8444d81e059c54c 29798 misc optional ros-humble-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.45_amd64.buildinfo
+ 4f8c6ca0f0485de883e6b981bef87020 415300 misc optional ros-humble-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.45_amd64.deb

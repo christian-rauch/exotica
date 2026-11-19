@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-quadrotor-dynamics-solver
+Binary: ros-humble-exotica-quadrotor-dynamics-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.26
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-quadrotor-dynamics-solver - Quadrotor dynamics solver plug-in for Exotica
+Changes:
+ ros-humble-exotica-quadrotor-dynamics-solver (6.2.0-164-g570243f-2026.11.19.14.26) jammy; urgency=high
+ .
+   * Performance improvements (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * Python code improvements from static analysis
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ ba1fc6bf0e3f9231fa29030e035a4a64ba42745f 2111534 ros-humble-exotica-quadrotor-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.26_amd64.ddeb
+ cfd3646b85edb4e5d6721a44497dad74576dd599 27611 ros-humble-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.26_amd64.buildinfo
+ bc07fc5a9687fbd2bb874e7b40dee7928ec8280a 53342 ros-humble-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.26_amd64.deb
+Checksums-Sha256:
+ d24fb23e0a9718019f64c2ddab44bf931901199ff7e6691a97b5165a5d4c940f 2111534 ros-humble-exotica-quadrotor-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.26_amd64.ddeb
+ 4bcd3face887b19cb8625ee2f6765c27ef9181eb71bfabd0b18f58c5a9c2e5db 27611 ros-humble-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.26_amd64.buildinfo
+ 2bcfa4c1692ad9dafe4042c7ccbc4d97698ce1fafc33927eb6ce96f06ede2010 53342 ros-humble-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.26_amd64.deb
+Files:
+ 20f7a2451bbba79577e0238b33bae12e 2111534 debug optional ros-humble-exotica-quadrotor-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.26_amd64.ddeb
+ adc3d6f8f68ccb2eeb6506df5b39a78e 27611 misc optional ros-humble-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.26_amd64.buildinfo
+ 5ff7a5c898b49a6e94de05f11b3a3082 53342 misc optional ros-humble-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.26_amd64.deb

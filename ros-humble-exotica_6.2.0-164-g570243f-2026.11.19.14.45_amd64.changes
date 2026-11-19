@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica
+Binary: ros-humble-exotica
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.45
+Distribution: jammy
+Urgency: high
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Changed-By: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Description:
+ ros-humble-exotica - The Extensible Optimization Toolset (EXOTica) is a library for de
+Changes:
+ ros-humble-exotica (6.2.0-164-g570243f-2026.11.19.14.45) jammy; urgency=high
+ .
+   * Replace dead link
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 722e4162965a0cd109a8db5f76f94d4de35c497f 9357 ros-humble-exotica_6.2.0-164-g570243f-2026.11.19.14.45_amd64.buildinfo
+ 5982560f79ab677b4ca9ef371eea7b50899aaa24 6114 ros-humble-exotica_6.2.0-164-g570243f-2026.11.19.14.45_amd64.deb
+Checksums-Sha256:
+ 54ad570c1cd68f880ada3635844f6cd405eaebcf635edba36ba190f0a61e35d2 9357 ros-humble-exotica_6.2.0-164-g570243f-2026.11.19.14.45_amd64.buildinfo
+ 1c074bd61770856f1e3e85896807f91452df42fd00c0ee1fdbec8069d8f4a775 6114 ros-humble-exotica_6.2.0-164-g570243f-2026.11.19.14.45_amd64.deb
+Files:
+ 45783c93aa33266748a8f6d295ae78ee 9357 misc optional ros-humble-exotica_6.2.0-164-g570243f-2026.11.19.14.45_amd64.buildinfo
+ 65e2624ca6da13f935d94885cdbe9314 6114 misc optional ros-humble-exotica_6.2.0-164-g570243f-2026.11.19.14.45_amd64.deb

@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-core
+Binary: ros-humble-exotica-core
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.05
+Distribution: jammy
+Urgency: high
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Changed-By: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Description:
+ ros-humble-exotica-core - EXOTica core library
+Changes:
+ ros-humble-exotica-core (6.2.0-164-g570243f-2026.11.19.14.05) jammy; urgency=high
+ .
+   * Add EndPoseTask::GetTaskJacobian
+   * Fix build issues with Eigen 3.3.9; enable compilation of exotica_core on Conda (#740 <https://github.com/ipab-slmc/exotica/issues/740>)
+   * Performance improvements (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * DynamicTimeIndexedShootingProblem: Allocation-free control cost computation
+   * DynamicsSolver: dStateDelta and ddStateDelta return previously allocated transition derivative
+   * DynamicsSolver: Add in-place StateDelta
+   * Fix installation directives for cmake directory
+   * Deactivate Boost bind warnings arising from ROS messages
+   * Update minimum CMake version for add_initializer.cmake
+   * XMLLoader: Fix for #737 <https://github.com/ipab-slmc/exotica/issues/737>
+   * Scene: Fix uninitialised quaternion
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 34b4c52169e6c6ea0b60d80ef7ee6672b7267af5 36173284 ros-humble-exotica-core-dbgsym_6.2.0-164-g570243f-2026.11.19.14.05_amd64.ddeb
+ bf14833b9f779b5f4897a0837e9b9f487b643b6f 27362 ros-humble-exotica-core_6.2.0-164-g570243f-2026.11.19.14.05_amd64.buildinfo
+ 9612a53480e2788573546ef757f80ae08c4952b0 688526 ros-humble-exotica-core_6.2.0-164-g570243f-2026.11.19.14.05_amd64.deb
+Checksums-Sha256:
+ 5f12464a36bf462c1987ce43d50518c20f30e81f2840cbabf4d995bc0d6f0c3a 36173284 ros-humble-exotica-core-dbgsym_6.2.0-164-g570243f-2026.11.19.14.05_amd64.ddeb
+ 50aa10fec72c973498f7c91c67c509ed65c40c8e825901cafff82ff2933b00b0 27362 ros-humble-exotica-core_6.2.0-164-g570243f-2026.11.19.14.05_amd64.buildinfo
+ db41a232258d695dbf37ebd79d007280b41bc5e4094b7ba74a6218d6b8938410 688526 ros-humble-exotica-core_6.2.0-164-g570243f-2026.11.19.14.05_amd64.deb
+Files:
+ 20e83a901f3faddf9603a76051cd995f 36173284 debug optional ros-humble-exotica-core-dbgsym_6.2.0-164-g570243f-2026.11.19.14.05_amd64.ddeb
+ 8780719891f668c0e4351b68c67fcbdf 27362 misc optional ros-humble-exotica-core_6.2.0-164-g570243f-2026.11.19.14.05_amd64.buildinfo
+ 8ae4145f8466f9de8d34e2ae5caa3345 688526 misc optional ros-humble-exotica-core_6.2.0-164-g570243f-2026.11.19.14.05_amd64.deb

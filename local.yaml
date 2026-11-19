@@ -1,0 +1,66 @@
+exotica_core:
+  ubuntu:
+  - ros-humble-exotica-core
+exotica_aico_solver:
+  ubuntu:
+  - ros-humble-exotica-aico-solver
+exotica_cartpole_dynamics_solver:
+  ubuntu:
+  - ros-humble-exotica-cartpole-dynamics-solver
+exotica_collision_scene_fcl_latest:
+  ubuntu:
+  - ros-humble-exotica-collision-scene-fcl-latest
+exotica_double_integrator_dynamics_solver:
+  ubuntu:
+  - ros-humble-exotica-double-integrator-dynamics-solver
+exotica_ik_solver:
+  ubuntu:
+  - ros-humble-exotica-ik-solver
+exotica_levenberg_marquardt_solver:
+  ubuntu:
+  - ros-humble-exotica-levenberg-marquardt-solver
+exotica_ompl_control_solver:
+  ubuntu:
+  - ros-humble-exotica-ompl-control-solver
+exotica_pendulum_dynamics_solver:
+  ubuntu:
+  - ros-humble-exotica-pendulum-dynamics-solver
+exotica_pinocchio_dynamics_solver:
+  ubuntu:
+  - ros-humble-exotica-pinocchio-dynamics-solver
+exotica_python:
+  ubuntu:
+  - ros-humble-exotica-python
+exotica_quadrotor_dynamics_solver:
+  ubuntu:
+  - ros-humble-exotica-quadrotor-dynamics-solver
+exotica_scipy_solver:
+  ubuntu:
+  - ros-humble-exotica-scipy-solver
+exotica_time_indexed_rrt_connect_solver:
+  ubuntu:
+  - ros-humble-exotica-time-indexed-rrt-connect-solver
+exotica_core_task_maps:
+  ubuntu:
+  - ros-humble-exotica-core-task-maps
+exotica_ddp_solver:
+  ubuntu:
+  - ros-humble-exotica-ddp-solver
+exotica_dynamics_solvers:
+  ubuntu:
+  - ros-humble-exotica-dynamics-solvers
+exotica_ilqg_solver:
+  ubuntu:
+  - ros-humble-exotica-ilqg-solver
+exotica_ilqr_solver:
+  ubuntu:
+  - ros-humble-exotica-ilqr-solver
+exotica_ompl_solver:
+  ubuntu:
+  - ros-humble-exotica-ompl-solver
+exotica:
+  ubuntu:
+  - ros-humble-exotica
+exotica_examples:
+  ubuntu:
+  - ros-humble-exotica-examples

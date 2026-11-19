@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-ilqr-solver
+Binary: ros-humble-exotica-ilqr-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.40
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-ilqr-solver - ILQR Solver for EXOTica (Li and Todorov, 2004)
+Changes:
+ ros-humble-exotica-ilqr-solver (6.2.0-164-g570243f-2026.11.19.14.40) jammy; urgency=high
+Checksums-Sha1:
+ 41b640b74aba0aa6e6ec2b40b1cf000ac0af43ea 7226060 ros-humble-exotica-ilqr-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.40_amd64.ddeb
+ bf71f9045a2f8e437b98632c9aafffe9b455d910 29602 ros-humble-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.40_amd64.buildinfo
+ c73899d8722f0aa754a60011006129a35cc64dd5 129900 ros-humble-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.40_amd64.deb
+Checksums-Sha256:
+ 0404765e8861386008d8f987c4c2d715870f3dd4cc3e635a38ef400d69b28d60 7226060 ros-humble-exotica-ilqr-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.40_amd64.ddeb
+ 9e9349bc76814e7ace19fd816c56a02dc815059a4540f24f7bcee2a2a55f2fcd 29602 ros-humble-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.40_amd64.buildinfo
+ b3666f0bfacb4c28735d765778d166ae44efa27b91fbc34a26ff6654bc8dd8b8 129900 ros-humble-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.40_amd64.deb
+Files:
+ 43deb8c760aff2ca8ce2d40cf2e7fc33 7226060 debug optional ros-humble-exotica-ilqr-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.40_amd64.ddeb
+ f1e11b2248faec55d374f6dc25efd6f1 29602 misc optional ros-humble-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.40_amd64.buildinfo
+ 77b32e05cbcff46c701c98d6dda1b3cb 129900 misc optional ros-humble-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.40_amd64.deb

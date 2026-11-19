@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-cartpole-dynamics-solver
+Binary: ros-humble-exotica-cartpole-dynamics-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.11
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-cartpole-dynamics-solver - Cartpole dynamics solver plug-in for Exotica
+Changes:
+ ros-humble-exotica-cartpole-dynamics-solver (6.2.0-164-g570243f-2026.11.19.14.11) jammy; urgency=high
+ .
+   * Python code improvements from static analysis
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 448f14648a20c456f68565e295c234d7b1e6dd0f 1470130 ros-humble-exotica-cartpole-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.11_amd64.ddeb
+ b573469b513ea76bdfd0da03dde8ebead4576fb1 27602 ros-humble-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.buildinfo
+ f5130ec6ff375357b1dcadb4ab0f90152f6acda4 42766 ros-humble-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.deb
+Checksums-Sha256:
+ 688ede9ffb41746e5dfddd492081f7cd0a574e0d237a6a2793cadf20dca2b181 1470130 ros-humble-exotica-cartpole-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.11_amd64.ddeb
+ 9a2ec27299858c9d467b30eca953eeaeefab946f80d36309c9ace39cd79b3d51 27602 ros-humble-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.buildinfo
+ f2dde832f731030e5502ff35b6ca40bdd8bfe7fd246e9da21b01aea28da6ee9a 42766 ros-humble-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.deb
+Files:
+ f5eb72eae0078f77cd54db7164d3cd59 1470130 debug optional ros-humble-exotica-cartpole-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.11_amd64.ddeb
+ 847c6e5bf08dcc428c1aa57727c4aef4 27602 misc optional ros-humble-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.buildinfo
+ 7b1ae8d6e86489d83c2c687b7d69cf89 42766 misc optional ros-humble-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.deb

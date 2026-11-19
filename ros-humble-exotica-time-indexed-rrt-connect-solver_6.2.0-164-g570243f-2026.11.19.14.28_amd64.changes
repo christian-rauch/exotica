@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-time-indexed-rrt-connect-solver
+Binary: ros-humble-exotica-time-indexed-rrt-connect-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.28
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-time-indexed-rrt-connect-solver - Time-Indexed RRT-Connect Solver for EXOTica
+Changes:
+ ros-humble-exotica-time-indexed-rrt-connect-solver (6.2.0-164-g570243f-2026.11.19.14.28) jammy; urgency=high
+Checksums-Sha1:
+ 01038e3f0a7cc5c105d93b271e46c658093750d2 2596720 ros-humble-exotica-time-indexed-rrt-connect-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.28_amd64.ddeb
+ f7a9850441949e1a6b462415b99b3479a18ba7fc 28472 ros-humble-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.buildinfo
+ d544a5ef130412e51bac4c20c8d8baaf5ca4f8ec 85830 ros-humble-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.deb
+Checksums-Sha256:
+ 8e9313724177a7f39e90561e0b400ab48601cccefecf4601d47315aee9604b6c 2596720 ros-humble-exotica-time-indexed-rrt-connect-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.28_amd64.ddeb
+ 269458e7d0842959a6d6af5d801a25215dbc6cd49e7af3de803e8e8994f9bfbd 28472 ros-humble-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.buildinfo
+ 1757c35322a57398dd622664a2cbc545fd3a23494179c5c8a6007b7ed278f6e3 85830 ros-humble-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.deb
+Files:
+ f140fd6561897e41041357dbec548288 2596720 debug optional ros-humble-exotica-time-indexed-rrt-connect-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.28_amd64.ddeb
+ 58e637c490d920de9f0e3eb0d3b00383 28472 misc optional ros-humble-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.buildinfo
+ b38c509cde7e7587870b9ed2be423717 85830 misc optional ros-humble-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.28_amd64.deb

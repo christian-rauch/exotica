@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-pendulum-dynamics-solver
+Binary: ros-humble-exotica-pendulum-dynamics-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.19
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-pendulum-dynamics-solver - Pendulum dynamics solver plug-in for Exotica
+Changes:
+ ros-humble-exotica-pendulum-dynamics-solver (6.2.0-164-g570243f-2026.11.19.14.19) jammy; urgency=high
+ .
+   * Python code improvements from static analysis
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 598b904903de20b2cf00fff78ca9c137861acbc0 1479866 ros-humble-exotica-pendulum-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.19_amd64.ddeb
+ 932daf15cf0f303d63a23dd5697863c8bdaa5cf6 27602 ros-humble-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.buildinfo
+ 29357c0e64c037f94ffd6be119855825856af264 40550 ros-humble-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.deb
+Checksums-Sha256:
+ 29e5753b7bf89a4f5e3e673aa3aa6281204b7a22fa76ee9d8fe5e904a16910d1 1479866 ros-humble-exotica-pendulum-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.19_amd64.ddeb
+ a2775786c2a9058beddf80da5ec6f5ce48c135a560df8cff0c35963ca32d0efb 27602 ros-humble-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.buildinfo
+ 5fd33940fbeb9edfc0737075fd914ee1f5647d2228f53b36a20df45e381b70d2 40550 ros-humble-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.deb
+Files:
+ 516957e001109631234470186415d62c 1479866 debug optional ros-humble-exotica-pendulum-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.19_amd64.ddeb
+ 805436098f65c31f37efff3f08671c7f 27602 misc optional ros-humble-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.buildinfo
+ e7b684f1f60cd6775456af59fe935630 40550 misc optional ros-humble-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.deb

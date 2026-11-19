@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-dynamics-solvers
+Binary: ros-humble-exotica-dynamics-solvers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.38
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-dynamics-solvers - Metapackage for all dynamics solvers bundled with core EXOTica.
+Changes:
+ ros-humble-exotica-dynamics-solvers (6.2.0-164-g570243f-2026.11.19.14.38) jammy; urgency=high
+Checksums-Sha1:
+ a4cae8b29a3559f73353fff74f4aa45c3ff42eb0 9442 ros-humble-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.38_amd64.buildinfo
+ b9954faa3188cb68a6d4b9a7467e8ec4c27f1bfb 5224 ros-humble-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.38_amd64.deb
+Checksums-Sha256:
+ 31b74c20b3cc57876f1e52734c7695c3d5bc28be8fda12f6b56c37bff04527d8 9442 ros-humble-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.38_amd64.buildinfo
+ 6dba9b1c02198c8ac71378fb2bc1636467b8215fefb9621418d4ceac52026e3f 5224 ros-humble-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.38_amd64.deb
+Files:
+ 43b57c5d470dfaa9d443be624f57516e 9442 misc optional ros-humble-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.38_amd64.buildinfo
+ 93eab86333e0f59fabf9f6bf2797a811 5224 misc optional ros-humble-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.38_amd64.deb

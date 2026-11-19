@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-humble-exotica-ik-solver
+Binary: ros-humble-exotica-ik-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.15
+Distribution: jammy
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-humble-exotica-ik-solver - IK Solver for EXOTica
+Changes:
+ ros-humble-exotica-ik-solver (6.2.0-164-g570243f-2026.11.19.14.15) jammy; urgency=high
+Checksums-Sha1:
+ 71a2923c578655385869c609474d467ed4f5eb30 3500084 ros-humble-exotica-ik-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.15_amd64.ddeb
+ b0e9a2d3869576b600c886cab879e1be260a97f7 27467 ros-humble-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.15_amd64.buildinfo
+ 0666fd44136f98ae300f797150196c644348a264 75128 ros-humble-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.15_amd64.deb
+Checksums-Sha256:
+ f06a92e5951411fabc733b4bd3efd1d105312038f954d83434e682780131abfe 3500084 ros-humble-exotica-ik-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.15_amd64.ddeb
+ b7ed5af487afa1bc751bcb4a190ee25b7943bce874d442b216ab0a3efc31e1b5 27467 ros-humble-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.15_amd64.buildinfo
+ bd2130a9e47632e5fc6f47db973e4c1a1a1415740388d34623b3a0834c66f043 75128 ros-humble-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.15_amd64.deb
+Files:
+ 486fde24e7dd3875263f1aafb6a4eaa2 3500084 debug optional ros-humble-exotica-ik-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.15_amd64.ddeb
+ 8523b9cdc1038436f3c01fce6f5f08ab 27467 misc optional ros-humble-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.15_amd64.buildinfo
+ fc200546c62679ba02d3aae3da171d6b 75128 misc optional ros-humble-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.15_amd64.deb
