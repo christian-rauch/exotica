@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-aico-solver
+Binary: ros-jazzy-exotica-aico-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.06
+Distribution: noble
+Urgency: high
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Changed-By: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Description:
+ ros-jazzy-exotica-aico-solver - Approximate Inference Control (AICO) solver for EXOTica
+Changes:
+ ros-jazzy-exotica-aico-solver (6.2.0-164-g570243f-2026.11.19.15.06) noble; urgency=high
+Checksums-Sha1:
+ c360da2d46658d23b131e25906ceda47338cab95 6801014 ros-jazzy-exotica-aico-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.06_amd64.ddeb
+ 5ef9ab51992e1f3d54201635e1aaf53a2dd61bf0 30906 ros-jazzy-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.15.06_amd64.buildinfo
+ 1a0f5d6119bfde74d5b33aee3c0cea335e13777a 111324 ros-jazzy-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.15.06_amd64.deb
+Checksums-Sha256:
+ 2d451e036965f842ddcd7c91d38e207b13a3cff0b6f3e253e2d7e340cc339785 6801014 ros-jazzy-exotica-aico-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.06_amd64.ddeb
+ bba18756fa73cf691341cedad99e968369557d94bba473b5ec9b21a3ca5e4f14 30906 ros-jazzy-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.15.06_amd64.buildinfo
+ 2ab57f998ffe9cbc3d4c698b09a0ca8195cd92f9383aace1c037f778c658e641 111324 ros-jazzy-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.15.06_amd64.deb
+Files:
+ dab6052a80ab37748fb49e127084407b 6801014 debug optional ros-jazzy-exotica-aico-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.06_amd64.ddeb
+ 055eb13084bdc670d2818f7cfb730c65 30906 misc optional ros-jazzy-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.15.06_amd64.buildinfo
+ 0a089a4972621fdbb0ac7268a1442f92 111324 misc optional ros-jazzy-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.15.06_amd64.deb

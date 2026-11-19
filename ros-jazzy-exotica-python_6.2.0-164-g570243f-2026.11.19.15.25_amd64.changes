@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-python
+Binary: ros-jazzy-exotica-python
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.25
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-python - Python bindings for EXOTica
+Changes:
+ ros-jazzy-exotica-python (6.2.0-164-g570243f-2026.11.19.15.25) noble; urgency=high
+ .
+   * Trajectory from array in python (#743 <https://github.com/ipab-slmc/exotica/issues/743>)
+   * Add EndPoseTask::GetTaskJacobian
+   * Fix build issues with Eigen 3.3.9 (#740 <https://github.com/ipab-slmc/exotica/issues/740>)
+   * Performance improvements (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * Remove temporary workaround, formatting
+   * Contributors: Vladimir Ivan, Wolfgang Merkt
+Checksums-Sha1:
+ 3b9766eadf3366517243f5631bb3367d53dfecfe 30487 ros-jazzy-exotica-python_6.2.0-164-g570243f-2026.11.19.15.25_amd64.buildinfo
+ ede900990375be88d0b03ce5901dd462aedca273 569638 ros-jazzy-exotica-python_6.2.0-164-g570243f-2026.11.19.15.25_amd64.deb
+Checksums-Sha256:
+ 18b4618f612568c62a09c8daee549f7ffc3d27f69ff388a041c6ee0a77829bd4 30487 ros-jazzy-exotica-python_6.2.0-164-g570243f-2026.11.19.15.25_amd64.buildinfo
+ f47824869644f49b39e4263092fb8af9975e72828efcd489515e2f0283ff2bcc 569638 ros-jazzy-exotica-python_6.2.0-164-g570243f-2026.11.19.15.25_amd64.deb
+Files:
+ a703166842db50ec8eab8e7593743f05 30487 misc optional ros-jazzy-exotica-python_6.2.0-164-g570243f-2026.11.19.15.25_amd64.buildinfo
+ e80356a42302dced199155c772dca346 569638 misc optional ros-jazzy-exotica-python_6.2.0-164-g570243f-2026.11.19.15.25_amd64.deb

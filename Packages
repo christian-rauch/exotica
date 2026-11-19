@@ -1,0 +1,735 @@
+Package: ros-jazzy-exotica-aico-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.06
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-aico-solver
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 6785
+Depends: ros-jazzy-exotica-aico-solver (= 6.2.0-164-g570243f-2026.11.19.15.06)
+Filename: ./ros-jazzy-exotica-aico-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.06_amd64.ddeb
+Size: 6801014
+MD5sum: dab6052a80ab37748fb49e127084407b
+SHA1: c360da2d46658d23b131e25906ceda47338cab95
+SHA256: 2d451e036965f842ddcd7c91d38e207b13a3cff0b6f3e253e2d7e340cc339785
+SHA512: efa874a5b4400a6d8325b22432f77d987fe2fc24cb1502d4a1a8527363bf8ac0ee28af1d42ebcbbc95611df9c21b443859045c4985178ff4a165914b255a7ea3
+Description: debug symbols for ros-jazzy-exotica-aico-solver
+Build-Ids: 48ad24e8e2fbc38ad2fa7a9d607afeeaf54a6ae7
+
+Package: ros-jazzy-exotica-aico-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.06
+Priority: optional
+Section: misc
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 376
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-moveit-core, ros-jazzy-exotica-core
+Filename: ./ros-jazzy-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.15.06_amd64.deb
+Size: 111324
+MD5sum: 0a089a4972621fdbb0ac7268a1442f92
+SHA1: 1a0f5d6119bfde74d5b33aee3c0cea335e13777a
+SHA256: 2ab57f998ffe9cbc3d4c698b09a0ca8195cd92f9383aace1c037f778c658e641
+SHA512: 1d254020922b5a99cfe8fe840fff41e79ec6fe72984bff9cf47a1cb8f8b13e7eef1d4ce7d6d12a8e8891ac1fb4ea99ffa5dbc3eaf59f465e76d5f07fb4e28fc2
+Homepage: https://index.ros.org/p/exotica_aico_solver/#jazzy
+Description: Approximate Inference Control (AICO) solver for EXOTica
+
+Package: ros-jazzy-exotica-cartpole-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.08
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-cartpole-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1546
+Depends: ros-jazzy-exotica-cartpole-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.15.08)
+Filename: ./ros-jazzy-exotica-cartpole-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.08_amd64.ddeb
+Size: 1526212
+MD5sum: e92a9a4994292bccfb01302b2c11ce39
+SHA1: 0b75cb6175684fcf1182b8f9610d42225f71d320
+SHA256: 5767fe4bce7c0eeaa3942935c17801a830eeeff48f8cd663a79e92f2381e2fa8
+SHA512: cfe216586021f118be7f2dcbaaf9e94780c9c10b4027970cf67fa30954c035a78dc63725bb1cfe9a1dd688a267c79c0a007de7ff247f6652926aa8403498fe91
+Description: debug symbols for ros-jazzy-exotica-cartpole-dynamics-solver
+Build-Ids: 7d1afe35b22f6d38f8f31619dccf19679eb091ec
+
+Package: ros-jazzy-exotica-cartpole-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.08
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 180
+Depends: libc6 (>= 2.29), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-exotica-core, ros-jazzy-pluginlib
+Filename: ./ros-jazzy-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.08_amd64.deb
+Size: 45294
+MD5sum: 3b04a12e1ab9f8987c4845ca06b739ed
+SHA1: 050b407b3403c1e59907d37cbb720c8f5f2acbbd
+SHA256: 684c5b6b3b31029af0b17fd9525234ff5e425555452a056e2245044908e63f0d
+SHA512: d32a35bb7bc7735355eed13cc4433fa2261e3ea0ed35f0155087ebc130b2455a4c6f8bf1dfd1f96272d53697d2f3c01835d53478a315f20496e8f749d4cfdf02
+Homepage: https://index.ros.org/p/exotica_cartpole_dynamics_solver/#jazzy
+Description: Cartpole dynamics solver plug-in for Exotica
+
+Package: ros-jazzy-exotica-collision-scene-fcl-latest-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.10
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-collision-scene-fcl-latest
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 3061
+Depends: ros-jazzy-exotica-collision-scene-fcl-latest (= 6.2.0-164-g570243f-2026.11.19.15.10)
+Filename: ./ros-jazzy-exotica-collision-scene-fcl-latest-dbgsym_6.2.0-164-g570243f-2026.11.19.15.10_amd64.ddeb
+Size: 3038260
+MD5sum: 695b82d83320fd8661f16152b8c68657
+SHA1: 499560ba6be29aa16154095966097992989b6534
+SHA256: c0cad7b44a5c21bf91b93521685621534f3042bd21898d6dcbbe07d69c230649
+SHA512: f2747e58a1981970b10c01a195a3860799dabe92177f35525f47a16153db15737220dc99bd7caf2f113f05afde0f45ae66695ebf67dc5d5eda2ffe7ae018f244
+Description: debug symbols for ros-jazzy-exotica-collision-scene-fcl-latest
+Build-Ids: f84903a3485242b5c79e0c8d2d00aca3b97b896b
+
+Package: ros-jazzy-exotica-collision-scene-fcl-latest
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.10
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 263
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), ros-jazzy-geometric-shapes, ros-jazzy-moveit-core, libfcl-dev, ros-jazzy-exotica-core
+Filename: ./ros-jazzy-exotica-collision-scene-fcl-latest_6.2.0-164-g570243f-2026.11.19.15.10_amd64.deb
+Size: 75974
+MD5sum: 7f5e1a916ce5499ceac4f29387ffc32f
+SHA1: 60fd8f0fcd452f9b7fe764e7c444c181c021e38f
+SHA256: c1fac2b20d2340993abbf2472a94a2b2418e795d255302398bb2663790d260f3
+SHA512: 106636bb05ce539201708094a37d425aef8cd78608484d294db7d667a3f923bb39c9d2b87e789012eb9d6eae7bf3e444d006e28c5b8552c8ab81db8a845876f4
+Homepage: https://index.ros.org/p/exotica_collision_scene_fcl_latest/#jazzy
+Description: Collision checking and distance computation using the FCL library.
+
+Package: ros-jazzy-exotica-core-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.00
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-core
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 38680
+Depends: ros-jazzy-exotica-core (= 6.2.0-164-g570243f-2026.11.19.15.00)
+Filename: ./ros-jazzy-exotica-core-dbgsym_6.2.0-164-g570243f-2026.11.19.15.00_amd64.ddeb
+Size: 38209356
+MD5sum: 4c09354898336cd3a57bf395e420356d
+SHA1: cf298e8d720d00f36113a9138a560d8d6865ae9c
+SHA256: 685265e656c0dc8ac34d5a908fdebde35f7f932b98f3ac7df4dc5e86f566944d
+SHA512: 10b67058d5ccb21e89d7174c1af335aed523614b785e48b2ce1390fcdb4e90e15f29badc41f08be9ad58cd3adc299fbdc90edfcf623c2e2889e8772090cc39bc
+Description: debug symbols for ros-jazzy-exotica-core
+Build-Ids: 87b9e66c209e409c7c0e2f6ed471529680199878
+
+Package: ros-jazzy-exotica-core-task-maps-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.32
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-core-task-maps
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 44697
+Depends: ros-jazzy-exotica-core-task-maps (= 6.2.0-164-g570243f-2026.11.19.15.32)
+Filename: ./ros-jazzy-exotica-core-task-maps-dbgsym_6.2.0-164-g570243f-2026.11.19.15.32_amd64.ddeb
+Size: 44085316
+MD5sum: 39776516ab3939e6ffa6e97aeffbff20
+SHA1: 500e9ae8b08203d3adff3d78c50b3fdc477bcd29
+SHA256: c771f3b504ece8591f9f2884ba46730d162c93dced852ebc9ba8917c9c1b3f05
+SHA512: e34db6c4d3f30f211a50230da0a68817ac2b5b127730d9b6652f76f082ae5e276f9e8f2d91a545c075b357e4cc9bb7f97d26f8dca4992f91ab005ce1364fb8dc
+Description: debug symbols for ros-jazzy-exotica-core-task-maps
+Build-Ids: abfa82fad76977aa827f848ff3a670379aeb2209
+
+Package: ros-jazzy-exotica-core-task-maps
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.32
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1811
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), ros-jazzy-moveit-core, ros-jazzy-exotica-core, ros-jazzy-exotica-python, ros-jazzy-geometry-msgs, ros-jazzy-tf2-eigen, ros-jazzy-tf2-kdl, ros-jazzy-visualization-msgs
+Filename: ./ros-jazzy-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.15.32_amd64.deb
+Size: 447616
+MD5sum: c67ccc8f9555229c2a348f24afedf3a2
+SHA1: 515c9d41dbc392fd62195e93be98f299be600f56
+SHA256: 192ba7cd607af89a9967b98e3d79807a10dc0775fd9ec80be98714be38377ed4
+SHA512: 3d43bd23b1db4b32a6da0f2f86251aa0e7eecaaf69fdde8253db5b2781b1c465fbe1890bb464e416fd1a683913a07b78499ad3f67c325bf20002fceafbc9a53c
+Homepage: https://index.ros.org/p/exotica_core_task_maps/#jazzy
+Description: Core task maps for EXOTica
+
+Package: ros-jazzy-exotica-core
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.00
+Priority: optional
+Section: misc
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 2672
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liboctomap1.9t64 (>= 1.9.7+dfsg), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-geometric-shapes, ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning, cppzmq-dev, libeigen3-dev, libmsgpack-cxx-dev, liborocos-kdl-dev, libzmq3-dev, ros-jazzy-ament-index-cpp, ros-jazzy-geometry-msgs, ros-jazzy-kdl-parser, ros-jazzy-moveit-msgs, ros-jazzy-octomap-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-shape-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-eigen-kdl, ros-jazzy-tf2-kdl, ros-jazzy-tf2-ros, ros-jazzy-visualization-msgs
+Filename: ./ros-jazzy-exotica-core_6.2.0-164-g570243f-2026.11.19.15.00_amd64.deb
+Size: 708522
+MD5sum: fe00d3ecd702614c9286be1e141b658e
+SHA1: d1055d70cfdd7ca528dc720395b21c4074f72be0
+SHA256: 21417e29c8b41e3f33b3134817fa54fa66a2ee626c1c864b948a201c73faa591
+SHA512: b6e42fc6f41ebaae8f736fc4fd2e2509cb3394a897b4cd668273962353eb71e4bc7696263133010ba19f46385e4409c86347bc72fab379cdd8ef743c0d4131cf
+Homepage: https://index.ros.org/p/exotica_core/#jazzy
+Description: EXOTica core library
+
+Package: ros-jazzy-exotica-ddp-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.40
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-ddp-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 15471
+Depends: ros-jazzy-exotica-ddp-solver (= 6.2.0-164-g570243f-2026.11.19.15.40)
+Filename: ./ros-jazzy-exotica-ddp-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.40_amd64.ddeb
+Size: 15491052
+MD5sum: 9fadd088a049cc2d174fe8a9751b4cdf
+SHA1: 25b1ad7369f3148cf299bdd9bd7adc31976ff06b
+SHA256: 3c417028963a90bf6f6b3521519e05780068e3c5d7bb43ff1238df7b9e1ea9d6
+SHA512: b69f6a45301b2b57b6627b00e6c3f960aff04d16f295529d3bbf58308305c4fdf35f793d9b581f4d7c6f3a6ac3e39c0f6fb888c80d350751f8ea4167bd1577f8
+Description: debug symbols for ros-jazzy-exotica-ddp-solver
+Build-Ids: b1333db2421303192f17a1bfcfdf5381c03b7fe4 ecc1bd26b6040386d8ef0ecc10f1e64a49709b49
+
+Package: ros-jazzy-exotica-ddp-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.40
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 759
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), ros-jazzy-moveit-core, ros-jazzy-exotica-core, ros-jazzy-exotica-python
+Filename: ./ros-jazzy-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.15.40_amd64.deb
+Size: 230914
+MD5sum: 5acb32e4e3c51854f1c5e795d741b413
+SHA1: 00d7c737bb30e6918d627aa8066edb7de46e4a33
+SHA256: 76dd8132239e663b5c90e953925933863cf56ecc3fa92f1603efe9d3f7ab82f8
+SHA512: cf2e295eb52a8ed79e1ec4099b0e0d2f2a8ff9581ad5b4bd46557143e77c911334c84921b43bb838d2d7cf729b03f23115b6707e5b6d70a8ab7b811660a9a1b9
+Homepage: https://index.ros.org/p/exotica_ddp_solver/#jazzy
+Description: DDP Solvers for EXOTica (Analytic, Control-Limited, Feasibility-Driven variants)
+
+Package: ros-jazzy-exotica-double-integrator-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.12
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-double-integrator-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1662
+Depends: ros-jazzy-exotica-double-integrator-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.15.12)
+Filename: ./ros-jazzy-exotica-double-integrator-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.12_amd64.ddeb
+Size: 1644960
+MD5sum: eebd98047e8a92bbe90ff40d2c6b5567
+SHA1: 7ca6aa5cb7ef0f61c15e94aab708e78718c8ad7e
+SHA256: d4af07ac85499a4571e359f4b8dc9100b14e38cb35677be3afbd99954e6b9577
+SHA512: 6ec6e342bc49b34163fb021385ad8ca3c4d99c86dfae52baf9f90c130dbdbc8a72c6ac5a242bcb5d1351dd0998d53bdb20efc362dd0183882f012b2450ca5d6b
+Description: debug symbols for ros-jazzy-exotica-double-integrator-dynamics-solver
+Build-Ids: ca29320189a0d80582b1d54f3b414b2bda870d17
+
+Package: ros-jazzy-exotica-double-integrator-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.12
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 170
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-exotica-core, ros-jazzy-pluginlib
+Filename: ./ros-jazzy-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.12_amd64.deb
+Size: 43588
+MD5sum: b0efd9b08d21daef069685e6b21eecc4
+SHA1: 48a612f8182a90fe047f2d7be63133d0ba019d7c
+SHA256: 60001f67ab1728c1d8bd429965d3d022891bd85b21cc6e4f67c48c2bdb9a3f8d
+SHA512: 65118a3b6cc16ccddbe3296147fa99eae7fb84417623651550bdbd055c3fe6e7065b3c5c36a2fed5c579dfa9036c9d71c137977554645ea09875d53455e04f98
+Homepage: https://index.ros.org/p/exotica_double_integrator_dynamics_solver/#jazzy
+Description: Double integrator dynamics solver plug-in for Exotica
+
+Package: ros-jazzy-exotica-dynamics-solvers
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.43
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 41
+Depends: ros-jazzy-exotica-cartpole-dynamics-solver, ros-jazzy-exotica-double-integrator-dynamics-solver, ros-jazzy-exotica-pendulum-dynamics-solver, ros-jazzy-exotica-pinocchio-dynamics-solver, ros-jazzy-exotica-quadrotor-dynamics-solver
+Filename: ./ros-jazzy-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.15.43_amd64.deb
+Size: 5232
+MD5sum: b73f6adafebf1bed208804956300fe31
+SHA1: 7d670e4f92438826a4482ea7b195229d5d4a76e3
+SHA256: 5a9c6559aa695770161c1f5b31c06a17ff7958f052624353f0c1e0147a0cb78b
+SHA512: 8a3bec857eb3ff3f78ee5cf23ce62c423239faf3fdf3770a9825430107428b7f67908cc1cea895b637a0d963108925550a542d51ea47f83c0b84fa3007de94ae
+Homepage: https://index.ros.org/p/exotica_dynamics_solvers/#jazzy
+Description: Metapackage for all dynamics solvers bundled with core EXOTica.
+
+Package: ros-jazzy-exotica-examples-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.53
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-examples
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 18567
+Depends: ros-jazzy-exotica-examples (= 6.2.0-164-g570243f-2026.11.19.15.53)
+Filename: ./ros-jazzy-exotica-examples-dbgsym_6.2.0-164-g570243f-2026.11.19.15.53_amd64.ddeb
+Size: 18019974
+MD5sum: 7f2ce6ebb418e190bf282b6c7bfc4aef
+SHA1: 9e1a97c2896f3db5a2a6d85bd1c76294e6ec874b
+SHA256: 9b4349bfcf187c0fb2b2e2beca73bde6ff4d708fcca05c1bdbd047bf815530b8
+SHA512: 134424159b73295718e84787c8e3ab3f338e1da01d83199dee816d15a11b0598ce1c73d3c72d4f078bcc46c1e86231a4488b1c724e68c6f26f83a5c8c8b1a874
+Description: debug symbols for ros-jazzy-exotica-examples
+Build-Ids: 4b9512d7db3e2b290cad77d81592a986052db467 4ce9df80129d6c23a920f944be2f09c445e35e02 51fa395ac6c0bc62680b0665dfa2a2798a51ae5e 6513e594afbd1f05f6846606906f29148a82431f 8a959d3d1bb4929c22b1910e24a7bde33bfd8f63 dbd18d157c38ff687d79d7b540f4683c674ca767
+
+Package: ros-jazzy-exotica-examples
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.53
+Priority: optional
+Section: misc
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 3368
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-moveit-core, python3-pykdl, ros-jazzy-exotica-aico-solver, ros-jazzy-exotica-cartpole-dynamics-solver, ros-jazzy-exotica-collision-scene-fcl-latest, ros-jazzy-exotica-core, ros-jazzy-exotica-core-task-maps, ros-jazzy-exotica-ddp-solver, ros-jazzy-exotica-double-integrator-dynamics-solver, ros-jazzy-exotica-ik-solver, ros-jazzy-exotica-ilqg-solver, ros-jazzy-exotica-ilqr-solver, ros-jazzy-exotica-levenberg-marquardt-solver, ros-jazzy-exotica-ompl-control-solver, ros-jazzy-exotica-ompl-solver, ros-jazzy-exotica-pendulum-dynamics-solver, ros-jazzy-exotica-pinocchio-dynamics-solver, ros-jazzy-exotica-python, ros-jazzy-exotica-quadrotor-dynamics-solver, ros-jazzy-exotica-scipy-solver, ros-jazzy-exotica-time-indexed-rrt-connect-solver, ros-jazzy-geometry-msgs, ros-jazzy-interactive-markers, ros-jazzy-rclcpp, ros-jazzy-robot-state-publisher, ros-jazzy-rviz2, ros-jazzy-visualization-msgs
+Filename: ./ros-jazzy-exotica-examples_6.2.0-164-g570243f-2026.11.19.15.53_amd64.deb
+Size: 440730
+MD5sum: 57c2d755a57de4e44d573f9cf8ec1a98
+SHA1: 84acb2311e0b2ac66f9b3c9f510362e888ad413c
+SHA256: 5edcf788292f299d0967930c0999f7564d1594a3f1a0a85c81c663faab6a9b36
+SHA512: 423edf3d212999e55ebdc5d87c22ea2756910d56df2cd2ab85d1e5917432539e99a6a0e8ce2f6461e48f9da39af302a296916ce11d0cf3f16fa6f4cf1fcd517b
+Homepage: https://github.com/ipab-slmc/exotica
+Description: Package containing examples and system tests for EXOTica.
+
+Package: ros-jazzy-exotica-ik-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.13
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-ik-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 3744
+Depends: ros-jazzy-exotica-ik-solver (= 6.2.0-164-g570243f-2026.11.19.15.13)
+Filename: ./ros-jazzy-exotica-ik-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.13_amd64.ddeb
+Size: 3755236
+MD5sum: 0239fb73361c8b5e6f38e63f094cbd53
+SHA1: acb891c88a2b705f0ddaebfa6618cf6d37dcae6e
+SHA256: 33484f9322e707397f870c69689e20d9cf2fff779a1d0aaad655df566abfb952
+SHA512: 46ac867b416243a648c2c1fac0a4c342a4144bb8326e756ee4ae7acd436e65c9a74d7e59cd2f129f7200e695206787b6a9d88f2296f14adafa37ef6b51db26a9
+Description: debug symbols for ros-jazzy-exotica-ik-solver
+Build-Ids: 83a8de4d17eae64a7293e9a7afbaf7ff27adcf45
+
+Package: ros-jazzy-exotica-ik-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.13
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 249
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-moveit-core, ros-jazzy-exotica-core
+Filename: ./ros-jazzy-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.15.13_amd64.deb
+Size: 78420
+MD5sum: bec892f18e9cee09b27c9cecf0c72978
+SHA1: ddd54b6453c16b3e6ab650aac866e74377abdf35
+SHA256: 1169af7b407224d72e424b0f22bc38ff5ed18c650b1031ead50475df4ea3362f
+SHA512: 27de09d44f1db0aa87e05407858deb7a570dabc0d236876e98460dd46ff688c806d6389fac493d75ec4709591122c4a8e9fc2016bcad24ce4060a261990d0400
+Homepage: https://index.ros.org/p/exotica_ik_solver/#jazzy
+Description: IK Solver for EXOTica
+
+Package: ros-jazzy-exotica-ilqg-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.44
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-ilqg-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 9789
+Depends: ros-jazzy-exotica-ilqg-solver (= 6.2.0-164-g570243f-2026.11.19.15.44)
+Filename: ./ros-jazzy-exotica-ilqg-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.44_amd64.ddeb
+Size: 9842436
+MD5sum: acd7b15a8f94e926401adffc0bd16643
+SHA1: e642d294da670227af06bf05f73b92076b7f35bd
+SHA256: 9581fbf295ed7588dc8e7900238e5cd659615f0bf61bdee7a651c81a1fb72898
+SHA512: 02a473510d33f4c23ff4a117014a3d71971e8daa783ca36960f091ba625ad121430489ec0cc77dc4d6f410bbafd6415375d6a83d3b8330bed2179d28ee12af04
+Description: debug symbols for ros-jazzy-exotica-ilqg-solver
+Build-Ids: a538b1b67bdc979c88ae080c7f5c42c1640e8195 b3f7033b776ebd4a6b33bd27c79f65fe24036b9e
+
+Package: ros-jazzy-exotica-ilqg-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.44
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 480
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 4.0), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), ros-jazzy-moveit-core, ros-jazzy-exotica-core, ros-jazzy-exotica-python
+Filename: ./ros-jazzy-exotica-ilqg-solver_6.2.0-164-g570243f-2026.11.19.15.44_amd64.deb
+Size: 166484
+MD5sum: 6355a049b3434d94cb299cbeda62ee9f
+SHA1: b7cfcc1a81fe76ddd171e774115e4661f9bbb392
+SHA256: ca6a0c55af513bbae2778bb3ede21bd63a35b33780ccc9608fa28aa6ee00c949
+SHA512: e5df5125c6d96d764331ed4d961cd9dcecdc72f32cd3fd1f392af614c5a489664676b8ff94e701d9be2903a1a370117ebef7b398c249db14640e31ee87a41f82
+Homepage: https://index.ros.org/p/exotica_ilqg_solver/#jazzy
+Description: ILQG Solver for EXOTica (Todorov and Li, 2004)
+
+Package: ros-jazzy-exotica-ilqr-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.47
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-ilqr-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 7636
+Depends: ros-jazzy-exotica-ilqr-solver (= 6.2.0-164-g570243f-2026.11.19.15.47)
+Filename: ./ros-jazzy-exotica-ilqr-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.47_amd64.ddeb
+Size: 7666170
+MD5sum: aac151092d443f6dfb9a0160651d551e
+SHA1: 336980fa6915d6e17216deff1b515e8bd73da8f9
+SHA256: 56730b50ebf49ba93b36ba0a1f27240bdf97a0869e9b5d43edb57682b704ebe9
+SHA512: 1420ed88c0abfbb5bd9742efae980ce5e210c09bebcf5c9cf5e19de22c883da6ec40e080400bafa070510c4952e9bb6b7f451e6faa9327bc881cae21f308aefa
+Description: debug symbols for ros-jazzy-exotica-ilqr-solver
+Build-Ids: 082f95d93fb1d11133644401acb07fa47fea83a0 766bbaf7c4db0275e31fc9ae5e6f4fea795f687e
+
+Package: ros-jazzy-exotica-ilqr-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.47
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 416
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), ros-jazzy-moveit-core, ros-jazzy-exotica-core, ros-jazzy-exotica-python
+Filename: ./ros-jazzy-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.15.47_amd64.deb
+Size: 139410
+MD5sum: 182aed9a5448805e5d6566c4488aef62
+SHA1: d9645f38bdba436488f3692d40f0567229e11085
+SHA256: af7f106dc18524043ec4d5d9f06a58df099d97f2884560a3199e2809aafb0e52
+SHA512: 3455896e91553df81256c1ef2771de31d8f1f09cbc1c0fa7f9f2b386bdff75fb30b658582749622ac01a8c64b8f00427a7889332f9eee095a8c269bcab7ce491
+Homepage: https://index.ros.org/p/exotica_ilqr_solver/#jazzy
+Description: ILQR Solver for EXOTica (Li and Todorov, 2004)
+
+Package: ros-jazzy-exotica-levenberg-marquardt-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.15
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-levenberg-marquardt-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 3158
+Depends: ros-jazzy-exotica-levenberg-marquardt-solver (= 6.2.0-164-g570243f-2026.11.19.15.15)
+Filename: ./ros-jazzy-exotica-levenberg-marquardt-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.15_amd64.ddeb
+Size: 3161526
+MD5sum: 3de72b8990af189f36f800fa0f281d52
+SHA1: 1bf4648bdd2602ecd582b7d55eade442fa63e66c
+SHA256: 57e3a22e6fc153213b8970416aec3449473d546c4e695752a8bbb50bbea4289a
+SHA512: b78c06f9e783666daa95bf7b605c9354ee0f6e4df68fbf3d56fe2d1e8587e3e9966edcaecc69ada5ee94661cdd3d32252032b4b9b793599d4a1d9b8c6babca97
+Description: debug symbols for ros-jazzy-exotica-levenberg-marquardt-solver
+Build-Ids: ba096777d21c02bd8db1eb3fc478e4b50fcdd2aa
+
+Package: ros-jazzy-exotica-levenberg-marquardt-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.15
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 219
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-moveit-core, ros-jazzy-exotica-core
+Filename: ./ros-jazzy-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.15.15_amd64.deb
+Size: 65912
+MD5sum: d51f10eccfe120d5c2dad04a054eda5e
+SHA1: 6b31fc11da1dbfe0cea95a51fd03ffa9ff0ca648
+SHA256: 30b1dd34e2bd481a6e5b5f867ff8286816ee98b6458455db0b63efd180740910
+SHA512: 8305bb2d97a80e5072b9ba686d9c3d2a0447ceabbafa5b8ac87420457405b8dbd553a6375c57b09aff9fc44440c910c22243b89a98297b66ec036b111bb49612
+Homepage: https://index.ros.org/p/exotica_levenberg_marquardt_solver/#jazzy
+Description: Levenberg-Marquardt Solver for EXOTica
+
+Package: ros-jazzy-exotica-ompl-control-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.17
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-ompl-control-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 3206
+Depends: ros-jazzy-exotica-ompl-control-solver (= 6.2.0-164-g570243f-2026.11.19.15.17)
+Filename: ./ros-jazzy-exotica-ompl-control-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.17_amd64.ddeb
+Size: 3185596
+MD5sum: cefcce5c62c529e905375953c7737727
+SHA1: b0ae04830bd5511ce187f63b4d8a351539feaef8
+SHA256: de6fffd27211943c1bf406c789449b3668663f24f046aed6033d05358c5e232e
+SHA512: 3ebc88093d39c9568f14b3ef0f0bafca3e0fe28500a12a6f1c31073f6df2c52cd7577acb2f43b8f9d84e70ebbd059d8d3e67a5b86ce18251255fe6ec1c422e2f
+Description: debug symbols for ros-jazzy-exotica-ompl-control-solver
+Build-Ids: 397d6ae3042f5f1dd92df95e5475c968b09f0a99
+
+Package: ros-jazzy-exotica-ompl-control-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.17
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 248
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-moveit-core, ros-jazzy-ompl, ros-jazzy-exotica-core
+Filename: ./ros-jazzy-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.15.17_amd64.deb
+Size: 59518
+MD5sum: a806f815ec54778763320319c77d0bb3
+SHA1: 801d03e80c5dd8136e7539700d2fd8cbcdbc1aba
+SHA256: 47fa789fbb06e8eee89005ae884baef5f429f451c9e3708251624d4521062387
+SHA512: 76a684a9ed6bc49a125353d250e8c47ee46283700cd388307ccffe22f204cd3feeb70b30e3ec441138f716ea96b63aff3ce65ead38bd92657a1c1cdcf08414a9
+Homepage: https://index.ros.org/p/exotica_ompl_control_solver/#jazzy
+Description: OMPL Control Solver for EXOTica
+
+Package: ros-jazzy-exotica-ompl-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.50
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-ompl-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 7941
+Depends: ros-jazzy-exotica-ompl-solver (= 6.2.0-164-g570243f-2026.11.19.15.50)
+Filename: ./ros-jazzy-exotica-ompl-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.50_amd64.ddeb
+Size: 7774138
+MD5sum: d0e549a91e1830105980d1f00afb8c9a
+SHA1: 6d8fad9960b13bfe092cd8bbe782618c0de5fda2
+SHA256: 91d6440ac5f6b383e4d306a371cf858d1270217274cf36fe4e077b4ed464f62d
+SHA512: 889c1c48fecf694f3c4a088366c2950d080d3afe4cafa9029e973f38bcb549ec7eaaee6257151c49157893c7dbc979115de6cea8f33d65b6aed9b4b690ecf79d
+Description: debug symbols for ros-jazzy-exotica-ompl-solver
+Build-Ids: 553329c13e6da2cd424e9db7d55314c18a17bdd5 9f8d183faa348597596bf067891927cbf0c64cfb
+
+Package: ros-jazzy-exotica-ompl-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.50
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 940
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), ros-jazzy-moveit-core, ros-jazzy-ompl, ros-jazzy-exotica-core, ros-jazzy-exotica-python
+Filename: ./ros-jazzy-exotica-ompl-solver_6.2.0-164-g570243f-2026.11.19.15.50_amd64.deb
+Size: 200368
+MD5sum: 402a6712acaa82c9bf2947868db44c25
+SHA1: 3472115b087573a10996f8dd566eb8e7f8779a1b
+SHA256: df334e975e21d0c1bf150970428f72883eb7e75e85a04f1f70b95a78bf8b607f
+SHA512: 8f2d0af60da2c6e80c37d7ba7034ad310800c0a338f07bd750a2f37d09ee5bc6735abdfa0f21c3708316e1478dc683b9a5e1cc27bb57a83a82276db16b11ab3b
+Homepage: https://index.ros.org/p/exotica_ompl_solver/#jazzy
+Description: OMPL Solver for EXOTica
+
+Package: ros-jazzy-exotica-pendulum-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.19
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-pendulum-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1555
+Depends: ros-jazzy-exotica-pendulum-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.15.19)
+Filename: ./ros-jazzy-exotica-pendulum-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.19_amd64.ddeb
+Size: 1535796
+MD5sum: 5bf4ced4f3da558526455e1e4702efb9
+SHA1: 0750ec4caf775262eb1ac28a2bef98dbcb46ed5a
+SHA256: 6eb7685e750dc1465688567e8bb2377ffa224c8b64170112093f61c60034f0f8
+SHA512: f0017c4ad218d3516a34de87bf13a019cee6050f43d2a721bcccf6eb35e9ccc842ba1b56ff6730d511135805b7dd5f6aebda70d4760c62996d7e867690f44a6e
+Description: debug symbols for ros-jazzy-exotica-pendulum-dynamics-solver
+Build-Ids: dcf9910ac63cfbd89adb78f2a8338ca1538bb6fc
+
+Package: ros-jazzy-exotica-pendulum-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.19
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 171
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-exotica-core, ros-jazzy-pluginlib
+Filename: ./ros-jazzy-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.19_amd64.deb
+Size: 42992
+MD5sum: 6d4987a34e503e271cd533e62a68d7ac
+SHA1: dd8c04909d166606217bdec16df810b06f5c504b
+SHA256: 6dede3ad4e1d963813afcd22f4a38245ddef07cfce779f5f76e1bf2e2975c28f
+SHA512: 7796fe8874986277c271846aa26ecbfb29caef4cd960bbadb31aee7be4b4b0cad1d1f6b84d21c9e0cb69ba8e0d636a8def322d58ba333bf7a3cd37aaae146606
+Homepage: https://index.ros.org/p/exotica_pendulum_dynamics_solver/#jazzy
+Description: Pendulum dynamics solver plug-in for Exotica
+
+Package: ros-jazzy-exotica-pinocchio-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.21
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-pinocchio-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 37710
+Depends: ros-jazzy-exotica-pinocchio-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.15.21)
+Filename: ./ros-jazzy-exotica-pinocchio-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.21_amd64.ddeb
+Size: 37594058
+MD5sum: 93ee52ccb413c483516ced4c92c4538a
+SHA1: d300c3d8285be0f2f44e69adcfb960396a3953f9
+SHA256: 15877f72c23495ea14094b6aacdccf63b7823af9117ba54031b837e9e8f86e75
+SHA512: 948fdb281ed480ea720ab57eaddaa7cf5f15e08bbdaa632f94543665ee12ae1f995a9ba6edec1ab233e8653b7a45d4f32b5ff17a94afdd1e3d285b25c23b5c24
+Description: debug symbols for ros-jazzy-exotica-pinocchio-dynamics-solver
+Build-Ids: d3a65cf37f694e3b6e3ec7adc74d0ec41ccf8fb3
+
+Package: ros-jazzy-exotica-pinocchio-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.21
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 907
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-moveit-core, ros-jazzy-pinocchio, ros-jazzy-urdfdom, ros-jazzy-exotica-core, ros-jazzy-pluginlib
+Filename: ./ros-jazzy-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.21_amd64.deb
+Size: 250488
+MD5sum: 15132e289ee8107fe464643719123e9f
+SHA1: efec844635dd08fab02acdd813dee14d8408d934
+SHA256: 8bc7a0c544f33206bed98c864b40df3222b34fdf997b177080952b93ed32ac3e
+SHA512: a587555c5ce81891996f93a2d6ff2612e554676613e5abe20a95c0fecd49c84f75901ce8d6560e354b686007beb987e9f7e884d5f0dad750613e93e687c09183
+Homepage: https://index.ros.org/p/exotica_pinocchio_dynamics_solver/#jazzy
+Description: Dynamics solver plug-in using Pinocchio for Exotica
+
+Package: ros-jazzy-exotica-python
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.25
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 2052
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-geometric-shapes, ros-jazzy-moveit-core, python3-matplotlib, python3-pyassimp, python3-tk, ros-jazzy-ament-index-cpp, ros-jazzy-exotica-core, ros-jazzy-geometry-msgs, ros-jazzy-moveit-msgs, ros-jazzy-rclcpp, ros-jazzy-shape-msgs
+Filename: ./ros-jazzy-exotica-python_6.2.0-164-g570243f-2026.11.19.15.25_amd64.deb
+Size: 569638
+MD5sum: e80356a42302dced199155c772dca346
+SHA1: ede900990375be88d0b03ce5901dd462aedca273
+SHA256: f47824869644f49b39e4263092fb8af9975e72828efcd489515e2f0283ff2bcc
+SHA512: ff18b563feea8ca44cd9d45a1130a3dfbe206e15ae3365521a8d690d9c7d06dbab15d3c5a8abc16797b8c33f8de90892143672e25bb4804ed5fe062ff1f8ce48
+Homepage: https://index.ros.org/p/exotica_python/#jazzy
+Description: Python bindings for EXOTica
+
+Package: ros-jazzy-exotica-quadrotor-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.28
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-quadrotor-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 2168
+Depends: ros-jazzy-exotica-quadrotor-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.15.28)
+Filename: ./ros-jazzy-exotica-quadrotor-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.28_amd64.ddeb
+Size: 2156718
+MD5sum: 3611dbcde2573a14ba5e357641ee37b3
+SHA1: 08dc95119b32c8d37d2f30f699f0e9afdf9c4dfb
+SHA256: e4b7bffd6c6dab1eb3f0104004f66b49b29744c723fc1f8e7f031a43e5edfd1a
+SHA512: db81ec68aefeb569bca28a4118a9d92756c18ec87e14a2c315506342fcefcc8a4e5d4430828c0cf8523d3f46ee59270174a8ef179852e1ed3b3d79add09a722b
+Description: debug symbols for ros-jazzy-exotica-quadrotor-dynamics-solver
+Build-Ids: f965f2c9fbab654bff9662bfaf364069dd5d261d
+
+Package: ros-jazzy-exotica-quadrotor-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.28
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 199
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-exotica-core, ros-jazzy-pluginlib
+Filename: ./ros-jazzy-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.28_amd64.deb
+Size: 56088
+MD5sum: c030be80231ab3f250ef5c71237a8dd1
+SHA1: 2648ffd4ff972d190f93f75371cdd5c66669f608
+SHA256: f8356a122a8db817c0ab36fd5a8714ea1902cc1b266bc59bb82caf11252d388e
+SHA512: 48285850a7d19da1a7fba232028a323ed5cb70f61e3f3150a523edf15debdf0c3b8f937438be7810212c38a6a832fcafb556c7e9a920b3e1725e6ecc22b56cbd
+Homepage: https://index.ros.org/p/exotica_quadrotor_dynamics_solver/#jazzy
+Description: Quadrotor dynamics solver plug-in for Exotica
+
+Package: ros-jazzy-exotica-scipy-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.30
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 64
+Depends: python3-numpy, python3-scipy, ros-jazzy-exotica-core
+Filename: ./ros-jazzy-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.deb
+Size: 7528
+MD5sum: 24f7e102b9634970b5851f48ce2e3fe1
+SHA1: bea73a8cbea8eb5e4a16d45478fb761572c6bf6f
+SHA256: 90125ae5a289cd4a6e7f7567993992a0070f2f8d7b0c072ba9a8b1e3d12b8599
+SHA512: 2de97c06fc8c85d94d60b28fe23ff2ee1748dd4b9b8487c8af1ebe02e95c914a0b575614f0a3cd8e3d9e564a240b1f6d2a3ea59210795324a27779b8e21affac
+Homepage: https://index.ros.org/p/exotica_scipy_solver/#jazzy
+Description: SciPy-based Python solvers for Exotica
+
+Package: ros-jazzy-exotica-time-indexed-rrt-connect-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.30
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-exotica-time-indexed-rrt-connect-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 2755
+Depends: ros-jazzy-exotica-time-indexed-rrt-connect-solver (= 6.2.0-164-g570243f-2026.11.19.15.30)
+Filename: ./ros-jazzy-exotica-time-indexed-rrt-connect-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.30_amd64.ddeb
+Size: 2700150
+MD5sum: 7f9956da44b2b76ea706a55348907e55
+SHA1: c54e4b445356ce3bd39c348a78619e5dca3ef159
+SHA256: 2e736b1cad2e6c6c6fd5b0334fe044cb38fe9c0a433bbbdf04d0fa301a2389e3
+SHA512: 7deb2c7e4bdbe7a0e27ac1ca3f0bc09823f5c29f5e36bb3fd75fcce3f9288b43217cf94de6b76d88d941d6bc269c4a73190327e30e9de8c1955c7fb4c7557f88
+Description: debug symbols for ros-jazzy-exotica-time-indexed-rrt-connect-solver
+Build-Ids: 7ce7778c621c619b6c0f04b85400e763b88c1681
+
+Package: ros-jazzy-exotica-time-indexed-rrt-connect-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.30
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 298
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-moveit-core, ros-jazzy-ompl, ros-jazzy-exotica-core
+Filename: ./ros-jazzy-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.deb
+Size: 86726
+MD5sum: 89cb2bf50892a260d9d69fe3a34d7212
+SHA1: 13ad4a0a098843a9e9e9c1eddc2ce8e07248d1e2
+SHA256: e5ed095cc04a9998ddd9d21bb226a3ec7ac21acd62b5374a8586fd65d38a9ce0
+SHA512: 13b9e3f8124745d223e4ad6a8a488429f006f78014350b599d3265d5eba3485fb676e07f324523c57ef5b2ae3a14f06bdd9394c1730250f0bada3cb696c6b5d0
+Homepage: https://index.ros.org/p/exotica_time_indexed_rrt_connect_solver/#jazzy
+Description: Time-Indexed RRT-Connect Solver for EXOTica
+
+Package: ros-jazzy-exotica
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.52
+Priority: optional
+Section: misc
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 42
+Depends: ros-jazzy-exotica-aico-solver, ros-jazzy-exotica-collision-scene-fcl-latest, ros-jazzy-exotica-core, ros-jazzy-exotica-core-task-maps, ros-jazzy-exotica-ik-solver, ros-jazzy-exotica-levenberg-marquardt-solver, ros-jazzy-exotica-ompl-solver, ros-jazzy-exotica-python, ros-jazzy-exotica-time-indexed-rrt-connect-solver
+Filename: ./ros-jazzy-exotica_6.2.0-164-g570243f-2026.11.19.15.52_amd64.deb
+Size: 6114
+MD5sum: 177ac4de229f35de74d19956069b4249
+SHA1: f67fd5ccc2192a02c2ed2e15305993438a4ce7b7
+SHA256: 24faa22b807a24284f27b572742ddda81c1c0c862c82501b7d3b350da840fa63
+SHA512: eab95ad385d6332d56c34433bd396c157d78869e3e27e4a5d789be87be0f7bcb3019c8718e20d393d1f96efc82c66184005689baf8a32f2d8ba7e20cb3ae9bbb
+Homepage: https://github.com/ipab-slmc/exotica
+Description: The Extensible Optimization Toolset (EXOTica) is a library for defining problems for robot motion planning.
+ This metapackage depends on all core EXOTica packages.
+

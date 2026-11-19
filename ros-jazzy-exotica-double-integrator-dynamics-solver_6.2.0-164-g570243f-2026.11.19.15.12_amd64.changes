@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-double-integrator-dynamics-solver
+Binary: ros-jazzy-exotica-double-integrator-dynamics-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.12
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-double-integrator-dynamics-solver - Double integrator dynamics solver plug-in for Exotica
+Changes:
+ ros-jazzy-exotica-double-integrator-dynamics-solver (6.2.0-164-g570243f-2026.11.19.15.12) noble; urgency=high
+Checksums-Sha1:
+ 7ca6aa5cb7ef0f61c15e94aab708e78718c8ad7e 1644960 ros-jazzy-exotica-double-integrator-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.12_amd64.ddeb
+ 544b85b330f006d164d443c966d9855fd802bd67 31101 ros-jazzy-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.12_amd64.buildinfo
+ 48a612f8182a90fe047f2d7be63133d0ba019d7c 43588 ros-jazzy-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.12_amd64.deb
+Checksums-Sha256:
+ d4af07ac85499a4571e359f4b8dc9100b14e38cb35677be3afbd99954e6b9577 1644960 ros-jazzy-exotica-double-integrator-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.12_amd64.ddeb
+ 2b7b5068503c31de34e1ddac3660f7ad9144c48358e8f2bf964daff684c7d7f7 31101 ros-jazzy-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.12_amd64.buildinfo
+ 60001f67ab1728c1d8bd429965d3d022891bd85b21cc6e4f67c48c2bdb9a3f8d 43588 ros-jazzy-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.12_amd64.deb
+Files:
+ eebd98047e8a92bbe90ff40d2c6b5567 1644960 debug optional ros-jazzy-exotica-double-integrator-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.12_amd64.ddeb
+ 3b765396785d5757aab7130ea817fb7c 31101 misc optional ros-jazzy-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.12_amd64.buildinfo
+ b0efd9b08d21daef069685e6b21eecc4 43588 misc optional ros-jazzy-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.12_amd64.deb

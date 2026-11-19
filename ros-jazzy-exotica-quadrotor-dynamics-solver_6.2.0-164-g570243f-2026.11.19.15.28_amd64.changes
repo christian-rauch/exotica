@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-quadrotor-dynamics-solver
+Binary: ros-jazzy-exotica-quadrotor-dynamics-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.28
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-quadrotor-dynamics-solver - Quadrotor dynamics solver plug-in for Exotica
+Changes:
+ ros-jazzy-exotica-quadrotor-dynamics-solver (6.2.0-164-g570243f-2026.11.19.15.28) noble; urgency=high
+ .
+   * Performance improvements (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * Python code improvements from static analysis
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 08dc95119b32c8d37d2f30f699f0e9afdf9c4dfb 2156718 ros-jazzy-exotica-quadrotor-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.28_amd64.ddeb
+ 21d664c3deb59f81c40dde66b2d82cb93d952160 31029 ros-jazzy-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.28_amd64.buildinfo
+ 2648ffd4ff972d190f93f75371cdd5c66669f608 56088 ros-jazzy-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.28_amd64.deb
+Checksums-Sha256:
+ e4b7bffd6c6dab1eb3f0104004f66b49b29744c723fc1f8e7f031a43e5edfd1a 2156718 ros-jazzy-exotica-quadrotor-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.28_amd64.ddeb
+ e2554022ba8bae09debdc9c0ab44d255bcddf58a0e0d3b91526265e62aae69d2 31029 ros-jazzy-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.28_amd64.buildinfo
+ f8356a122a8db817c0ab36fd5a8714ea1902cc1b266bc59bb82caf11252d388e 56088 ros-jazzy-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.28_amd64.deb
+Files:
+ 3611dbcde2573a14ba5e357641ee37b3 2156718 debug optional ros-jazzy-exotica-quadrotor-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.28_amd64.ddeb
+ 21d491f18b2aaa26575e6e5de6d28f24 31029 misc optional ros-jazzy-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.28_amd64.buildinfo
+ c030be80231ab3f250ef5c71237a8dd1 56088 misc optional ros-jazzy-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.28_amd64.deb

@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-core-task-maps
+Binary: ros-jazzy-exotica-core-task-maps
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.32
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-core-task-maps - Core task maps for EXOTica
+Changes:
+ ros-jazzy-exotica-core-task-maps (6.2.0-164-g570243f-2026.11.19.15.32) noble; urgency=high
+ .
+   * PointToPlane: Add PositiveOnly mode for use as inequality term (#744 <https://github.com/ipab-slmc/exotica/issues/744>)
+   * CoM: Change debug markers
+   * test_maps: Turn off JointVelocityLimit test
+   * SphereCollision: Remove unnecessary allocations (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 500e9ae8b08203d3adff3d78c50b3fdc477bcd29 44085316 ros-jazzy-exotica-core-task-maps-dbgsym_6.2.0-164-g570243f-2026.11.19.15.32_amd64.ddeb
+ 7dd73176624696d6efc8a9cfa9b4dcf2dfb61498 32985 ros-jazzy-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.15.32_amd64.buildinfo
+ 515c9d41dbc392fd62195e93be98f299be600f56 447616 ros-jazzy-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.15.32_amd64.deb
+Checksums-Sha256:
+ c771f3b504ece8591f9f2884ba46730d162c93dced852ebc9ba8917c9c1b3f05 44085316 ros-jazzy-exotica-core-task-maps-dbgsym_6.2.0-164-g570243f-2026.11.19.15.32_amd64.ddeb
+ 64d190ce15c26d2a47c72e072ed35af03d65669c42a2b461d9032e920d4058a8 32985 ros-jazzy-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.15.32_amd64.buildinfo
+ 192ba7cd607af89a9967b98e3d79807a10dc0775fd9ec80be98714be38377ed4 447616 ros-jazzy-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.15.32_amd64.deb
+Files:
+ 39776516ab3939e6ffa6e97aeffbff20 44085316 debug optional ros-jazzy-exotica-core-task-maps-dbgsym_6.2.0-164-g570243f-2026.11.19.15.32_amd64.ddeb
+ 50e7f18bc9e9a3cb7d3765c3b5d5860f 32985 misc optional ros-jazzy-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.15.32_amd64.buildinfo
+ c67ccc8f9555229c2a348f24afedf3a2 447616 misc optional ros-jazzy-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.15.32_amd64.deb

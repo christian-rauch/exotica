@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-levenberg-marquardt-solver
+Binary: ros-jazzy-exotica-levenberg-marquardt-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.15
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-levenberg-marquardt-solver - Levenberg-Marquardt Solver for EXOTica
+Changes:
+ ros-jazzy-exotica-levenberg-marquardt-solver (6.2.0-164-g570243f-2026.11.19.15.15) noble; urgency=high
+Checksums-Sha1:
+ 1bf4648bdd2602ecd582b7d55eade442fa63e66c 3161526 ros-jazzy-exotica-levenberg-marquardt-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.15_amd64.ddeb
+ 7d27fdf6d47cf3e48faf22d50daee778b8e62e79 31038 ros-jazzy-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.15.15_amd64.buildinfo
+ 6b31fc11da1dbfe0cea95a51fd03ffa9ff0ca648 65912 ros-jazzy-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.15.15_amd64.deb
+Checksums-Sha256:
+ 57e3a22e6fc153213b8970416aec3449473d546c4e695752a8bbb50bbea4289a 3161526 ros-jazzy-exotica-levenberg-marquardt-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.15_amd64.ddeb
+ 3b5f8f1d236c5f8fb21066b405db9bc01a3113dc76b3cd05d1bb5db998d5ba20 31038 ros-jazzy-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.15.15_amd64.buildinfo
+ 30b1dd34e2bd481a6e5b5f867ff8286816ee98b6458455db0b63efd180740910 65912 ros-jazzy-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.15.15_amd64.deb
+Files:
+ 3de72b8990af189f36f800fa0f281d52 3161526 debug optional ros-jazzy-exotica-levenberg-marquardt-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.15_amd64.ddeb
+ a2234f3acaa5fcf7cac51a466c64de30 31038 misc optional ros-jazzy-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.15.15_amd64.buildinfo
+ d51f10eccfe120d5c2dad04a054eda5e 65912 misc optional ros-jazzy-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.15.15_amd64.deb

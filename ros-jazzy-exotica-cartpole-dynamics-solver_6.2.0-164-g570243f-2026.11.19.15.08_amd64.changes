@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-cartpole-dynamics-solver
+Binary: ros-jazzy-exotica-cartpole-dynamics-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.08
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-cartpole-dynamics-solver - Cartpole dynamics solver plug-in for Exotica
+Changes:
+ ros-jazzy-exotica-cartpole-dynamics-solver (6.2.0-164-g570243f-2026.11.19.15.08) noble; urgency=high
+ .
+   * Python code improvements from static analysis
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 0b75cb6175684fcf1182b8f9610d42225f71d320 1526212 ros-jazzy-exotica-cartpole-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.08_amd64.ddeb
+ c57e36eecbc16d732e584d2ded47564273d833a0 31020 ros-jazzy-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.08_amd64.buildinfo
+ 050b407b3403c1e59907d37cbb720c8f5f2acbbd 45294 ros-jazzy-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.08_amd64.deb
+Checksums-Sha256:
+ 5767fe4bce7c0eeaa3942935c17801a830eeeff48f8cd663a79e92f2381e2fa8 1526212 ros-jazzy-exotica-cartpole-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.08_amd64.ddeb
+ 5bc0e61c9da3e1a1c083c033ffee5eba17fb2394773c6f59672e5f13d5dac763 31020 ros-jazzy-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.08_amd64.buildinfo
+ 684c5b6b3b31029af0b17fd9525234ff5e425555452a056e2245044908e63f0d 45294 ros-jazzy-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.08_amd64.deb
+Files:
+ e92a9a4994292bccfb01302b2c11ce39 1526212 debug optional ros-jazzy-exotica-cartpole-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.08_amd64.ddeb
+ bc82284abf120095e2187f9d0ae070f4 31020 misc optional ros-jazzy-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.08_amd64.buildinfo
+ 3b04a12e1ab9f8987c4845ca06b739ed 45294 misc optional ros-jazzy-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.08_amd64.deb

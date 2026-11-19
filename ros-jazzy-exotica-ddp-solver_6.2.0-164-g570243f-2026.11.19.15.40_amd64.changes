@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-ddp-solver
+Binary: ros-jazzy-exotica-ddp-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.40
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-ddp-solver - DDP Solvers for EXOTica (Analytic, Control-Limited, Feasibility-D
+Changes:
+ ros-jazzy-exotica-ddp-solver (6.2.0-164-g570243f-2026.11.19.15.40) noble; urgency=high
+ .
+   * Performance improvements (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * FDDP: Fix allocation
+   * Use in-place StateDelta
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 25b1ad7369f3148cf299bdd9bd7adc31976ff06b 15491052 ros-jazzy-exotica-ddp-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.40_amd64.ddeb
+ 818c98566958746e1cc42f76023c436acf8119f6 32949 ros-jazzy-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.15.40_amd64.buildinfo
+ 00d7c737bb30e6918d627aa8066edb7de46e4a33 230914 ros-jazzy-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.15.40_amd64.deb
+Checksums-Sha256:
+ 3c417028963a90bf6f6b3521519e05780068e3c5d7bb43ff1238df7b9e1ea9d6 15491052 ros-jazzy-exotica-ddp-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.40_amd64.ddeb
+ 46753263b182560218d29d70e19b0ea31a4b0006d5da9dd5672791a3328b81fa 32949 ros-jazzy-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.15.40_amd64.buildinfo
+ 76dd8132239e663b5c90e953925933863cf56ecc3fa92f1603efe9d3f7ab82f8 230914 ros-jazzy-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.15.40_amd64.deb
+Files:
+ 9fadd088a049cc2d174fe8a9751b4cdf 15491052 debug optional ros-jazzy-exotica-ddp-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.40_amd64.ddeb
+ 7c7ba9f4645748dfd234117e15d6cdb5 32949 misc optional ros-jazzy-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.15.40_amd64.buildinfo
+ 5acb32e4e3c51854f1c5e795d741b413 230914 misc optional ros-jazzy-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.15.40_amd64.deb

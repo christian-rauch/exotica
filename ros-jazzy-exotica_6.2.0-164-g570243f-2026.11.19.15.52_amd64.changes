@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica
+Binary: ros-jazzy-exotica
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.52
+Distribution: noble
+Urgency: high
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Changed-By: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Description:
+ ros-jazzy-exotica - The Extensible Optimization Toolset (EXOTica) is a library for de
+Changes:
+ ros-jazzy-exotica (6.2.0-164-g570243f-2026.11.19.15.52) noble; urgency=high
+ .
+   * Replace dead link
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ ffc713e7a06f6e1fced8d8b40e7ec6fa0fd1da43 9558 ros-jazzy-exotica_6.2.0-164-g570243f-2026.11.19.15.52_amd64.buildinfo
+ f67fd5ccc2192a02c2ed2e15305993438a4ce7b7 6114 ros-jazzy-exotica_6.2.0-164-g570243f-2026.11.19.15.52_amd64.deb
+Checksums-Sha256:
+ 9fef1ed4c971105dbe14f554495edf2d75c6982802e1ff2bbc047f36031c4c31 9558 ros-jazzy-exotica_6.2.0-164-g570243f-2026.11.19.15.52_amd64.buildinfo
+ 24faa22b807a24284f27b572742ddda81c1c0c862c82501b7d3b350da840fa63 6114 ros-jazzy-exotica_6.2.0-164-g570243f-2026.11.19.15.52_amd64.deb
+Files:
+ 9f30cc41f76d369b521c30f25b9ba35c 9558 misc optional ros-jazzy-exotica_6.2.0-164-g570243f-2026.11.19.15.52_amd64.buildinfo
+ 177ac4de229f35de74d19956069b4249 6114 misc optional ros-jazzy-exotica_6.2.0-164-g570243f-2026.11.19.15.52_amd64.deb

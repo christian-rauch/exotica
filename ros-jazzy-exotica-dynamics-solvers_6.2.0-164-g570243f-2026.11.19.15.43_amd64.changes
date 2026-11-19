@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-dynamics-solvers
+Binary: ros-jazzy-exotica-dynamics-solvers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.43
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-dynamics-solvers - Metapackage for all dynamics solvers bundled with core EXOTica.
+Changes:
+ ros-jazzy-exotica-dynamics-solvers (6.2.0-164-g570243f-2026.11.19.15.43) noble; urgency=high
+Checksums-Sha1:
+ 4bda4bbe1012b22d649318cfea19292da040c23a 9643 ros-jazzy-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.15.43_amd64.buildinfo
+ 7d670e4f92438826a4482ea7b195229d5d4a76e3 5232 ros-jazzy-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.15.43_amd64.deb
+Checksums-Sha256:
+ e2701a40eba31036d08a5ff97cdd4606e71a766e6d0ff5272161853e684ce8f9 9643 ros-jazzy-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.15.43_amd64.buildinfo
+ 5a9c6559aa695770161c1f5b31c06a17ff7958f052624353f0c1e0147a0cb78b 5232 ros-jazzy-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.15.43_amd64.deb
+Files:
+ 27d867871e45880fd4198516f29de8de 9643 misc optional ros-jazzy-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.15.43_amd64.buildinfo
+ b73f6adafebf1bed208804956300fe31 5232 misc optional ros-jazzy-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.15.43_amd64.deb

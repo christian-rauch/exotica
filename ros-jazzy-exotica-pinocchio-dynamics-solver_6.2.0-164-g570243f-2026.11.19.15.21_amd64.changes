@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-pinocchio-dynamics-solver
+Binary: ros-jazzy-exotica-pinocchio-dynamics-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.21
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-pinocchio-dynamics-solver - Dynamics solver plug-in using Pinocchio for Exotica
+Changes:
+ ros-jazzy-exotica-pinocchio-dynamics-solver (6.2.0-164-g570243f-2026.11.19.15.21) noble; urgency=high
+ .
+   * Use clang for Pinocchio dynamics solver (#746 <https://github.com/ipab-slmc/exotica/issues/746>)
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ d300c3d8285be0f2f44e69adcfb960396a3953f9 37594058 ros-jazzy-exotica-pinocchio-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.21_amd64.ddeb
+ 79f522bd76c0ab7f6028213c164e55c3a3c3dd86 31358 ros-jazzy-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.21_amd64.buildinfo
+ efec844635dd08fab02acdd813dee14d8408d934 250488 ros-jazzy-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.21_amd64.deb
+Checksums-Sha256:
+ 15877f72c23495ea14094b6aacdccf63b7823af9117ba54031b837e9e8f86e75 37594058 ros-jazzy-exotica-pinocchio-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.21_amd64.ddeb
+ 62f0d95ee27180ecfbdbdeb59df66d1be40bdb3ee641855e5336d98fca2c923d 31358 ros-jazzy-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.21_amd64.buildinfo
+ 8bc7a0c544f33206bed98c864b40df3222b34fdf997b177080952b93ed32ac3e 250488 ros-jazzy-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.21_amd64.deb
+Files:
+ 93ee52ccb413c483516ced4c92c4538a 37594058 debug optional ros-jazzy-exotica-pinocchio-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.21_amd64.ddeb
+ 39d6d3f7a1120bfc86e3c7dcb146dc52 31358 misc optional ros-jazzy-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.21_amd64.buildinfo
+ 15132e289ee8107fe464643719123e9f 250488 misc optional ros-jazzy-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.15.21_amd64.deb

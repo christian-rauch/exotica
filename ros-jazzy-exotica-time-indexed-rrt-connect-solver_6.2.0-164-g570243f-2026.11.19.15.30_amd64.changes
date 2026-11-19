@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-time-indexed-rrt-connect-solver
+Binary: ros-jazzy-exotica-time-indexed-rrt-connect-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.30
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-time-indexed-rrt-connect-solver - Time-Indexed RRT-Connect Solver for EXOTica
+Changes:
+ ros-jazzy-exotica-time-indexed-rrt-connect-solver (6.2.0-164-g570243f-2026.11.19.15.30) noble; urgency=high
+Checksums-Sha1:
+ c54e4b445356ce3bd39c348a78619e5dca3ef159 2700150 ros-jazzy-exotica-time-indexed-rrt-connect-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.30_amd64.ddeb
+ a2b308a0b29662119ce49f037b27bc9caccd0488 31961 ros-jazzy-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.buildinfo
+ 13ad4a0a098843a9e9e9c1eddc2ce8e07248d1e2 86726 ros-jazzy-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.deb
+Checksums-Sha256:
+ 2e736b1cad2e6c6c6fd5b0334fe044cb38fe9c0a433bbbdf04d0fa301a2389e3 2700150 ros-jazzy-exotica-time-indexed-rrt-connect-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.30_amd64.ddeb
+ 0903be5f50ba6b2fd68f8cc3e22ce3f74174da805573553455c25688aaff5db4 31961 ros-jazzy-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.buildinfo
+ e5ed095cc04a9998ddd9d21bb226a3ec7ac21acd62b5374a8586fd65d38a9ce0 86726 ros-jazzy-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.deb
+Files:
+ 7f9956da44b2b76ea706a55348907e55 2700150 debug optional ros-jazzy-exotica-time-indexed-rrt-connect-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.30_amd64.ddeb
+ a73ef5766ab289e1c3adb6873828c922 31961 misc optional ros-jazzy-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.buildinfo
+ 89cb2bf50892a260d9d69fe3a34d7212 86726 misc optional ros-jazzy-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.deb

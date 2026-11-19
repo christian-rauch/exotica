@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-examples
+Binary: ros-jazzy-exotica-examples
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.53
+Distribution: noble
+Urgency: high
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Changed-By: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Description:
+ ros-jazzy-exotica-examples - Package containing examples and system tests for EXOTica.
+Changes:
+ ros-jazzy-exotica-examples (6.2.0-164-g570243f-2026.11.19.15.53) noble; urgency=high
+ .
+   * Fix example_shapes
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 9e1a97c2896f3db5a2a6d85bd1c76294e6ec874b 18019974 ros-jazzy-exotica-examples-dbgsym_6.2.0-164-g570243f-2026.11.19.15.53_amd64.ddeb
+ cc248b941b04dcd5614c70abcf077a8ceea0a05b 33148 ros-jazzy-exotica-examples_6.2.0-164-g570243f-2026.11.19.15.53_amd64.buildinfo
+ 84acb2311e0b2ac66f9b3c9f510362e888ad413c 440730 ros-jazzy-exotica-examples_6.2.0-164-g570243f-2026.11.19.15.53_amd64.deb
+Checksums-Sha256:
+ 9b4349bfcf187c0fb2b2e2beca73bde6ff4d708fcca05c1bdbd047bf815530b8 18019974 ros-jazzy-exotica-examples-dbgsym_6.2.0-164-g570243f-2026.11.19.15.53_amd64.ddeb
+ 900b66a24d88f62d2328e56d4458fa70ab46f23d1065731c724495f133910c65 33148 ros-jazzy-exotica-examples_6.2.0-164-g570243f-2026.11.19.15.53_amd64.buildinfo
+ 5edcf788292f299d0967930c0999f7564d1594a3f1a0a85c81c663faab6a9b36 440730 ros-jazzy-exotica-examples_6.2.0-164-g570243f-2026.11.19.15.53_amd64.deb
+Files:
+ 7f2ce6ebb418e190bf282b6c7bfc4aef 18019974 debug optional ros-jazzy-exotica-examples-dbgsym_6.2.0-164-g570243f-2026.11.19.15.53_amd64.ddeb
+ 5cd454dfa7b623d9ffa519dc0c54f66a 33148 misc optional ros-jazzy-exotica-examples_6.2.0-164-g570243f-2026.11.19.15.53_amd64.buildinfo
+ 57c2d755a57de4e44d573f9cf8ec1a98 440730 misc optional ros-jazzy-exotica-examples_6.2.0-164-g570243f-2026.11.19.15.53_amd64.deb

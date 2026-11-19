@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-scipy-solver
+Binary: ros-jazzy-exotica-scipy-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.30
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-scipy-solver - SciPy-based Python solvers for Exotica
+Changes:
+ ros-jazzy-exotica-scipy-solver (6.2.0-164-g570243f-2026.11.19.15.30) noble; urgency=high
+ .
+   * Code improvements
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 331ece8b0b08148f874830babf8d163390781f14 9623 ros-jazzy-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.buildinfo
+ bea73a8cbea8eb5e4a16d45478fb761572c6bf6f 7528 ros-jazzy-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.deb
+Checksums-Sha256:
+ e6c0ef1b33a2d7aaedb1795ba9c70d9a9bf93f4e11193e29ebb88776c345be69 9623 ros-jazzy-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.buildinfo
+ 90125ae5a289cd4a6e7f7567993992a0070f2f8d7b0c072ba9a8b1e3d12b8599 7528 ros-jazzy-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.deb
+Files:
+ 2edd9028aa3bdf6d2d55ad3db0e4aca9 9623 misc optional ros-jazzy-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.buildinfo
+ 24f7e102b9634970b5851f48ce2e3fe1 7528 misc optional ros-jazzy-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.15.30_amd64.deb

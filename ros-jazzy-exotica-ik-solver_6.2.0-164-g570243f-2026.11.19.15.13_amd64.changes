@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-ik-solver
+Binary: ros-jazzy-exotica-ik-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.13
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-ik-solver - IK Solver for EXOTica
+Changes:
+ ros-jazzy-exotica-ik-solver (6.2.0-164-g570243f-2026.11.19.15.13) noble; urgency=high
+Checksums-Sha1:
+ acb891c88a2b705f0ddaebfa6618cf6d37dcae6e 3755236 ros-jazzy-exotica-ik-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.13_amd64.ddeb
+ 28d5dfab2b2ef9bb52b1ffcb8c6fb2d7dff670bd 30885 ros-jazzy-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.15.13_amd64.buildinfo
+ ddd54b6453c16b3e6ab650aac866e74377abdf35 78420 ros-jazzy-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.15.13_amd64.deb
+Checksums-Sha256:
+ 33484f9322e707397f870c69689e20d9cf2fff779a1d0aaad655df566abfb952 3755236 ros-jazzy-exotica-ik-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.13_amd64.ddeb
+ 51d3eca15a8d0e7594e58f8440651950e0cd4663bfcf9bc8e33ff99f23336a53 30885 ros-jazzy-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.15.13_amd64.buildinfo
+ 1169af7b407224d72e424b0f22bc38ff5ed18c650b1031ead50475df4ea3362f 78420 ros-jazzy-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.15.13_amd64.deb
+Files:
+ 0239fb73361c8b5e6f38e63f094cbd53 3755236 debug optional ros-jazzy-exotica-ik-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.13_amd64.ddeb
+ 1935eab75457cdcb136aa0c114cce35b 30885 misc optional ros-jazzy-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.15.13_amd64.buildinfo
+ bec892f18e9cee09b27c9cecf0c72978 78420 misc optional ros-jazzy-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.15.13_amd64.deb

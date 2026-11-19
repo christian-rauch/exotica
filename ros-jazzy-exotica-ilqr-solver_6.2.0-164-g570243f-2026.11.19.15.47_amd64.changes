@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-ilqr-solver
+Binary: ros-jazzy-exotica-ilqr-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.47
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-ilqr-solver - ILQR Solver for EXOTica (Li and Todorov, 2004)
+Changes:
+ ros-jazzy-exotica-ilqr-solver (6.2.0-164-g570243f-2026.11.19.15.47) noble; urgency=high
+Checksums-Sha1:
+ 336980fa6915d6e17216deff1b515e8bd73da8f9 7666170 ros-jazzy-exotica-ilqr-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.47_amd64.ddeb
+ 6564d6a295afef789a4dd97bfa679604c1b8d2e2 32955 ros-jazzy-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.15.47_amd64.buildinfo
+ d9645f38bdba436488f3692d40f0567229e11085 139410 ros-jazzy-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.15.47_amd64.deb
+Checksums-Sha256:
+ 56730b50ebf49ba93b36ba0a1f27240bdf97a0869e9b5d43edb57682b704ebe9 7666170 ros-jazzy-exotica-ilqr-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.47_amd64.ddeb
+ 89ecb3f5031ed136d857604ea10430e2d0b738814460e6526fbd1d728b692dde 32955 ros-jazzy-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.15.47_amd64.buildinfo
+ af7f106dc18524043ec4d5d9f06a58df099d97f2884560a3199e2809aafb0e52 139410 ros-jazzy-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.15.47_amd64.deb
+Files:
+ aac151092d443f6dfb9a0160651d551e 7666170 debug optional ros-jazzy-exotica-ilqr-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.47_amd64.ddeb
+ 950e5c0d0c9f292b6af609d37f2292a9 32955 misc optional ros-jazzy-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.15.47_amd64.buildinfo
+ 182aed9a5448805e5d6566c4488aef62 139410 misc optional ros-jazzy-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.15.47_amd64.deb

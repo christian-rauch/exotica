@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-core
+Binary: ros-jazzy-exotica-core
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.00
+Distribution: noble
+Urgency: high
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Changed-By: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Description:
+ ros-jazzy-exotica-core - EXOTica core library
+Changes:
+ ros-jazzy-exotica-core (6.2.0-164-g570243f-2026.11.19.15.00) noble; urgency=high
+ .
+   * Add EndPoseTask::GetTaskJacobian
+   * Fix build issues with Eigen 3.3.9; enable compilation of exotica_core on Conda (#740 <https://github.com/ipab-slmc/exotica/issues/740>)
+   * Performance improvements (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * DynamicTimeIndexedShootingProblem: Allocation-free control cost computation
+   * DynamicsSolver: dStateDelta and ddStateDelta return previously allocated transition derivative
+   * DynamicsSolver: Add in-place StateDelta
+   * Fix installation directives for cmake directory
+   * Deactivate Boost bind warnings arising from ROS messages
+   * Update minimum CMake version for add_initializer.cmake
+   * XMLLoader: Fix for #737 <https://github.com/ipab-slmc/exotica/issues/737>
+   * Scene: Fix uninitialised quaternion
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ cf298e8d720d00f36113a9138a560d8d6865ae9c 38209356 ros-jazzy-exotica-core-dbgsym_6.2.0-164-g570243f-2026.11.19.15.00_amd64.ddeb
+ 40475e6b1cd038fcb5d1dee8ed91e65b1b831def 30781 ros-jazzy-exotica-core_6.2.0-164-g570243f-2026.11.19.15.00_amd64.buildinfo
+ d1055d70cfdd7ca528dc720395b21c4074f72be0 708522 ros-jazzy-exotica-core_6.2.0-164-g570243f-2026.11.19.15.00_amd64.deb
+Checksums-Sha256:
+ 685265e656c0dc8ac34d5a908fdebde35f7f932b98f3ac7df4dc5e86f566944d 38209356 ros-jazzy-exotica-core-dbgsym_6.2.0-164-g570243f-2026.11.19.15.00_amd64.ddeb
+ d59b730f83a6b31bc2a306f621d5145eebbd49d56de8fd04d5121642bad5c66f 30781 ros-jazzy-exotica-core_6.2.0-164-g570243f-2026.11.19.15.00_amd64.buildinfo
+ 21417e29c8b41e3f33b3134817fa54fa66a2ee626c1c864b948a201c73faa591 708522 ros-jazzy-exotica-core_6.2.0-164-g570243f-2026.11.19.15.00_amd64.deb
+Files:
+ 4c09354898336cd3a57bf395e420356d 38209356 debug optional ros-jazzy-exotica-core-dbgsym_6.2.0-164-g570243f-2026.11.19.15.00_amd64.ddeb
+ 8588dabc330e0901889736e7014c8dd6 30781 misc optional ros-jazzy-exotica-core_6.2.0-164-g570243f-2026.11.19.15.00_amd64.buildinfo
+ fe00d3ecd702614c9286be1e141b658e 708522 misc optional ros-jazzy-exotica-core_6.2.0-164-g570243f-2026.11.19.15.00_amd64.deb

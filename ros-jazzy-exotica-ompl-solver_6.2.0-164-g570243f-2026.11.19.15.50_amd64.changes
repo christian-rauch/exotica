@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-jazzy-exotica-ompl-solver
+Binary: ros-jazzy-exotica-ompl-solver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.15.50
+Distribution: noble
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-jazzy-exotica-ompl-solver - OMPL Solver for EXOTica
+Changes:
+ ros-jazzy-exotica-ompl-solver (6.2.0-164-g570243f-2026.11.19.15.50) noble; urgency=high
+Checksums-Sha1:
+ 6d8fad9960b13bfe092cd8bbe782618c0de5fda2 7774138 ros-jazzy-exotica-ompl-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.50_amd64.ddeb
+ 72bbc29476303e65638781792880b0c70f4e5635 33769 ros-jazzy-exotica-ompl-solver_6.2.0-164-g570243f-2026.11.19.15.50_amd64.buildinfo
+ 3472115b087573a10996f8dd566eb8e7f8779a1b 200368 ros-jazzy-exotica-ompl-solver_6.2.0-164-g570243f-2026.11.19.15.50_amd64.deb
+Checksums-Sha256:
+ 91d6440ac5f6b383e4d306a371cf858d1270217274cf36fe4e077b4ed464f62d 7774138 ros-jazzy-exotica-ompl-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.50_amd64.ddeb
+ b8d06a6cb8d7562c1f84834c431bb904da8c91e69a74dc0d12527c11b856baad 33769 ros-jazzy-exotica-ompl-solver_6.2.0-164-g570243f-2026.11.19.15.50_amd64.buildinfo
+ df334e975e21d0c1bf150970428f72883eb7e75e85a04f1f70b95a78bf8b607f 200368 ros-jazzy-exotica-ompl-solver_6.2.0-164-g570243f-2026.11.19.15.50_amd64.deb
+Files:
+ d0e549a91e1830105980d1f00afb8c9a 7774138 debug optional ros-jazzy-exotica-ompl-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.15.50_amd64.ddeb
+ 66700e466549e2c5cb44a7c1bfd4fc7a 33769 misc optional ros-jazzy-exotica-ompl-solver_6.2.0-164-g570243f-2026.11.19.15.50_amd64.buildinfo
+ 402a6712acaa82c9bf2947868db44c25 200368 misc optional ros-jazzy-exotica-ompl-solver_6.2.0-164-g570243f-2026.11.19.15.50_amd64.deb
