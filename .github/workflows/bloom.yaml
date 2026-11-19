@@ -1,0 +1,32 @@
+name: Bloom Debian Package
+
+on:
+  push:
+    branches:
+      bloom
+    paths-ignore:
+      - "README.md"
+  pull_request:
+    branches:
+      bloom
+    paths-ignore:
+      - "README.md"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {ros: humble,   deb: jammy}
+          - {ros: jazzy,    deb: noble}
+          - {ros: lyrical,  deb: resolute}
+
+    steps:
+      - uses: jspricke/ros-deb-builder-action@main
+        with:
+          DEB_DISTRO: ${{ matrix.deb }}
+          ROS_DISTRO: ${{ matrix.ros }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SQUASH_HISTORY: true
