@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-pinocchio-dynamics-solver
+Binary: ros-lyrical-exotica-pinocchio-dynamics-solver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.24
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-pinocchio-dynamics-solver - Dynamics solver plug-in using Pinocchio for Exotica
+Changes:
+ ros-lyrical-exotica-pinocchio-dynamics-solver (6.2.0-164-g570243f-2026.11.19.14.24) resolute; urgency=high
+ .
+   * Use clang for Pinocchio dynamics solver (#746 <https://github.com/ipab-slmc/exotica/issues/746>)
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ e641cd96cd13b38f0da1556b0aded930893bbc20 38248852 ros-lyrical-exotica-pinocchio-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.24_amd64.ddeb
+ 915f15e01863a759fe3e2a518bce391fae503ab2 31825 ros-lyrical-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.24_amd64.buildinfo
+ 6dc88fe1ceefb7c4197745da121887342f7bbbb3 244132 ros-lyrical-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.24_amd64.deb
+Checksums-Sha256:
+ d1a3ac28ba427cd6f3bedba3ef3628ff57f07f40c4bb09a71bf7a3d230b63c96 38248852 ros-lyrical-exotica-pinocchio-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.24_amd64.ddeb
+ ca3f976b81fee65d9503993ce76d203413209d0c943402ad7cf87d06a06ca810 31825 ros-lyrical-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.24_amd64.buildinfo
+ dd0ef75ed856a7bfae65e5d5af50d5242ba8d0873a40dd437fbb7b8370453f90 244132 ros-lyrical-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.24_amd64.deb
+Files:
+ 36d7ee0ae6afa985c169e1b140033fe2 38248852 debug optional ros-lyrical-exotica-pinocchio-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.24_amd64.ddeb
+ 3bb32e002dd2fc61111f0882859a9936 31825 misc optional ros-lyrical-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.24_amd64.buildinfo
+ 700bd6aca3d3c6d1173cf7a564c92076 244132 misc optional ros-lyrical-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.24_amd64.deb

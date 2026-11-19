@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-ddp-solver
+Binary: ros-lyrical-exotica-ddp-solver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.41
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-ddp-solver - DDP Solvers for EXOTica (Analytic, Control-Limited, Feasibility-D
+Changes:
+ ros-lyrical-exotica-ddp-solver (6.2.0-164-g570243f-2026.11.19.14.41) resolute; urgency=high
+ .
+   * Performance improvements (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * FDDP: Fix allocation
+   * Use in-place StateDelta
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 3dd290a474aaa0b39d3fe433f4f29bbeb362c054 14909550 ros-lyrical-exotica-ddp-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.41_amd64.ddeb
+ 65f037b9d434a0409036424ad76cb5ed08fcd4b1 27756 ros-lyrical-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.41_amd64.buildinfo
+ 7a0b68535a83cc96af87ce291262d29d60007f65 260132 ros-lyrical-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.41_amd64.deb
+Checksums-Sha256:
+ ceefcb45344e459979be8ae9afda4c985a14876b69d6098171ceb1a0061b3e62 14909550 ros-lyrical-exotica-ddp-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.41_amd64.ddeb
+ 4cb493536e712e913a90e2d8c88c8f44e86c3881ce4a3d0c6ba293f51398c9d9 27756 ros-lyrical-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.41_amd64.buildinfo
+ 5c21ec48cb08fbfa2380ac8d14ebef1c327e5c276257c87a45d18613adde5d09 260132 ros-lyrical-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.41_amd64.deb
+Files:
+ 644072f3246b06e9d57b67edc066f9fa 14909550 debug optional ros-lyrical-exotica-ddp-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.41_amd64.ddeb
+ f6be00c3894e9ba284e993e142261073 27756 misc optional ros-lyrical-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.41_amd64.buildinfo
+ 43651a1dd78cecf39f6b37ab7e0355e4 260132 misc optional ros-lyrical-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.41_amd64.deb

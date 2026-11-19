@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-ik-solver
+Binary: ros-lyrical-exotica-ik-solver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.17
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-ik-solver - IK Solver for EXOTica
+Changes:
+ ros-lyrical-exotica-ik-solver (6.2.0-164-g570243f-2026.11.19.14.17) resolute; urgency=high
+Checksums-Sha1:
+ 156fdd505121889be718cbadb9d0a4529205dcde 3757914 ros-lyrical-exotica-ik-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.17_amd64.ddeb
+ 0bf02062a40750c57a74f9e9c215080e69bc0003 25606 ros-lyrical-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.17_amd64.buildinfo
+ 2cf49b8c82b7f17f1c7d4fe1405526d952dd72af 81840 ros-lyrical-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.17_amd64.deb
+Checksums-Sha256:
+ b68217ba722763a31481fe4a5e9bbd96ad4c574055e9d9825f2a9dbc813f5ef6 3757914 ros-lyrical-exotica-ik-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.17_amd64.ddeb
+ 55897775db08b594bee38b29f6db533427602d9080481d1afbed054cd4abccae 25606 ros-lyrical-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.17_amd64.buildinfo
+ 622dd0fc220c29499bd57ac01c40d954ba928409ddbec8000d00f091e3764075 81840 ros-lyrical-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.17_amd64.deb
+Files:
+ 989f6cf6af5b560f5083861887e274e0 3757914 debug optional ros-lyrical-exotica-ik-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.17_amd64.ddeb
+ 82275bad75d7763f48baa719f435da7d 25606 misc optional ros-lyrical-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.17_amd64.buildinfo
+ a0cffeb80e4ac55d45bc1e4ece27330c 81840 misc optional ros-lyrical-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.17_amd64.deb

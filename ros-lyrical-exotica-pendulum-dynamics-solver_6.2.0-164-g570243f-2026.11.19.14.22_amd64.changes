@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-pendulum-dynamics-solver
+Binary: ros-lyrical-exotica-pendulum-dynamics-solver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.22
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-pendulum-dynamics-solver - Pendulum dynamics solver plug-in for Exotica
+Changes:
+ ros-lyrical-exotica-pendulum-dynamics-solver (6.2.0-164-g570243f-2026.11.19.14.22) resolute; urgency=high
+ .
+   * Python code improvements from static analysis
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ c94e90ea50bf131132808e806154da3090d1b23c 1547978 ros-lyrical-exotica-pendulum-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.22_amd64.ddeb
+ 622190cfac179094f5ccdac6982b9e3ae98128c5 25741 ros-lyrical-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.22_amd64.buildinfo
+ 48cb639ac5638e374bc668cfb96d52c214a1d744 45362 ros-lyrical-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.22_amd64.deb
+Checksums-Sha256:
+ 9c6e9c8613f524b99e3ab9b32ef11d97faae39582066912d886df41737f8f04d 1547978 ros-lyrical-exotica-pendulum-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.22_amd64.ddeb
+ 7bb0908e0d8d35183064796b8f971ca631274f9616c2cae8cafcdd9d612c6ea9 25741 ros-lyrical-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.22_amd64.buildinfo
+ eb1a229b634b719f697904346018c5d8223afb0d3f28ac7cadccdc2f1ee8d8f7 45362 ros-lyrical-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.22_amd64.deb
+Files:
+ 4ccea9719a17acbcfc384d132e1388e1 1547978 debug optional ros-lyrical-exotica-pendulum-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.22_amd64.ddeb
+ 777ef0e4c73a6727d6211d4abb8b767a 25741 misc optional ros-lyrical-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.22_amd64.buildinfo
+ a6cfc1ee0e9e3f03a150879cee233635 45362 misc optional ros-lyrical-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.22_amd64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-dynamics-solvers
+Binary: ros-lyrical-exotica-dynamics-solvers
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.44
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-dynamics-solvers - Metapackage for all dynamics solvers bundled with core EXOTica.
+Changes:
+ ros-lyrical-exotica-dynamics-solvers (6.2.0-164-g570243f-2026.11.19.14.44) resolute; urgency=high
+Checksums-Sha1:
+ 504797e233ea19c6af07aed15ecd553cd138da1c 9471 ros-lyrical-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.44_amd64.buildinfo
+ dc72e61fe5dad10b6427415ffbf69fc5c0279d5d 5510 ros-lyrical-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.44_amd64.deb
+Checksums-Sha256:
+ 990d482f1a58aa22ea90f9a2f59215287691bb816829edff166bd83e0a98f3cb 9471 ros-lyrical-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.44_amd64.buildinfo
+ 098e2a551752bd5fa00ccd6f11efd657c86167277ca8b5e2d18d2a1d87b20fbb 5510 ros-lyrical-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.44_amd64.deb
+Files:
+ 8b52263446a5af1ef359f33c8b7baba8 9471 misc optional ros-lyrical-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.44_amd64.buildinfo
+ 429f95d8b67083bb109e97216f94e19c 5510 misc optional ros-lyrical-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.44_amd64.deb

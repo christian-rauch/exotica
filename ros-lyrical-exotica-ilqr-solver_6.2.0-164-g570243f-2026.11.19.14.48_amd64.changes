@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-ilqr-solver
+Binary: ros-lyrical-exotica-ilqr-solver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.48
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-ilqr-solver - ILQR Solver for EXOTica (Li and Todorov, 2004)
+Changes:
+ ros-lyrical-exotica-ilqr-solver (6.2.0-164-g570243f-2026.11.19.14.48) resolute; urgency=high
+Checksums-Sha1:
+ ba02f93f65e62f8b16057aea789683365b22e561 7479494 ros-lyrical-exotica-ilqr-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.48_amd64.ddeb
+ ab343b1c85a1c0c1814e67ca7ace825730fa8b20 27762 ros-lyrical-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.48_amd64.buildinfo
+ b181fe6c186141d2a5449dc9ffd1d17165d00ec1 158190 ros-lyrical-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.48_amd64.deb
+Checksums-Sha256:
+ 214c0d578d195ace79468f0145a02b528d219a1ce4b30eb2492a042936fd1359 7479494 ros-lyrical-exotica-ilqr-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.48_amd64.ddeb
+ f0989f8698128512c34a15a86fc57cd0e24031353443e868845e2c91652d4d12 27762 ros-lyrical-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.48_amd64.buildinfo
+ bf4bd8a473240d63ff875c97b90c71eac4ff44d3d4c5df1e90f4f60952b43ff1 158190 ros-lyrical-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.48_amd64.deb
+Files:
+ c37ab800b10e15cd777f55eb53161b18 7479494 debug optional ros-lyrical-exotica-ilqr-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.48_amd64.ddeb
+ 76afac41c6f67d7a6a5cfe0d272a6524 27762 misc optional ros-lyrical-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.48_amd64.buildinfo
+ 060aaeab74ec5a49c4f6ac6699f0c397 158190 misc optional ros-lyrical-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.48_amd64.deb

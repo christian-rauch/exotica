@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-time-indexed-rrt-connect-solver
+Binary: ros-lyrical-exotica-time-indexed-rrt-connect-solver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.33
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-time-indexed-rrt-connect-solver - Time-Indexed RRT-Connect Solver for EXOTica
+Changes:
+ ros-lyrical-exotica-time-indexed-rrt-connect-solver (6.2.0-164-g570243f-2026.11.19.14.33) resolute; urgency=high
+Checksums-Sha1:
+ c37c0fc40492e54e81ffedd2f22413deca75f946 2604718 ros-lyrical-exotica-time-indexed-rrt-connect-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.33_amd64.ddeb
+ 770fc608bdc45e5332b2a38bed4e9cf4b6345df5 26063 ros-lyrical-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.buildinfo
+ 998181c9de7fa302a18307157b0e1da26c0f7475 93292 ros-lyrical-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.deb
+Checksums-Sha256:
+ 07c99f46e1a7588f5ee770b05f6da461a63157d0d6d556340d9762fa3a471443 2604718 ros-lyrical-exotica-time-indexed-rrt-connect-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.33_amd64.ddeb
+ bf0bb38de7346d1cfe0a99860fb0428fd69de8994f91700d9dd0835d3ae67f7c 26063 ros-lyrical-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.buildinfo
+ cd867bfd02e39cae50e278437af9559897c7fd7f5da9a8e16e337f80b805e7d8 93292 ros-lyrical-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.deb
+Files:
+ ea97b0357b1202b425a448bb26dcf0a6 2604718 debug optional ros-lyrical-exotica-time-indexed-rrt-connect-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.33_amd64.ddeb
+ 5ab93228222a6ee9795ac1871bd9cf5c 26063 misc optional ros-lyrical-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.buildinfo
+ 823cdc8e35e1c1447409bb708680097e 93292 misc optional ros-lyrical-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.deb

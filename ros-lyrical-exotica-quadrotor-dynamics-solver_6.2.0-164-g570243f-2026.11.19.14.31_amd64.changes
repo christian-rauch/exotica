@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-quadrotor-dynamics-solver
+Binary: ros-lyrical-exotica-quadrotor-dynamics-solver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.31
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-quadrotor-dynamics-solver - Quadrotor dynamics solver plug-in for Exotica
+Changes:
+ ros-lyrical-exotica-quadrotor-dynamics-solver (6.2.0-164-g570243f-2026.11.19.14.31) resolute; urgency=high
+ .
+   * Performance improvements (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * Python code improvements from static analysis
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 1f1b41b8ca08d28d21e94c3770553671334ca20e 2214216 ros-lyrical-exotica-quadrotor-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.31_amd64.ddeb
+ 21f7b6ce62067e0dc179e7a286a639809bda6b55 25750 ros-lyrical-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.31_amd64.buildinfo
+ 6fd921103b6fc5c37357b222b96aa3d1e3c1fe23 60184 ros-lyrical-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.31_amd64.deb
+Checksums-Sha256:
+ e1ff88fb40ba0fbb042889529945dac6968e4ff1551581050a1aca5cc05bb3a3 2214216 ros-lyrical-exotica-quadrotor-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.31_amd64.ddeb
+ 2d0309061c4e859d5c84ef5afa41153c951c83c853b305ae3e31a38d09f24fde 25750 ros-lyrical-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.31_amd64.buildinfo
+ 7373a77d1f7f2420d0cc07ff441386981094f8fda0b738a7bce9c3daa87d0c5b 60184 ros-lyrical-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.31_amd64.deb
+Files:
+ 76cd303b0a4c5d5531365604fd5c13f3 2214216 debug optional ros-lyrical-exotica-quadrotor-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.31_amd64.ddeb
+ 26f6f28d281d23189b1b3d15f5915cf1 25750 misc optional ros-lyrical-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.31_amd64.buildinfo
+ e57e445fb69811ab322798d80bcfc6aa 60184 misc optional ros-lyrical-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.31_amd64.deb

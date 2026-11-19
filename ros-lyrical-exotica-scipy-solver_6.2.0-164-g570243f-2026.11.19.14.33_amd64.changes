@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-scipy-solver
+Binary: ros-lyrical-exotica-scipy-solver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.33
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-scipy-solver - SciPy-based Python solvers for Exotica
+Changes:
+ ros-lyrical-exotica-scipy-solver (6.2.0-164-g570243f-2026.11.19.14.33) resolute; urgency=high
+ .
+   * Code improvements
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 62da32d927b824db4b95bc2a2c7835b4cddf6e21 9451 ros-lyrical-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.buildinfo
+ eee2cea990fd147053f535c3fa9e25b98f091125 7722 ros-lyrical-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.deb
+Checksums-Sha256:
+ e49ebe9c09468d45bcb91dfae9491e1be267fc33bb1dc00a70f16e986119ef65 9451 ros-lyrical-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.buildinfo
+ 886e5751b5db41209574e5dd2af533dd1865cc98ca8681264cc6c481a8fe8eee 7722 ros-lyrical-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.deb
+Files:
+ 8dff9764a60635bfb0b743ad1358a3b4 9451 misc optional ros-lyrical-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.buildinfo
+ 12de086810a98109e6f190e8ab008c3c 7722 misc optional ros-lyrical-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.deb

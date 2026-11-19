@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-python
+Binary: ros-lyrical-exotica-python
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.29
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-python - Python bindings for EXOTica
+Changes:
+ ros-lyrical-exotica-python (6.2.0-164-g570243f-2026.11.19.14.29) resolute; urgency=high
+ .
+   * Trajectory from array in python (#743 <https://github.com/ipab-slmc/exotica/issues/743>)
+   * Add EndPoseTask::GetTaskJacobian
+   * Fix build issues with Eigen 3.3.9 (#740 <https://github.com/ipab-slmc/exotica/issues/740>)
+   * Performance improvements (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * Remove temporary workaround, formatting
+   * Contributors: Vladimir Ivan, Wolfgang Merkt
+Checksums-Sha1:
+ 980556267ff2d9c998242cf501cb054045dea998 12745582 ros-lyrical-exotica-python-dbgsym_6.2.0-164-g570243f-2026.11.19.14.29_amd64.ddeb
+ 2d87a5621c168092cdc632fe5d3305a31ae8ab2a 25832 ros-lyrical-exotica-python_6.2.0-164-g570243f-2026.11.19.14.29_amd64.buildinfo
+ 68c4b439500e26d3f5dc6aeb40de05d05ddd2ce1 613676 ros-lyrical-exotica-python_6.2.0-164-g570243f-2026.11.19.14.29_amd64.deb
+Checksums-Sha256:
+ a1da76bee62d5e87ea703c54aac53c801bdef48d3e8b309abdb2dc0da88f5c5a 12745582 ros-lyrical-exotica-python-dbgsym_6.2.0-164-g570243f-2026.11.19.14.29_amd64.ddeb
+ e004e8415132b1175b3c5d9a857d9cdea7e2708702ae599ee1543fe9586e4b92 25832 ros-lyrical-exotica-python_6.2.0-164-g570243f-2026.11.19.14.29_amd64.buildinfo
+ 36ba72c52efa2a1293f576234dd06d2e87f09d87615245999f864aaf1c44d987 613676 ros-lyrical-exotica-python_6.2.0-164-g570243f-2026.11.19.14.29_amd64.deb
+Files:
+ 46e5fe057f4ea07d47ff35bb4dcf4598 12745582 debug optional ros-lyrical-exotica-python-dbgsym_6.2.0-164-g570243f-2026.11.19.14.29_amd64.ddeb
+ a2143df3d41d78e9552344de2c3028d3 25832 misc optional ros-lyrical-exotica-python_6.2.0-164-g570243f-2026.11.19.14.29_amd64.buildinfo
+ d34bcc9360a394d482f96fde5030daa5 613676 misc optional ros-lyrical-exotica-python_6.2.0-164-g570243f-2026.11.19.14.29_amd64.deb

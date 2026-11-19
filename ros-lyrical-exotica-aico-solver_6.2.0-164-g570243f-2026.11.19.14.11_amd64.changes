@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-aico-solver
+Binary: ros-lyrical-exotica-aico-solver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.11
+Distribution: resolute
+Urgency: high
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Changed-By: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Description:
+ ros-lyrical-exotica-aico-solver - Approximate Inference Control (AICO) solver for EXOTica
+Changes:
+ ros-lyrical-exotica-aico-solver (6.2.0-164-g570243f-2026.11.19.14.11) resolute; urgency=high
+Checksums-Sha1:
+ b29e8db5074b2e64902a2605fd71d41eba2b0344 6585112 ros-lyrical-exotica-aico-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.11_amd64.ddeb
+ 983557943d502b2ebd17f7565e17f38f387284ce 25627 ros-lyrical-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.buildinfo
+ b5b2f80d9ee5e3c3fc01c68d6cfdd5b629c165c4 115980 ros-lyrical-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.deb
+Checksums-Sha256:
+ d98ba8c3b970749a8b2b6b33df723c80b589a38279414924820474766552d660 6585112 ros-lyrical-exotica-aico-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.11_amd64.ddeb
+ 146ca6bc7a55a69afd89b86dd50f42ee02cf8091bf7359fa57814542140e409b 25627 ros-lyrical-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.buildinfo
+ b8851d950366808275852d66329fa271953b687cac22327cbc73600b332ab9a4 115980 ros-lyrical-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.deb
+Files:
+ 76ba0f91637761181acb5f0a517f5eeb 6585112 debug optional ros-lyrical-exotica-aico-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.11_amd64.ddeb
+ 96b98d6af78a68282c26629c7abc1c9a 25627 misc optional ros-lyrical-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.buildinfo
+ f9cb5c4c4ee7608fad6f14e61c942d0a 115980 misc optional ros-lyrical-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.deb

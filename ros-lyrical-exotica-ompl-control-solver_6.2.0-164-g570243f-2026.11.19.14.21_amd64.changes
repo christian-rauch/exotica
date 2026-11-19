@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-ompl-control-solver
+Binary: ros-lyrical-exotica-ompl-control-solver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.21
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-ompl-control-solver - OMPL Control Solver for EXOTica
+Changes:
+ ros-lyrical-exotica-ompl-control-solver (6.2.0-164-g570243f-2026.11.19.14.21) resolute; urgency=high
+Checksums-Sha1:
+ 805ea71a0c24d8c69badfd83dda1ed7fa9f8138f 2928316 ros-lyrical-exotica-ompl-control-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.21_amd64.ddeb
+ 8c009118e3048caeff8158e52bfd1ff5363ad24f 25955 ros-lyrical-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.21_amd64.buildinfo
+ 3edc6fb28da68d833d60b901ae6e113593b6be61 62602 ros-lyrical-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.21_amd64.deb
+Checksums-Sha256:
+ fd9a531ad5e1d06e405f32c897999ec3ac677c062096a46e7f43b6709358a00f 2928316 ros-lyrical-exotica-ompl-control-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.21_amd64.ddeb
+ 1fe338973e5038ed4e1c54bfcfb09056755677976247550233eb298c6f2ac510 25955 ros-lyrical-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.21_amd64.buildinfo
+ 8f4342598f6cabcac9525016fbbb6951a48a7ae57f49dff67fa8bc172a046ebf 62602 ros-lyrical-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.21_amd64.deb
+Files:
+ 0ac5e74d2245a702a3b15cd481db99d0 2928316 debug optional ros-lyrical-exotica-ompl-control-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.21_amd64.ddeb
+ 3ea891630e8105638726a71105fe1790 25955 misc optional ros-lyrical-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.21_amd64.buildinfo
+ 9b8e72949b149e7fbf95bdb3a99761d0 62602 misc optional ros-lyrical-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.21_amd64.deb

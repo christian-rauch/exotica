@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-levenberg-marquardt-solver
+Binary: ros-lyrical-exotica-levenberg-marquardt-solver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.19
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-levenberg-marquardt-solver - Levenberg-Marquardt Solver for EXOTica
+Changes:
+ ros-lyrical-exotica-levenberg-marquardt-solver (6.2.0-164-g570243f-2026.11.19.14.19) resolute; urgency=high
+Checksums-Sha1:
+ c77113551f7fa27a8abf4a4a1a3a3d87e55442c9 3137046 ros-lyrical-exotica-levenberg-marquardt-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.19_amd64.ddeb
+ 7b638b6047cd0c02fa7b80ced6d7f66ffcd2233e 25759 ros-lyrical-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.buildinfo
+ d2431e7ec200a3780fada6defaf65f47135b06f6 69314 ros-lyrical-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.deb
+Checksums-Sha256:
+ b79eb8366a9356f74cdacd864e28c39e57d544322bbdb68572596575fafe3671 3137046 ros-lyrical-exotica-levenberg-marquardt-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.19_amd64.ddeb
+ dc8052a42c1670cb8577a932aaa78578c3169480701d857ca1bca7e2a0d08b1d 25759 ros-lyrical-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.buildinfo
+ 307f9295088987cd330a9d78361604d30ab7b40390f4f79b08046cd8eb20b27f 69314 ros-lyrical-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.deb
+Files:
+ 43ea973abdb4296e56c7c305c487ea7d 3137046 debug optional ros-lyrical-exotica-levenberg-marquardt-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.19_amd64.ddeb
+ 429249fb877d61b682f1773211dd12b7 25759 misc optional ros-lyrical-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.buildinfo
+ f497b86a9c29de6e2a2e92bf224054c2 69314 misc optional ros-lyrical-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.deb

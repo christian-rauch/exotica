@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-double-integrator-dynamics-solver
+Binary: ros-lyrical-exotica-double-integrator-dynamics-solver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.16
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-double-integrator-dynamics-solver - Double integrator dynamics solver plug-in for Exotica
+Changes:
+ ros-lyrical-exotica-double-integrator-dynamics-solver (6.2.0-164-g570243f-2026.11.19.14.16) resolute; urgency=high
+Checksums-Sha1:
+ a0db3abf59094a3362723d2c1592579fde749ba4 1665382 ros-lyrical-exotica-double-integrator-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.16_amd64.ddeb
+ 31ecd1aaad5e318fca7fe075ec294c97e11b86ad 25822 ros-lyrical-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.16_amd64.buildinfo
+ b6a8b7c8658376e17b70d4d721a107d27412037d 45844 ros-lyrical-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.16_amd64.deb
+Checksums-Sha256:
+ abb704b3e8cb7a6e6ef5402b9279cefe1bcdd406bd71d5c9fdeb65bfb1e9dd13 1665382 ros-lyrical-exotica-double-integrator-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.16_amd64.ddeb
+ 388a1855b193d89596ad699d4c527a4a8b7bd6133aa0e63470f29f44f59279ac 25822 ros-lyrical-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.16_amd64.buildinfo
+ b4174a2c93666b2d07337992610d57efe99cc972c77f1a6ba204f2358e3a7f5c 45844 ros-lyrical-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.16_amd64.deb
+Files:
+ 08620486b72a75c31c66fe2b26af9d4f 1665382 debug optional ros-lyrical-exotica-double-integrator-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.16_amd64.ddeb
+ c8afc464c044d30d96b4625f3b0f7916 25822 misc optional ros-lyrical-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.16_amd64.buildinfo
+ 5477462021c5f0c6742ea84e1495f487 45844 misc optional ros-lyrical-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.16_amd64.deb

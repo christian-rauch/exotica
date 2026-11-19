@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-collision-scene-fcl-latest
+Binary: ros-lyrical-exotica-collision-scene-fcl-latest
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.14
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-collision-scene-fcl-latest - Collision checking and distance computation using the FCL library
+Changes:
+ ros-lyrical-exotica-collision-scene-fcl-latest (6.2.0-164-g570243f-2026.11.19.14.14) resolute; urgency=high
+ .
+   * Switch to FCL on Noetic, use fcl_catkin on older distros (#735 <https://github.com/ipab-slmc/exotica/issues/735>)
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 486c1bd468700a75bbbd16c9070c22311285f9c8 2916634 ros-lyrical-exotica-collision-scene-fcl-latest-dbgsym_6.2.0-164-g570243f-2026.11.19.14.14_amd64.ddeb
+ b4590f9671a6a275d96f880ec6613a2eb2a10295 25759 ros-lyrical-exotica-collision-scene-fcl-latest_6.2.0-164-g570243f-2026.11.19.14.14_amd64.buildinfo
+ eef042f7e756354e873e221fa1d3e5a4f5818386 78648 ros-lyrical-exotica-collision-scene-fcl-latest_6.2.0-164-g570243f-2026.11.19.14.14_amd64.deb
+Checksums-Sha256:
+ 1e3b3911167e7d90e231326acbd7e69f2b27dec1e594c9f901e52396897242c8 2916634 ros-lyrical-exotica-collision-scene-fcl-latest-dbgsym_6.2.0-164-g570243f-2026.11.19.14.14_amd64.ddeb
+ e2099f79c627a8fe7a32a49678ff53289f96d8a34c6a0a3a238bf105272e0b22 25759 ros-lyrical-exotica-collision-scene-fcl-latest_6.2.0-164-g570243f-2026.11.19.14.14_amd64.buildinfo
+ 91d055cb57dac977574006df5519b2117b3100fa3dc9c9d277c4bd9289d3eb79 78648 ros-lyrical-exotica-collision-scene-fcl-latest_6.2.0-164-g570243f-2026.11.19.14.14_amd64.deb
+Files:
+ d2dd95eafbac387d16cd0a48294e9629 2916634 debug optional ros-lyrical-exotica-collision-scene-fcl-latest-dbgsym_6.2.0-164-g570243f-2026.11.19.14.14_amd64.ddeb
+ c359d3c337945bca7a7d9f228edcd647 25759 misc optional ros-lyrical-exotica-collision-scene-fcl-latest_6.2.0-164-g570243f-2026.11.19.14.14_amd64.buildinfo
+ a4e60fb32291b05fc6ca008fbf1382b3 78648 misc optional ros-lyrical-exotica-collision-scene-fcl-latest_6.2.0-164-g570243f-2026.11.19.14.14_amd64.deb

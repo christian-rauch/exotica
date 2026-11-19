@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-core-task-maps
+Binary: ros-lyrical-exotica-core-task-maps
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.35
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-core-task-maps - Core task maps for EXOTica
+Changes:
+ ros-lyrical-exotica-core-task-maps (6.2.0-164-g570243f-2026.11.19.14.35) resolute; urgency=high
+ .
+   * PointToPlane: Add PositiveOnly mode for use as inequality term (#744 <https://github.com/ipab-slmc/exotica/issues/744>)
+   * CoM: Change debug markers
+   * test_maps: Turn off JointVelocityLimit test
+   * SphereCollision: Remove unnecessary allocations (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 94e2c966fb11ab979c78360c294ebae157708cac 44182040 ros-lyrical-exotica-core-task-maps-dbgsym_6.2.0-164-g570243f-2026.11.19.14.35_amd64.ddeb
+ d76224a4eafc49573875176baaf15b479e44955d 27926 ros-lyrical-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.35_amd64.buildinfo
+ 3cfb11be1b08ee7cfe26c382cf7b650a85348fd8 493428 ros-lyrical-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.35_amd64.deb
+Checksums-Sha256:
+ 5a04c0ae60b3a1f2f843ae66a1609dd540d3ca8b46709998b58bacfd74e1a778 44182040 ros-lyrical-exotica-core-task-maps-dbgsym_6.2.0-164-g570243f-2026.11.19.14.35_amd64.ddeb
+ 2e74bd9cd2e912211cfe4501cba37f8315d338ddb4d4c6b323b1b7a33a79e004 27926 ros-lyrical-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.35_amd64.buildinfo
+ ad194235848dec606944695ace92ff80d58454bb7ccc4d579ef0a06868cb7179 493428 ros-lyrical-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.35_amd64.deb
+Files:
+ 2c1847313e7472d134da5a06a32dae7b 44182040 debug optional ros-lyrical-exotica-core-task-maps-dbgsym_6.2.0-164-g570243f-2026.11.19.14.35_amd64.ddeb
+ e2432a16b9d587200d87be86634b1e93 27926 misc optional ros-lyrical-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.35_amd64.buildinfo
+ aa01eb062ef741240e3a7ae30770b0b5 493428 misc optional ros-lyrical-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.35_amd64.deb

@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-cartpole-dynamics-solver
+Binary: ros-lyrical-exotica-cartpole-dynamics-solver
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.13
+Distribution: resolute
+Urgency: high
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Changed-By: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Description:
+ ros-lyrical-exotica-cartpole-dynamics-solver - Cartpole dynamics solver plug-in for Exotica
+Changes:
+ ros-lyrical-exotica-cartpole-dynamics-solver (6.2.0-164-g570243f-2026.11.19.14.13) resolute; urgency=high
+ .
+   * Python code improvements from static analysis
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 8d4f104bc355893b6154e53ac9ed0c7ad3dee5bc 1534696 ros-lyrical-exotica-cartpole-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.13_amd64.ddeb
+ eeed2e5bfefc7b110b388d15e36534a089bfb745 25741 ros-lyrical-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.13_amd64.buildinfo
+ ab15b9edc388eb8345b177c6829aca698b693629 47306 ros-lyrical-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.13_amd64.deb
+Checksums-Sha256:
+ 02c75ab26081a667500bc240580eb98fc3391137c944c907df07756b30af18e3 1534696 ros-lyrical-exotica-cartpole-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.13_amd64.ddeb
+ ae05c0d700c54da1b8cb65c4ea05c9bf70f1bc2f7c65fa9302f45140ffeabb57 25741 ros-lyrical-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.13_amd64.buildinfo
+ 4301ecc0908cb6eb1a51ee272b4a5ebb810aac194fc76a5b4aae5399484bd292 47306 ros-lyrical-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.13_amd64.deb
+Files:
+ 03a6ff22e72a22724b7d0fc32cb74f3a 1534696 debug optional ros-lyrical-exotica-cartpole-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.13_amd64.ddeb
+ 2858335f486c2eb56b7c705be652524b 25741 misc optional ros-lyrical-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.13_amd64.buildinfo
+ 40a933800256032bf7a19a2f0e657f44 47306 misc optional ros-lyrical-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.13_amd64.deb

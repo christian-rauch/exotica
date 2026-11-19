@@ -1,0 +1,755 @@
+Package: ros-lyrical-exotica-aico-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.11
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-aico-solver
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 6599
+Depends: ros-lyrical-exotica-aico-solver (= 6.2.0-164-g570243f-2026.11.19.14.11)
+Filename: ./ros-lyrical-exotica-aico-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.11_amd64.ddeb
+Size: 6585112
+MD5sum: 76ba0f91637761181acb5f0a517f5eeb
+SHA1: b29e8db5074b2e64902a2605fd71d41eba2b0344
+SHA256: d98ba8c3b970749a8b2b6b33df723c80b589a38279414924820474766552d660
+SHA512: 81459360c96af4ad6b992fd69735b23e142aa2364138eacad69f220840cb8e88b16399fdbac6e7be2f1ba2759d8abe56c2863e9a49070c380cfd9a2e4deaa298
+Description: debug symbols for ros-lyrical-exotica-aico-solver
+Build-Ids: 72e291102c6b6f4c9552c2aba76292ddef7ccf0b
+
+Package: ros-lyrical-exotica-aico-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.11
+Priority: optional
+Section: misc
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 391
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-moveit-core, ros-lyrical-exotica-core
+Filename: ./ros-lyrical-exotica-aico-solver_6.2.0-164-g570243f-2026.11.19.14.11_amd64.deb
+Size: 115980
+MD5sum: f9cb5c4c4ee7608fad6f14e61c942d0a
+SHA1: b5b2f80d9ee5e3c3fc01c68d6cfdd5b629c165c4
+SHA256: b8851d950366808275852d66329fa271953b687cac22327cbc73600b332ab9a4
+SHA512: a4df754da13a7180a0b4191639d3562db19a0c2085d79cc079ccd9f996f9996c90bce6d3583f282ef2007380d44ac7b1d1887c64a1e1a3225482a1bb60ed7f19
+Homepage: https://index.ros.org/p/exotica_aico_solver/#lyrical
+Description: Approximate Inference Control (AICO) solver for EXOTica
+
+Package: ros-lyrical-exotica-cartpole-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.13
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-cartpole-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1569
+Depends: ros-lyrical-exotica-cartpole-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.14.13)
+Filename: ./ros-lyrical-exotica-cartpole-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.13_amd64.ddeb
+Size: 1534696
+MD5sum: 03a6ff22e72a22724b7d0fc32cb74f3a
+SHA1: 8d4f104bc355893b6154e53ac9ed0c7ad3dee5bc
+SHA256: 02c75ab26081a667500bc240580eb98fc3391137c944c907df07756b30af18e3
+SHA512: 8a7f3acd7e6512ec0831aa5667343e14052fa161e7c0dc637b7328a802edf5523ab02f9f24be1867b94c5786a188ceeff84e5386bce10f206906a83ab83fcff7
+Description: debug symbols for ros-lyrical-exotica-cartpole-dynamics-solver
+Build-Ids: ebf24b4dfd977c6b805e45a240f0c6697e2b31f1
+
+Package: ros-lyrical-exotica-cartpole-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.13
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 187
+Depends: libc6 (>= 2.29), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-exotica-core, ros-lyrical-pluginlib
+Filename: ./ros-lyrical-exotica-cartpole-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.13_amd64.deb
+Size: 47306
+MD5sum: 40a933800256032bf7a19a2f0e657f44
+SHA1: ab15b9edc388eb8345b177c6829aca698b693629
+SHA256: 4301ecc0908cb6eb1a51ee272b4a5ebb810aac194fc76a5b4aae5399484bd292
+SHA512: fb66da9f116602e31e0d8d5e79c08915841d8ecc53ebcc0d72e3dbad60b367269bffbae41abfb41e880850f49aa6fa98b3f3647cdc7a1fa62aa6998d6bf833c5
+Homepage: https://index.ros.org/p/exotica_cartpole_dynamics_solver/#lyrical
+Description: Cartpole dynamics solver plug-in for Exotica
+
+Package: ros-lyrical-exotica-collision-scene-fcl-latest-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.14
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-collision-scene-fcl-latest
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 2968
+Depends: ros-lyrical-exotica-collision-scene-fcl-latest (= 6.2.0-164-g570243f-2026.11.19.14.14)
+Filename: ./ros-lyrical-exotica-collision-scene-fcl-latest-dbgsym_6.2.0-164-g570243f-2026.11.19.14.14_amd64.ddeb
+Size: 2916634
+MD5sum: d2dd95eafbac387d16cd0a48294e9629
+SHA1: 486c1bd468700a75bbbd16c9070c22311285f9c8
+SHA256: 1e3b3911167e7d90e231326acbd7e69f2b27dec1e594c9f901e52396897242c8
+SHA512: 199fc64db85115b30cc6c772885ccd2754c9be6a69d0c324bca818b3d5b9cabe99d0f69785d5385c8e767aab7a81220fc5eadd75cf4d24d34e12d5f6b087d888
+Description: debug symbols for ros-lyrical-exotica-collision-scene-fcl-latest
+Build-Ids: df65301f9e07edd3008e5def72100477cd093498
+
+Package: ros-lyrical-exotica-collision-scene-fcl-latest
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.14
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 274
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.2), libstdc++6 (>= 13.1), ros-lyrical-geometric-shapes, ros-lyrical-moveit-core, libfcl-dev, ros-lyrical-exotica-core
+Filename: ./ros-lyrical-exotica-collision-scene-fcl-latest_6.2.0-164-g570243f-2026.11.19.14.14_amd64.deb
+Size: 78648
+MD5sum: a4e60fb32291b05fc6ca008fbf1382b3
+SHA1: eef042f7e756354e873e221fa1d3e5a4f5818386
+SHA256: 91d055cb57dac977574006df5519b2117b3100fa3dc9c9d277c4bd9289d3eb79
+SHA512: 54a23df9e01df21c64ed29e4219208066488bf28b19bfbd6202b70c965894d9209ef720af31b6d24fb734e277afd3807114b6275269107c670b4d93c34614131
+Homepage: https://index.ros.org/p/exotica_collision_scene_fcl_latest/#lyrical
+Description: Collision checking and distance computation using the FCL library.
+
+Package: ros-lyrical-exotica-core-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.06
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-core
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 35879
+Depends: ros-lyrical-exotica-core (= 6.2.0-164-g570243f-2026.11.19.14.06)
+Filename: ./ros-lyrical-exotica-core-dbgsym_6.2.0-164-g570243f-2026.11.19.14.06_amd64.ddeb
+Size: 35073168
+MD5sum: 1945587bcda25bb779df00e5d21b3793
+SHA1: 4703e4cfa3e54f67581ca608899d716aa7b2c7f3
+SHA256: 5cc472005441c258b421c8c2b4d68738edf2fa40ee3ac3c48bb2d851acca32be
+SHA512: 0155722a65f80c61f9b8d1a5b56789b6601c8a5f2be8043edc0d1dac036eab320e9e1de25df0b57a4bbbff9b2c08758235ace266f54a946d9c92dac797956e75
+Description: debug symbols for ros-lyrical-exotica-core
+Build-Ids: f2f86be4332e4ec905f856cd5465e152f4c051c0
+
+Package: ros-lyrical-exotica-core-task-maps-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.35
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-core-task-maps
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 45135
+Depends: ros-lyrical-exotica-core-task-maps (= 6.2.0-164-g570243f-2026.11.19.14.35)
+Filename: ./ros-lyrical-exotica-core-task-maps-dbgsym_6.2.0-164-g570243f-2026.11.19.14.35_amd64.ddeb
+Size: 44182040
+MD5sum: 2c1847313e7472d134da5a06a32dae7b
+SHA1: 94e2c966fb11ab979c78360c294ebae157708cac
+SHA256: 5a04c0ae60b3a1f2f843ae66a1609dd540d3ca8b46709998b58bacfd74e1a778
+SHA512: 57ea06b2048d6b74c6081a6b8b94b53b6db2fb62ba8ed3bf49acee7a3abef8a09f0b23adda6250f6a0d9d1d5080b72556bcebe1d5f2ab0b0ae8dbdc65f68f14d
+Description: debug symbols for ros-lyrical-exotica-core-task-maps
+Build-Ids: 6aab471eff46abc84acee25d6494bf1adec8e864 d373a2be3b651e3d37195af04f11fc2c6cddcf6f
+
+Package: ros-lyrical-exotica-core-task-maps
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.35
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1965
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.2), libstdc++6 (>= 14), ros-lyrical-moveit-core, ros-lyrical-exotica-core, ros-lyrical-exotica-python, ros-lyrical-geometry-msgs, ros-lyrical-tf2-eigen, ros-lyrical-tf2-kdl, ros-lyrical-visualization-msgs
+Filename: ./ros-lyrical-exotica-core-task-maps_6.2.0-164-g570243f-2026.11.19.14.35_amd64.deb
+Size: 493428
+MD5sum: aa01eb062ef741240e3a7ae30770b0b5
+SHA1: 3cfb11be1b08ee7cfe26c382cf7b650a85348fd8
+SHA256: ad194235848dec606944695ace92ff80d58454bb7ccc4d579ef0a06868cb7179
+SHA512: 5db6905e6be7a511003012f6befb50ee11e680161a34afc984f9cf3811a72e67ac559c19050bd3881b5620698855e29740f343b560cf21c661645cdc9722c8de
+Homepage: https://index.ros.org/p/exotica_core_task_maps/#lyrical
+Description: Core task maps for EXOTica
+
+Package: ros-lyrical-exotica-core
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.06
+Priority: optional
+Section: misc
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 2784
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liboctomap1.10 (>= 1.10.0+dfsg), liborocos-kdl1.5 (>= 1.5.2), libstdc++6 (>= 13.1), libtinyxml2-11 (>= 11.0.0), ros-lyrical-geometric-shapes, ros-lyrical-moveit-core, ros-lyrical-moveit-ros-planning, cppzmq-dev, libeigen3-dev, libmsgpack-cxx-dev, liborocos-kdl-dev, libzmq3-dev, ros-lyrical-ament-index-cpp, ros-lyrical-geometry-msgs, ros-lyrical-kdl-parser, ros-lyrical-moveit-msgs, ros-lyrical-octomap-msgs, ros-lyrical-pluginlib, ros-lyrical-rclcpp, ros-lyrical-sensor-msgs, ros-lyrical-shape-msgs, ros-lyrical-std-msgs, ros-lyrical-tf2, ros-lyrical-tf2-eigen, ros-lyrical-tf2-eigen-kdl, ros-lyrical-tf2-kdl, ros-lyrical-tf2-ros, ros-lyrical-visualization-msgs
+Filename: ./ros-lyrical-exotica-core_6.2.0-164-g570243f-2026.11.19.14.06_amd64.deb
+Size: 740438
+MD5sum: ac6b113f49534ba4f6808d1e82d442f5
+SHA1: 8d3ee7b0397c2e275dfd4335b7cabdc121bb03f3
+SHA256: 32290897a8e004b26f63b526080cc4644b85f828a55027529eee84f9e441bbb3
+SHA512: 15d8448da810f07c323931fa989e337cc845fe3acd79112e33943efd1f50ddc8bffdccdafe6113c7e11549a5016364dd6d4174104487b895178f80f865275159
+Homepage: https://index.ros.org/p/exotica_core/#lyrical
+Description: EXOTica core library
+
+Package: ros-lyrical-exotica-ddp-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.41
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-ddp-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 14993
+Depends: ros-lyrical-exotica-ddp-solver (= 6.2.0-164-g570243f-2026.11.19.14.41)
+Filename: ./ros-lyrical-exotica-ddp-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.41_amd64.ddeb
+Size: 14909550
+MD5sum: 644072f3246b06e9d57b67edc066f9fa
+SHA1: 3dd290a474aaa0b39d3fe433f4f29bbeb362c054
+SHA256: ceefcb45344e459979be8ae9afda4c985a14876b69d6098171ceb1a0061b3e62
+SHA512: a8484e99d0d9bf01bb6701e983036a32c9a087be6e9a930335229fde438cf7ce43f039e639f8deb3ee665fba60b39fed6af228e07ac9d93d7c226b81d6dde8ff
+Description: debug symbols for ros-lyrical-exotica-ddp-solver
+Build-Ids: 2c5219ca7c7e2027f3b7aaa04af259767288ae5b aa97acbb4a3e32800d039e3c0654460cacd2b00d
+
+Package: ros-lyrical-exotica-ddp-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.41
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 842
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.2), libstdc++6 (>= 13.1), ros-lyrical-moveit-core, ros-lyrical-exotica-core, ros-lyrical-exotica-python
+Filename: ./ros-lyrical-exotica-ddp-solver_6.2.0-164-g570243f-2026.11.19.14.41_amd64.deb
+Size: 260132
+MD5sum: 43651a1dd78cecf39f6b37ab7e0355e4
+SHA1: 7a0b68535a83cc96af87ce291262d29d60007f65
+SHA256: 5c21ec48cb08fbfa2380ac8d14ebef1c327e5c276257c87a45d18613adde5d09
+SHA512: 3a483621190303aeaa61773e8d41f19e317e0183837050300ce506d6902400b8748a972893999faaa5ce2237b720b30e66c225b1d05f916e38c6402d2d357595
+Homepage: https://index.ros.org/p/exotica_ddp_solver/#lyrical
+Description: DDP Solvers for EXOTica (Analytic, Control-Limited, Feasibility-Driven variants)
+
+Package: ros-lyrical-exotica-double-integrator-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.16
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-double-integrator-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1697
+Depends: ros-lyrical-exotica-double-integrator-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.14.16)
+Filename: ./ros-lyrical-exotica-double-integrator-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.16_amd64.ddeb
+Size: 1665382
+MD5sum: 08620486b72a75c31c66fe2b26af9d4f
+SHA1: a0db3abf59094a3362723d2c1592579fde749ba4
+SHA256: abb704b3e8cb7a6e6ef5402b9279cefe1bcdd406bd71d5c9fdeb65bfb1e9dd13
+SHA512: 820d97fed57532ddfe5d19f906b7e38e0052a005b1929e040a1e13ac797d8051b9b6e7b715a42226fec885a82dd50557a2ea1eb28047f5ac3554ac54a6c725d3
+Description: debug symbols for ros-lyrical-exotica-double-integrator-dynamics-solver
+Build-Ids: 4504edfe7dcd2536844b21d30269d938ffd3f2f4
+
+Package: ros-lyrical-exotica-double-integrator-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.16
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 181
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-exotica-core, ros-lyrical-pluginlib
+Filename: ./ros-lyrical-exotica-double-integrator-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.16_amd64.deb
+Size: 45844
+MD5sum: 5477462021c5f0c6742ea84e1495f487
+SHA1: b6a8b7c8658376e17b70d4d721a107d27412037d
+SHA256: b4174a2c93666b2d07337992610d57efe99cc972c77f1a6ba204f2358e3a7f5c
+SHA512: 15e6aec58a79554253dfd12a5be49d1567278d3921b115de065fbe19b587da9e14ca50004d39c550f9b6bdbd8d6b778b1c21fea3e4d1ed0e0764956d14ad3e7d
+Homepage: https://index.ros.org/p/exotica_double_integrator_dynamics_solver/#lyrical
+Description: Double integrator dynamics solver plug-in for Exotica
+
+Package: ros-lyrical-exotica-dynamics-solvers
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.44
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 44
+Depends: ros-lyrical-exotica-cartpole-dynamics-solver, ros-lyrical-exotica-double-integrator-dynamics-solver, ros-lyrical-exotica-pendulum-dynamics-solver, ros-lyrical-exotica-pinocchio-dynamics-solver, ros-lyrical-exotica-quadrotor-dynamics-solver
+Filename: ./ros-lyrical-exotica-dynamics-solvers_6.2.0-164-g570243f-2026.11.19.14.44_amd64.deb
+Size: 5510
+MD5sum: 429f95d8b67083bb109e97216f94e19c
+SHA1: dc72e61fe5dad10b6427415ffbf69fc5c0279d5d
+SHA256: 098e2a551752bd5fa00ccd6f11efd657c86167277ca8b5e2d18d2a1d87b20fbb
+SHA512: e1df44f113616c7397ce70a93559c16d357ec4462f15e7d4b7eafc1d426b919807aeb4089bad3b179adb8e1409e886466e7cd0f2535b41bf909c779290195c52
+Homepage: https://index.ros.org/p/exotica_dynamics_solvers/#lyrical
+Description: Metapackage for all dynamics solvers bundled with core EXOTica.
+
+Package: ros-lyrical-exotica-examples-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.53
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-examples
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 15187
+Depends: ros-lyrical-exotica-examples (= 6.2.0-164-g570243f-2026.11.19.14.53)
+Filename: ./ros-lyrical-exotica-examples-dbgsym_6.2.0-164-g570243f-2026.11.19.14.53_amd64.ddeb
+Size: 14553468
+MD5sum: cb52ff6d023de5c023cfdb8ca9f9168a
+SHA1: 6e09c521b9b272dea7b70a1f913e6bbeb624948a
+SHA256: 9fb6679d330a67ce7eb6566eaa1dc8832322db37795b82a5f9d285735f0095aa
+SHA512: 45725ce62c6e6e2dcda83f47ad10d1ba01baf02b5426ddf89bf62c868dcf29de2c60d71525f67f6965c287bbe9a7d1a45e00b790805f263d20bc9a75015502cb
+Description: debug symbols for ros-lyrical-exotica-examples
+Build-Ids: 07f2b81b2ce9e98de79bb476cebd7adf1144ddfe 268c080a706b7280b29b2c75603f84c2268a4b55 29c199f29605e586af245cee1140b8916ca2c128 4607c1c2b3ff4e4e9b7941d2320ed1abf3088586 75ab409ed5bd757c8f10fd8f67e64d3de36c629a ea9125e32f33a288f519509e3375a7a20e1532ba
+
+Package: ros-lyrical-exotica-examples
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.53
+Priority: optional
+Section: misc
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 2910
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-11 (>= 11.0.0), ros-lyrical-moveit-core, python3-pykdl, ros-lyrical-exotica-aico-solver, ros-lyrical-exotica-cartpole-dynamics-solver, ros-lyrical-exotica-collision-scene-fcl-latest, ros-lyrical-exotica-core, ros-lyrical-exotica-core-task-maps, ros-lyrical-exotica-ddp-solver, ros-lyrical-exotica-double-integrator-dynamics-solver, ros-lyrical-exotica-ik-solver, ros-lyrical-exotica-ilqg-solver, ros-lyrical-exotica-ilqr-solver, ros-lyrical-exotica-levenberg-marquardt-solver, ros-lyrical-exotica-ompl-control-solver, ros-lyrical-exotica-ompl-solver, ros-lyrical-exotica-pendulum-dynamics-solver, ros-lyrical-exotica-pinocchio-dynamics-solver, ros-lyrical-exotica-python, ros-lyrical-exotica-quadrotor-dynamics-solver, ros-lyrical-exotica-scipy-solver, ros-lyrical-exotica-time-indexed-rrt-connect-solver, ros-lyrical-geometry-msgs, ros-lyrical-interactive-markers, ros-lyrical-rclcpp, ros-lyrical-robot-state-publisher, ros-lyrical-rviz2, ros-lyrical-visualization-msgs
+Filename: ./ros-lyrical-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.53_amd64.deb
+Size: 374562
+MD5sum: 1fd763d06a3d0286c6bff2803d9e70d9
+SHA1: 91b3195ceb17902db3de9535ba692cdb303a5ebc
+SHA256: 9e4e5f54c7cd69d8bd4e1033df84187419c4f73eebc239736d6f878a569ab252
+SHA512: 411f6814fc9bacf3c940af3df7c5e7f173a04581baf65a98b59378b0b6e58be43fb208381448842b150a8bb9c34c79d1bb1953720d8a19529c6da516e73d030c
+Homepage: https://github.com/ipab-slmc/exotica
+Description: Package containing examples and system tests for EXOTica.
+
+Package: ros-lyrical-exotica-ik-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.17
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-ik-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 3767
+Depends: ros-lyrical-exotica-ik-solver (= 6.2.0-164-g570243f-2026.11.19.14.17)
+Filename: ./ros-lyrical-exotica-ik-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.17_amd64.ddeb
+Size: 3757914
+MD5sum: 989f6cf6af5b560f5083861887e274e0
+SHA1: 156fdd505121889be718cbadb9d0a4529205dcde
+SHA256: b68217ba722763a31481fe4a5e9bbd96ad4c574055e9d9825f2a9dbc813f5ef6
+SHA512: 152d9134ef4c018093b3be1ba0441a0f85aa00a65d073d1f8a52efb909056cf4e8ccef757c0f39f3581d418f53f8be4495271fcb04e2eeabe50aef7bd8226e72
+Description: debug symbols for ros-lyrical-exotica-ik-solver
+Build-Ids: a024d57eee7c4e702f1690ec1342c5478fde9df1
+
+Package: ros-lyrical-exotica-ik-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.17
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 260
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-moveit-core, ros-lyrical-exotica-core
+Filename: ./ros-lyrical-exotica-ik-solver_6.2.0-164-g570243f-2026.11.19.14.17_amd64.deb
+Size: 81840
+MD5sum: a0cffeb80e4ac55d45bc1e4ece27330c
+SHA1: 2cf49b8c82b7f17f1c7d4fe1405526d952dd72af
+SHA256: 622dd0fc220c29499bd57ac01c40d954ba928409ddbec8000d00f091e3764075
+SHA512: 860b2deaf1f9174c2f22871474bd3c388c2512f521a217526f17d0e0fed3b4808cbdffb634d5708a739f8f071c9486f2aa66e3becdb2c46ce34ad19fe22a9d51
+Homepage: https://index.ros.org/p/exotica_ik_solver/#lyrical
+Description: IK Solver for EXOTica
+
+Package: ros-lyrical-exotica-ilqg-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.45
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-ilqg-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 9768
+Depends: ros-lyrical-exotica-ilqg-solver (= 6.2.0-164-g570243f-2026.11.19.14.45)
+Filename: ./ros-lyrical-exotica-ilqg-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.45_amd64.ddeb
+Size: 9768698
+MD5sum: f2338e0efe83184cc745ae445495bc28
+SHA1: 2498f102ee33aa3fb7c8b73db22961c6e09e5b80
+SHA256: 720833c69895bdae8bc3cfd001df009e715e218842e4f854461a6712c492afc6
+SHA512: 283d54b05155ae37c132caba702a63425fc22de00305fc3eefb70f5a8f1b11e9d40e047cc30be4d3e9e7bed74e842027b3e827ed5915f41d80c1d6cd8ada531b
+Description: debug symbols for ros-lyrical-exotica-ilqg-solver
+Build-Ids: 1c7c740071ae3e7676b1557f79a59d833a31a5c2 9077ac3f25f8bca236a853ba8ad93d1c3d656e96
+
+Package: ros-lyrical-exotica-ilqg-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.45
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 519
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 4.0), liborocos-kdl1.5 (>= 1.5.2), libstdc++6 (>= 13.1), ros-lyrical-moveit-core, ros-lyrical-exotica-core, ros-lyrical-exotica-python
+Filename: ./ros-lyrical-exotica-ilqg-solver_6.2.0-164-g570243f-2026.11.19.14.45_amd64.deb
+Size: 185786
+MD5sum: ca5c48e35e895918339d511748a1ee29
+SHA1: 8654d634a6473f2749a230264cf68b221a3ea1f7
+SHA256: d0c7f64536f61b9ccda0d09ac7de4234f4ef060c5c99d6ec7fbd9d93fce3a6af
+SHA512: a9bc51a76ead4c27a0edaf5ad0fe22f8faacc20612ea2a079004370ea36c73f526c264d954539dac19ae5fa43957e59988f47b0a3522292734f3320226ccb426
+Homepage: https://index.ros.org/p/exotica_ilqg_solver/#lyrical
+Description: ILQG Solver for EXOTica (Todorov and Li, 2004)
+
+Package: ros-lyrical-exotica-ilqr-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.48
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-ilqr-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 7506
+Depends: ros-lyrical-exotica-ilqr-solver (= 6.2.0-164-g570243f-2026.11.19.14.48)
+Filename: ./ros-lyrical-exotica-ilqr-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.48_amd64.ddeb
+Size: 7479494
+MD5sum: c37ab800b10e15cd777f55eb53161b18
+SHA1: ba02f93f65e62f8b16057aea789683365b22e561
+SHA256: 214c0d578d195ace79468f0145a02b528d219a1ce4b30eb2492a042936fd1359
+SHA512: 4082bf4012d91d5944c1d7b80fe6aa4892ea15d257e901079d283e511df383b476a1a26bf7882109e1376a9bf29a2b218d2089ce5f075c8b59450b59d0d8e018
+Description: debug symbols for ros-lyrical-exotica-ilqr-solver
+Build-Ids: 19bdaf33221bb7322c2d4de9815f1b54a4e804bf c632548e747fb5c3f176b3c75ed003dacc8c3a99
+
+Package: ros-lyrical-exotica-ilqr-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.48
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 451
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.2), libstdc++6 (>= 13.1), ros-lyrical-moveit-core, ros-lyrical-exotica-core, ros-lyrical-exotica-python
+Filename: ./ros-lyrical-exotica-ilqr-solver_6.2.0-164-g570243f-2026.11.19.14.48_amd64.deb
+Size: 158190
+MD5sum: 060aaeab74ec5a49c4f6ac6699f0c397
+SHA1: b181fe6c186141d2a5449dc9ffd1d17165d00ec1
+SHA256: bf4bd8a473240d63ff875c97b90c71eac4ff44d3d4c5df1e90f4f60952b43ff1
+SHA512: 7afa70bbb2247d9a815640e356678ce93a2a6916cd2593f260cc2dfc2941089f5a3763b30ec1c2ae05a00d5519736c8091542a83e1a4da4fe418a9cd9eddb073
+Homepage: https://index.ros.org/p/exotica_ilqr_solver/#lyrical
+Description: ILQR Solver for EXOTica (Li and Todorov, 2004)
+
+Package: ros-lyrical-exotica-levenberg-marquardt-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.19
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-levenberg-marquardt-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 3153
+Depends: ros-lyrical-exotica-levenberg-marquardt-solver (= 6.2.0-164-g570243f-2026.11.19.14.19)
+Filename: ./ros-lyrical-exotica-levenberg-marquardt-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.19_amd64.ddeb
+Size: 3137046
+MD5sum: 43ea973abdb4296e56c7c305c487ea7d
+SHA1: c77113551f7fa27a8abf4a4a1a3a3d87e55442c9
+SHA256: b79eb8366a9356f74cdacd864e28c39e57d544322bbdb68572596575fafe3671
+SHA512: 40f69a047f0a5fdc5a6e831ce9eb921cc9a45f740662d64d8b60264e6d4812ff70e3f289920c8a59ff956b8de93cf8d9330c88b3b246c2dfc11b006481166ce7
+Description: debug symbols for ros-lyrical-exotica-levenberg-marquardt-solver
+Build-Ids: a505d337dae6776b46cc8ee5b6c75d82d64b6dbd
+
+Package: ros-lyrical-exotica-levenberg-marquardt-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.19
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 226
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-moveit-core, ros-lyrical-exotica-core
+Filename: ./ros-lyrical-exotica-levenberg-marquardt-solver_6.2.0-164-g570243f-2026.11.19.14.19_amd64.deb
+Size: 69314
+MD5sum: f497b86a9c29de6e2a2e92bf224054c2
+SHA1: d2431e7ec200a3780fada6defaf65f47135b06f6
+SHA256: 307f9295088987cd330a9d78361604d30ab7b40390f4f79b08046cd8eb20b27f
+SHA512: 8f01cd5e13c6df199407735030a7f411627dba4d9d72daffa26dcb42126308e5277c35663efb3f631897c961d9c8b97485e680f64600bb7a8d6dede6be899243
+Homepage: https://index.ros.org/p/exotica_levenberg_marquardt_solver/#lyrical
+Description: Levenberg-Marquardt Solver for EXOTica
+
+Package: ros-lyrical-exotica-ompl-control-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.21
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-ompl-control-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 2981
+Depends: ros-lyrical-exotica-ompl-control-solver (= 6.2.0-164-g570243f-2026.11.19.14.21)
+Filename: ./ros-lyrical-exotica-ompl-control-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.21_amd64.ddeb
+Size: 2928316
+MD5sum: 0ac5e74d2245a702a3b15cd481db99d0
+SHA1: 805ea71a0c24d8c69badfd83dda1ed7fa9f8138f
+SHA256: fd9a531ad5e1d06e405f32c897999ec3ac677c062096a46e7f43b6709358a00f
+SHA512: 436a83a7757c1ff1af057eaacb31b1d176de6b551530fa764896e522cac4491cd6d99018d59e4ee3f9d52c37d41258fc5e415257c1a4233d5ddbd311d814fe1e
+Description: debug symbols for ros-lyrical-exotica-ompl-control-solver
+Build-Ids: 15e64c530d9c6f709e3ac4a771c63da479985206
+
+Package: ros-lyrical-exotica-ompl-control-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.21
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 263
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-moveit-core, ros-lyrical-ompl, ros-lyrical-exotica-core
+Filename: ./ros-lyrical-exotica-ompl-control-solver_6.2.0-164-g570243f-2026.11.19.14.21_amd64.deb
+Size: 62602
+MD5sum: 9b8e72949b149e7fbf95bdb3a99761d0
+SHA1: 3edc6fb28da68d833d60b901ae6e113593b6be61
+SHA256: 8f4342598f6cabcac9525016fbbb6951a48a7ae57f49dff67fa8bc172a046ebf
+SHA512: 09b805d5e0244ab7434bf06ae0b7eab27346dbbde86246b3a65cbe058276f8c252759735f1af44e603a902c8d51514296cd6b27a0231564092a49959c7ec70d0
+Homepage: https://index.ros.org/p/exotica_ompl_control_solver/#lyrical
+Description: OMPL Control Solver for EXOTica
+
+Package: ros-lyrical-exotica-ompl-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.50
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-ompl-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 7908
+Depends: ros-lyrical-exotica-ompl-solver (= 6.2.0-164-g570243f-2026.11.19.14.50)
+Filename: ./ros-lyrical-exotica-ompl-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.50_amd64.ddeb
+Size: 7598078
+MD5sum: b26f08afca56b27272d9696528d4646b
+SHA1: 5125d819e01ccba39a09e9e4d0eb70e3b44e6575
+SHA256: 30e3711a7aa366672bb95022afbd128fae5fbedf4f5b00733387f51f7a974934
+SHA512: b4740131560a0813e5b383cd9a0ef78d088937d3c1a20188e2e2c839042a123c0062a057912b93f99648ea5b33e53d0ffbfdfcab23028f795add2d79f3d5ca51
+Description: debug symbols for ros-lyrical-exotica-ompl-solver
+Build-Ids: 0c3ce115b1125a5b31220058f0bc9ff0ced11bc5 15057321d5599892214dcba7a378a930747600aa
+
+Package: ros-lyrical-exotica-ompl-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.50
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1020
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.2), libstdc++6 (>= 14), ros-lyrical-moveit-core, ros-lyrical-ompl, ros-lyrical-exotica-core, ros-lyrical-exotica-python
+Filename: ./ros-lyrical-exotica-ompl-solver_6.2.0-164-g570243f-2026.11.19.14.50_amd64.deb
+Size: 226842
+MD5sum: d8323023975a53322be190e97ac1ee4d
+SHA1: bfa43e8eed68733422ab3cb7b93128e24f9491a8
+SHA256: 8b038c2fc17924ca9fbd8c732877ab1acc1031b45266406dca64444103424e0c
+SHA512: 3a2ebd10a0b3d25b0151d4c22222e8c022f7a9c0fd51ec891fedc5091b1db96d5606da6254e62057e665c8a1a16c43897d22453492be6b153715cb6e71624b78
+Homepage: https://index.ros.org/p/exotica_ompl_solver/#lyrical
+Description: OMPL Solver for EXOTica
+
+Package: ros-lyrical-exotica-pendulum-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.22
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-pendulum-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 1582
+Depends: ros-lyrical-exotica-pendulum-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.14.22)
+Filename: ./ros-lyrical-exotica-pendulum-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.22_amd64.ddeb
+Size: 1547978
+MD5sum: 4ccea9719a17acbcfc384d132e1388e1
+SHA1: c94e90ea50bf131132808e806154da3090d1b23c
+SHA256: 9c6e9c8613f524b99e3ab9b32ef11d97faae39582066912d886df41737f8f04d
+SHA512: 629431494909f3307e922d68e2816eb051f991764565dfd10f9843c6365dc42210f6b380510d4d0776603be8f2539d29035a8abaeafdefa8e0cb07ba10776579
+Description: debug symbols for ros-lyrical-exotica-pendulum-dynamics-solver
+Build-Ids: 2979384eac2a23fcf7863aed733ba994ae33c8bc
+
+Package: ros-lyrical-exotica-pendulum-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.22
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 182
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-exotica-core, ros-lyrical-pluginlib
+Filename: ./ros-lyrical-exotica-pendulum-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.22_amd64.deb
+Size: 45362
+MD5sum: a6cfc1ee0e9e3f03a150879cee233635
+SHA1: 48cb639ac5638e374bc668cfb96d52c214a1d744
+SHA256: eb1a229b634b719f697904346018c5d8223afb0d3f28ac7cadccdc2f1ee8d8f7
+SHA512: 544d20a79691b002502e8dc9ed23a6e616ae2fcec371c345ebc4d8e2b8ecacf330f0dea1c4c846f55e6b0b6c84746560daf99f5aa3e29994237b786095266a53
+Homepage: https://index.ros.org/p/exotica_pendulum_dynamics_solver/#lyrical
+Description: Pendulum dynamics solver plug-in for Exotica
+
+Package: ros-lyrical-exotica-pinocchio-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.24
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-pinocchio-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 38355
+Depends: ros-lyrical-exotica-pinocchio-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.14.24)
+Filename: ./ros-lyrical-exotica-pinocchio-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.24_amd64.ddeb
+Size: 38248852
+MD5sum: 36d7ee0ae6afa985c169e1b140033fe2
+SHA1: e641cd96cd13b38f0da1556b0aded930893bbc20
+SHA256: d1a3ac28ba427cd6f3bedba3ef3628ff57f07f40c4bb09a71bf7a3d230b63c96
+SHA512: c403f920294628338e9e968d174b9860dfa97ea5a86ccb5c556d134e02e5ccb9336f502ca32441a07b78961a3e4c920df0380fcd83405ac48a7b515d53526935
+Description: debug symbols for ros-lyrical-exotica-pinocchio-dynamics-solver
+Build-Ids: 3823e958eff5fc7d4b901c4da7327a7b27345699
+
+Package: ros-lyrical-exotica-pinocchio-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.24
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 898
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-moveit-core, ros-lyrical-pinocchio, ros-lyrical-urdfdom, ros-lyrical-exotica-core, ros-lyrical-pluginlib
+Filename: ./ros-lyrical-exotica-pinocchio-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.24_amd64.deb
+Size: 244132
+MD5sum: 700bd6aca3d3c6d1173cf7a564c92076
+SHA1: 6dc88fe1ceefb7c4197745da121887342f7bbbb3
+SHA256: dd0ef75ed856a7bfae65e5d5af50d5242ba8d0873a40dd437fbb7b8370453f90
+SHA512: 9724f89a303a5dea6c2914599b1658c94727d634fd4c15cd0a34288eb39dc43c54bc610b7e64966934ef7ca7a29f92498241403877b5274eb9cc6b69d7b15836
+Homepage: https://index.ros.org/p/exotica_pinocchio_dynamics_solver/#lyrical
+Description: Dynamics solver plug-in using Pinocchio for Exotica
+
+Package: ros-lyrical-exotica-python-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.29
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-python
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 14171
+Depends: ros-lyrical-exotica-python (= 6.2.0-164-g570243f-2026.11.19.14.29)
+Filename: ./ros-lyrical-exotica-python-dbgsym_6.2.0-164-g570243f-2026.11.19.14.29_amd64.ddeb
+Size: 12745582
+MD5sum: 46e5fe057f4ea07d47ff35bb4dcf4598
+SHA1: 980556267ff2d9c998242cf501cb054045dea998
+SHA256: a1da76bee62d5e87ea703c54aac53c801bdef48d3e8b309abdb2dc0da88f5c5a
+SHA512: c3f18c1777cfa406ae3d292f055f1c4efcce0bd4015edc6a475b375c93060f89bdb9f82661693f39be154945e61aac641053fd01f83111e9332fd5ab6020bd55
+Description: debug symbols for ros-lyrical-exotica-python
+Build-Ids: 7bbad1f2640ff346915d75252795ac96a0a0f4c6
+
+Package: ros-lyrical-exotica-python
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.29
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 2281
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.2), libstdc++6 (>= 14), libtinyxml2-11 (>= 11.0.0), ros-lyrical-geometric-shapes, ros-lyrical-moveit-core, python3-matplotlib, python3-pyassimp, python3-tk, ros-lyrical-ament-index-cpp, ros-lyrical-exotica-core, ros-lyrical-geometry-msgs, ros-lyrical-moveit-msgs, ros-lyrical-rclcpp, ros-lyrical-shape-msgs
+Filename: ./ros-lyrical-exotica-python_6.2.0-164-g570243f-2026.11.19.14.29_amd64.deb
+Size: 613676
+MD5sum: d34bcc9360a394d482f96fde5030daa5
+SHA1: 68c4b439500e26d3f5dc6aeb40de05d05ddd2ce1
+SHA256: 36ba72c52efa2a1293f576234dd06d2e87f09d87615245999f864aaf1c44d987
+SHA512: dbc3d513e80833f70212a5d6516c99f0203b748eb0c30222a4532ce8935e4b3407f7ecb81a334b5489be0532cd2e63747786a08b3e954e7850d3bb00eee6e919
+Homepage: https://index.ros.org/p/exotica_python/#lyrical
+Description: Python bindings for EXOTica
+
+Package: ros-lyrical-exotica-quadrotor-dynamics-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.31
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-quadrotor-dynamics-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 2243
+Depends: ros-lyrical-exotica-quadrotor-dynamics-solver (= 6.2.0-164-g570243f-2026.11.19.14.31)
+Filename: ./ros-lyrical-exotica-quadrotor-dynamics-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.31_amd64.ddeb
+Size: 2214216
+MD5sum: 76cd303b0a4c5d5531365604fd5c13f3
+SHA1: 1f1b41b8ca08d28d21e94c3770553671334ca20e
+SHA256: e1ff88fb40ba0fbb042889529945dac6968e4ff1551581050a1aca5cc05bb3a3
+SHA512: abc17d2ff0850f57df5da670b31b33ecaad3bdcaa1d48e38c414c0833873d68fb0b9450ce4e7ac22af98a597a4cf35e19caa9cbbe7556fe24f8d9c32903fcc52
+Description: debug symbols for ros-lyrical-exotica-quadrotor-dynamics-solver
+Build-Ids: 25aa6d8fa8ab319efcf0057bca60f9004b3d738e
+
+Package: ros-lyrical-exotica-quadrotor-dynamics-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.31
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 206
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-exotica-core, ros-lyrical-pluginlib
+Filename: ./ros-lyrical-exotica-quadrotor-dynamics-solver_6.2.0-164-g570243f-2026.11.19.14.31_amd64.deb
+Size: 60184
+MD5sum: e57e445fb69811ab322798d80bcfc6aa
+SHA1: 6fd921103b6fc5c37357b222b96aa3d1e3c1fe23
+SHA256: 7373a77d1f7f2420d0cc07ff441386981094f8fda0b738a7bce9c3daa87d0c5b
+SHA512: efdb023322c439b8877c2724d64293362f0f442176e071df7e390d10bc46affb06f05a64e5135ae4cff272d40b2e2f6960c6680129f9be280ba1156e8cd48d77
+Homepage: https://index.ros.org/p/exotica_quadrotor_dynamics_solver/#lyrical
+Description: Quadrotor dynamics solver plug-in for Exotica
+
+Package: ros-lyrical-exotica-scipy-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.33
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 67
+Depends: python3-numpy, python3-scipy, ros-lyrical-exotica-core
+Filename: ./ros-lyrical-exotica-scipy-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.deb
+Size: 7722
+MD5sum: 12de086810a98109e6f190e8ab008c3c
+SHA1: eee2cea990fd147053f535c3fa9e25b98f091125
+SHA256: 886e5751b5db41209574e5dd2af533dd1865cc98ca8681264cc6c481a8fe8eee
+SHA512: a073034e71519f682e18e3951e28b0c8f3025ab34d9351c2098aa788e6548985cfd2c93e9fa25ea4b0e8b4da88614148c2b4d585df677e55cdee37acd4211367
+Homepage: https://index.ros.org/p/exotica_scipy_solver/#lyrical
+Description: SciPy-based Python solvers for Exotica
+
+Package: ros-lyrical-exotica-time-indexed-rrt-connect-solver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.33
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-exotica-time-indexed-rrt-connect-solver
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 2695
+Depends: ros-lyrical-exotica-time-indexed-rrt-connect-solver (= 6.2.0-164-g570243f-2026.11.19.14.33)
+Filename: ./ros-lyrical-exotica-time-indexed-rrt-connect-solver-dbgsym_6.2.0-164-g570243f-2026.11.19.14.33_amd64.ddeb
+Size: 2604718
+MD5sum: ea97b0357b1202b425a448bb26dcf0a6
+SHA1: c37c0fc40492e54e81ffedd2f22413deca75f946
+SHA256: 07c99f46e1a7588f5ee770b05f6da461a63157d0d6d556340d9762fa3a471443
+SHA512: d2c06eaa3d1b23c95e3fe0542829eb7a56e2e5bbaa678662bc1035e9cce838f18bcb5e500b8184f9a7dc0e8a1a931d4ac5fd65aa18226000b3c122bcf05b4a5d
+Description: debug symbols for ros-lyrical-exotica-time-indexed-rrt-connect-solver
+Build-Ids: 31748ef28f68af3a0736c93fc04510d672f41961
+
+Package: ros-lyrical-exotica-time-indexed-rrt-connect-solver
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.33
+Priority: optional
+Section: misc
+Maintainer: "Wolfgang Merkt" <opensource@wolfgangmerkt.com>
+Installed-Size: 313
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-lyrical-moveit-core, ros-lyrical-ompl, ros-lyrical-exotica-core
+Filename: ./ros-lyrical-exotica-time-indexed-rrt-connect-solver_6.2.0-164-g570243f-2026.11.19.14.33_amd64.deb
+Size: 93292
+MD5sum: 823cdc8e35e1c1447409bb708680097e
+SHA1: 998181c9de7fa302a18307157b0e1da26c0f7475
+SHA256: cd867bfd02e39cae50e278437af9559897c7fd7f5da9a8e16e337f80b805e7d8
+SHA512: d936bf2aa49c0d639d157a836029c8122b3733c5e331a1378c8f3752d73219c805a6fecd259bc55e0ed0dd3060e67dd4017202383ecf23252a6a3110fa27d44e
+Homepage: https://index.ros.org/p/exotica_time_indexed_rrt_connect_solver/#lyrical
+Description: Time-Indexed RRT-Connect Solver for EXOTica
+
+Package: ros-lyrical-exotica
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.52
+Priority: optional
+Section: misc
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Installed-Size: 45
+Depends: ros-lyrical-exotica-aico-solver, ros-lyrical-exotica-collision-scene-fcl-latest, ros-lyrical-exotica-core, ros-lyrical-exotica-core-task-maps, ros-lyrical-exotica-ik-solver, ros-lyrical-exotica-levenberg-marquardt-solver, ros-lyrical-exotica-ompl-solver, ros-lyrical-exotica-python, ros-lyrical-exotica-time-indexed-rrt-connect-solver
+Filename: ./ros-lyrical-exotica_6.2.0-164-g570243f-2026.11.19.14.52_amd64.deb
+Size: 6022
+MD5sum: 203da10189f8c5203575b118b9f7f768
+SHA1: 63ab9e1b0848c62cae7cc85e0ffe3df90c67a5d5
+SHA256: 1ea417459e2593da98cc7afc1a159d5c97f411cca8fdb1a20d37c9c41fb9a513
+SHA512: ad94922d8d7ad818542812f6adb17d29dc3f252cf35320a5123f965e169f6b97bcfab267103ed90f9615cc5b113a8e4535e6b9781ec872554d4b57ab9b1da76b
+Homepage: https://github.com/ipab-slmc/exotica
+Description: The Extensible Optimization Toolset (EXOTica) is a library for defining problems for robot motion planning.
+ This metapackage depends on all core EXOTica packages.
+

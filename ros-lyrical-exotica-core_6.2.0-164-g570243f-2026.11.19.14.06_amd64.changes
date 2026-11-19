@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-core
+Binary: ros-lyrical-exotica-core
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.06
+Distribution: resolute
+Urgency: high
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Changed-By: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Description:
+ ros-lyrical-exotica-core - EXOTica core library
+Changes:
+ ros-lyrical-exotica-core (6.2.0-164-g570243f-2026.11.19.14.06) resolute; urgency=high
+ .
+   * Add EndPoseTask::GetTaskJacobian
+   * Fix build issues with Eigen 3.3.9; enable compilation of exotica_core on Conda (#740 <https://github.com/ipab-slmc/exotica/issues/740>)
+   * Performance improvements (#741 <https://github.com/ipab-slmc/exotica/issues/741>)
+   * DynamicTimeIndexedShootingProblem: Allocation-free control cost computation
+   * DynamicsSolver: dStateDelta and ddStateDelta return previously allocated transition derivative
+   * DynamicsSolver: Add in-place StateDelta
+   * Fix installation directives for cmake directory
+   * Deactivate Boost bind warnings arising from ROS messages
+   * Update minimum CMake version for add_initializer.cmake
+   * XMLLoader: Fix for #737 <https://github.com/ipab-slmc/exotica/issues/737>
+   * Scene: Fix uninitialised quaternion
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 4703e4cfa3e54f67581ca608899d716aa7b2c7f3 35073168 ros-lyrical-exotica-core-dbgsym_6.2.0-164-g570243f-2026.11.19.14.06_amd64.ddeb
+ dda68f1d3e5d1420df629e67feab6183804027b6 25634 ros-lyrical-exotica-core_6.2.0-164-g570243f-2026.11.19.14.06_amd64.buildinfo
+ 8d3ee7b0397c2e275dfd4335b7cabdc121bb03f3 740438 ros-lyrical-exotica-core_6.2.0-164-g570243f-2026.11.19.14.06_amd64.deb
+Checksums-Sha256:
+ 5cc472005441c258b421c8c2b4d68738edf2fa40ee3ac3c48bb2d851acca32be 35073168 ros-lyrical-exotica-core-dbgsym_6.2.0-164-g570243f-2026.11.19.14.06_amd64.ddeb
+ 24e803e408e81833ec3f68533630b08bb3097acb3b0ea9e83e2bc86ed62de3fd 25634 ros-lyrical-exotica-core_6.2.0-164-g570243f-2026.11.19.14.06_amd64.buildinfo
+ 32290897a8e004b26f63b526080cc4644b85f828a55027529eee84f9e441bbb3 740438 ros-lyrical-exotica-core_6.2.0-164-g570243f-2026.11.19.14.06_amd64.deb
+Files:
+ 1945587bcda25bb779df00e5d21b3793 35073168 debug optional ros-lyrical-exotica-core-dbgsym_6.2.0-164-g570243f-2026.11.19.14.06_amd64.ddeb
+ 1cfd16a60f3135a8976aba81bdb6c42a 25634 misc optional ros-lyrical-exotica-core_6.2.0-164-g570243f-2026.11.19.14.06_amd64.buildinfo
+ ac6b113f49534ba4f6808d1e82d442f5 740438 misc optional ros-lyrical-exotica-core_6.2.0-164-g570243f-2026.11.19.14.06_amd64.deb

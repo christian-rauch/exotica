@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica-examples
+Binary: ros-lyrical-exotica-examples
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.53
+Distribution: resolute
+Urgency: high
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Changed-By: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Description:
+ ros-lyrical-exotica-examples - Package containing examples and system tests for EXOTica.
+Changes:
+ ros-lyrical-exotica-examples (6.2.0-164-g570243f-2026.11.19.14.53) resolute; urgency=high
+ .
+   * Fix example_shapes
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 6e09c521b9b272dea7b70a1f913e6bbeb624948a 14553468 ros-lyrical-exotica-examples-dbgsym_6.2.0-164-g570243f-2026.11.19.14.53_amd64.ddeb
+ 04198dac16020e424564366a7086a4d5f29fbc78 28068 ros-lyrical-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.53_amd64.buildinfo
+ 91b3195ceb17902db3de9535ba692cdb303a5ebc 374562 ros-lyrical-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.53_amd64.deb
+Checksums-Sha256:
+ 9fb6679d330a67ce7eb6566eaa1dc8832322db37795b82a5f9d285735f0095aa 14553468 ros-lyrical-exotica-examples-dbgsym_6.2.0-164-g570243f-2026.11.19.14.53_amd64.ddeb
+ 9da4194b575bff9cc55b37a56d4bcc4ae0be5d5fcd81567d93a508b19ee84160 28068 ros-lyrical-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.53_amd64.buildinfo
+ 9e4e5f54c7cd69d8bd4e1033df84187419c4f73eebc239736d6f878a569ab252 374562 ros-lyrical-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.53_amd64.deb
+Files:
+ cb52ff6d023de5c023cfdb8ca9f9168a 14553468 debug optional ros-lyrical-exotica-examples-dbgsym_6.2.0-164-g570243f-2026.11.19.14.53_amd64.ddeb
+ 5e4fea89ba3e44a56d234da915a556cc 28068 misc optional ros-lyrical-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.53_amd64.buildinfo
+ 1fd763d06a3d0286c6bff2803d9e70d9 374562 misc optional ros-lyrical-exotica-examples_6.2.0-164-g570243f-2026.11.19.14.53_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 23 Jul 2021 00:00:00 -0000
+Source: ros-lyrical-exotica
+Binary: ros-lyrical-exotica
+Built-For-Profiles: derivative.ubuntu noudeb
+Architecture: amd64
+Version: 6.2.0-164-g570243f-2026.11.19.14.52
+Distribution: resolute
+Urgency: high
+Maintainer: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Changed-By: "Vladimir Ivan" <v.ivan.mail@gmail.com>
+Description:
+ ros-lyrical-exotica - The Extensible Optimization Toolset (EXOTica) is a library for de
+Changes:
+ ros-lyrical-exotica (6.2.0-164-g570243f-2026.11.19.14.52) resolute; urgency=high
+ .
+   * Replace dead link
+   * Contributors: Wolfgang Merkt
+Checksums-Sha1:
+ 56b0d2d61f11e712c4af6a466cb22690291ef765 9386 ros-lyrical-exotica_6.2.0-164-g570243f-2026.11.19.14.52_amd64.buildinfo
+ 63ab9e1b0848c62cae7cc85e0ffe3df90c67a5d5 6022 ros-lyrical-exotica_6.2.0-164-g570243f-2026.11.19.14.52_amd64.deb
+Checksums-Sha256:
+ 7a7ea0a67e610fc581bd2eedb301b5b9c700a19832369f6e58f847533bca9a6b 9386 ros-lyrical-exotica_6.2.0-164-g570243f-2026.11.19.14.52_amd64.buildinfo
+ 1ea417459e2593da98cc7afc1a159d5c97f411cca8fdb1a20d37c9c41fb9a513 6022 ros-lyrical-exotica_6.2.0-164-g570243f-2026.11.19.14.52_amd64.deb
+Files:
+ 340a183b4ef16d63eec110bde292b429 9386 misc optional ros-lyrical-exotica_6.2.0-164-g570243f-2026.11.19.14.52_amd64.buildinfo
+ 203da10189f8c5203575b118b9f7f768 6022 misc optional ros-lyrical-exotica_6.2.0-164-g570243f-2026.11.19.14.52_amd64.deb
